@@ -4,7 +4,8 @@
    "O‘qilmaydigan harflar va talaffuz"
   ],
   "ar": [
-   "Yaqin va uzoq ko‘rsatish olmoshlari"
+   "Yaqin va uzoq ko‘rsatish olmoshlari",
+   "Hikmatli so‘zlar va maqollar haqida qiziqarli fakt"
   ]
  },
  "types": {
@@ -12,12 +13,14 @@
    "dialog"
   ],
   "ar": [
-   "lugat"
+   "lugat",
+   "fakt"
   ]
  },
  "templates": [
   "classic",
-  "bigletter"
+  "bigletter",
+  "neon"
  ],
  "paused": false,
  "done": {},

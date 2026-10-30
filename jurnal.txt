@@ -1,7 +1,22 @@
-2026-10-30 09:51:10,973 INFO Ishga tushdi: tur=ar test=True hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-10-30 09:51:24,123 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-10-30 10:16:45,701 INFO Ishga tushdi: tur=ar test=True hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-30 10:16:57,295 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-10-30 09:51:45,711 INFO Post ar/lugat urinish 1: baho 10, ['Arabcha ko‘rsatish olmoshlariga (هَٰذَا, ذَٰلِكَ va b.) to‘liq harakatlar va to‘g‘ri alif xanjariya qo‘shildi.', 'Post matni uzunligi belgilangan me’yorga (450–720 belgi) moslashtirildi.', 'O‘zbekcha lotin yozuvi imlosi hamda tuturuq belgilari (o‘, g‘) standartlashtirildi.']
+2026-10-30 10:17:04,282 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-10-30 10:17:13,671 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-10-30 10:17:19,820 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-10-30 10:17:38,849 INFO Post ar/fakt urinish 1: baho 10, ['«الأَمَثَالُ» so‘zidagi imlo xatosi «اَلْأَمْثَالُ» shakliga tuzatildi.', 'Caption uzunligi talab qilingan 450-720 belgi oralig‘iga yetkazildi.', 'Barcha arabcha so‘z va gaplarga o‘quvchilar uchun to‘liq harakatlar (tashkeel) qo‘yildi.', 'O‘zbek tilidagi o‘, g‘ va tutuq belgilari (’) lotin alifbosi qoidalariga ko‘ra to‘g‘rilandi.', 'Rasm ichidagi matnlar belgilangan uzunlik cheklovlariga moslandi.', 'Mavzuga doir interaktiv viktorina (quiz) qo‘shildi va xatolar tuzatildi.']
