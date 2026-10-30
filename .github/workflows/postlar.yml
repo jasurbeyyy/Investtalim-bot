@@ -2,9 +2,10 @@ name: Kanal postlari
 
 on:
   schedule:
-    # Har soat :31 da (Toshkent vaqti 06:31 — 20:31). Bot o'zi navbatdagi post vaqtini topadi.
-    # GitHub vaqtni UTC da hisoblaydi: Toshkent = UTC + 5.
-    - cron: "31 1-15 * * *"
+    # Har 10 daqiqada (Toshkent vaqti 06:00 — 21:50). Bot o'zi navbatdagi post vaqtini topadi,
+    # post yo'q bo'lsa 1 daqiqada tugaydi. GitHub ba'zi ishga tushirishlarni o'tkazib yuborishi
+    # mumkin — tez-tez tekshirish shuning uchun.  GitHub vaqti UTC: Toshkent = UTC + 5.
+    - cron: "*/10 1-16 * * *"
   workflow_dispatch:
     inputs:
       tur:
@@ -18,7 +19,7 @@ on:
         required: true
         default: "sinov"
         type: choice
-        options: [sinov, hozir, tekshiruv]
+        options: [sinov, hozir, jadval, tekshiruv]
 
 concurrency:
   group: kanal-postlari
@@ -54,6 +55,8 @@ jobs:
         run: |
           if [ "${{ inputs.rejim }}" = "tekshiruv" ]; then
             python diag.py
+          elif [ "${{ inputs.rejim }}" = "jadval" ]; then
+            python runner.py
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             if [ "${{ inputs.rejim }}" = "sinov" ]; then
               python runner.py --tur "${{ inputs.tur }}" --test

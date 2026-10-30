@@ -329,7 +329,7 @@ def find_slot(done: dict, force_kind=None):
             t = slot_dt(day, hhmm)
             if f"{t.date().isoformat()}_{hhmm.replace(':', '')}_{kind}" in done:
                 continue
-            if t - dt.timedelta(minutes=55) <= n <= t + LATE_LIMIT:
+            if t - dt.timedelta(minutes=40) <= n <= t + LATE_LIMIT:
                 if best is None or abs((t - n).total_seconds()) < abs((best[0] - n).total_seconds()):
                     best = (t, hhmm, kind)
     return best
