@@ -331,7 +331,7 @@ class Card:
     title: str = ""                # asosiy sarlavha (o'rganilayotgan tilda)
     subtitle: str = ""             # o'zbekcha izoh
     lines: list = field(default_factory=list)  # 0-4 ta qisqa satr: "apple — olma"
-    footer: str = "t.me/investtalim  •  +998 90 642 18 08"
+    footer: str = "t.me/investtalim  •  +998 69 227 57 59"
     bg_photo: Image.Image | None = None        # ixtiyoriy AI fon
 
 
@@ -909,7 +909,7 @@ def _photo_cover(photo):
     return photo.crop((l, t, l + W, t + H)).convert("RGBA")
 
 
-def render_greeting(kind: str, wish: str = "", footer: str = "t.me/investtalim  •  +998 90 642 18 08",
+def render_greeting(kind: str, wish: str = "", footer: str = "t.me/investtalim  •  +998 69 227 57 59",
                     seed=None, bg_photo: Image.Image | None = None) -> tuple[Image.Image, str]:
     """kind: 'morning' yoki 'night'. wish — qisqa tilak (o'zbekcha)."""
     rng = random.Random(seed)
