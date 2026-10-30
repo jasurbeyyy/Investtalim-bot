@@ -1,0 +1,2 @@
+2026-10-30 09:13:10,399 INFO Ishga tushdi: tur=en test=True hozir=False | token=YO'Q gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-30 09:13:10,399 ERROR BOT_TOKEN, ADMIN_ID yoki KANAL yo'q (GitHub Secrets ni tekshiring)
