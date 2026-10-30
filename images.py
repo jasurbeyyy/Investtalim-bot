@@ -35,52 +35,63 @@ except Exception:  # pragma: no cover
 
 
 # ───────────────────────── Shriftlar ─────────────────────────
-FONT_FILES = {
-    "montserrat": "Montserrat.ttf",
-    "oswald": "Oswald.ttf",
-    "playfair": "Playfair.ttf",
-    "rubik": "Rubik.ttf",
-    "comfortaa": "Comfortaa.ttf",
-    "caveat": "Caveat.ttf",
-    "cairo": "Cairo.ttf",
-    "amiri": "Amiri-Bold.ttf",
-}
+# Lotin (o'zbek, ingliz): Caladea — Cambria bilan bir xil o'lchamli bepul shrift.
+# Kirill (rus): PT Serif — Caladea'da kirill harflari yo'q.
+# Arab: Noto Naskh Arabic — Times New Roman kabi klassik naskh yozuvi.
+SERIF = {"Regular": "Caladea-Regular.ttf", "Bold": "Caladea-Bold.ttf"}
+CYR = {"Regular": "PTSerif-Regular.ttf", "Bold": "PTSerif-Bold.ttf"}
+ARABIC_FONT = "NotoNaskhArabic.ttf"
+CYR_RE = re.compile(r"[\u0400-\u04FF]")
+LATIN_CYR_RE = re.compile(r"[A-Za-z\u0400-\u04FF]")
+AR_RUN_RE = re.compile(r"[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF]"
+                       r"(?:[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF\s،؛؟]*"
+                       r"[\u0600-\u06FF\u0750-\u077F\uFB50-\uFDFF\uFE70-\uFEFF؟!])?")
 _font_cache: dict = {}
 
 
-def font(name: str, size: int, weight: str = "Bold") -> ImageFont.FreeTypeFont:
-    key = (name, size, weight)
+def _bold(weight: str) -> str:
+    return "Bold" if weight in ("Bold", "SemiBold", "ExtraBold", "Black") else "Regular"
+
+
+def _load(kind: str, size: int, weight: str) -> ImageFont.FreeTypeFont:
+    key = (kind, size, _bold(weight))
     if key in _font_cache:
         return _font_cache[key]
-    path = os.path.join(FONTS, FONT_FILES.get(name, "Montserrat.ttf"))
     kw = {"layout_engine": ImageFont.Layout.RAQM} if HAS_RAQM else {}
-    f = ImageFont.truetype(path, size, **kw)
-    try:
-        f.set_variation_by_name(weight)
-    except Exception:
-        pass
+    if kind == "ar":
+        f = ImageFont.truetype(os.path.join(FONTS, ARABIC_FONT), size, **kw)
+        try:
+            f.set_variation_by_name(_bold(weight))
+        except Exception:
+            pass
+    else:
+        files = CYR if kind == "cyr" else SERIF
+        f = ImageFont.truetype(os.path.join(FONTS, files[_bold(weight)]), size, **kw)
+    f.iv_size, f.iv_weight, f.iv_kind = size, weight, kind
     _font_cache[key] = f
     return f
+
+
+def font(name: str, size: int, weight: str = "Bold") -> ImageFont.FreeTypeFont:
+    """Barcha yozuvlar uchun yagona serif shrift (eski shrift nomlari ham shunga yo'naltiriladi)."""
+    return _load("latin", size, weight)
 
 
 def is_arabic(s: str) -> bool:
     return bool(ARABIC_RE.search(s or ""))
 
 
-def font_for(text: str, name: str, size: int, weight: str = "Bold"):
-    """Arabcha matn bo'lsa, arab harflarini qo'llaydigan shriftga o'tadi."""
-    if is_arabic(text) and not HAS_RAQM:
-        name = "amiri"  # raqm yo'q bo'lsa, barcha arab shakllari bor shrift
-    elif is_arabic(text) and name not in ("cairo", "amiri"):
-        name = "cairo"
-    return font(name, size, weight)
-
-
-LATIN_CYR_RE = re.compile(r"[A-Za-z\u0400-\u04FF]")
-
-
 def pure_arabic(s: str) -> bool:
     return is_arabic(s) and not LATIN_CYR_RE.search(s)
+
+
+def font_for(text: str, name: str, size: int, weight: str = "Bold"):
+    """Matn yozuviga qarab shrift tanlaydi: arab / kirill / lotin."""
+    if pure_arabic(text):
+        return _load("ar", size, weight)
+    if CYR_RE.search(text or ""):
+        return _load("cyr", size, weight)
+    return _load("latin", size, weight)
 
 
 def _dir(text: str):
@@ -102,13 +113,48 @@ def _kw(text):
     return {"direction": d} if (d and HAS_RAQM) else {}
 
 
+def _runs(text: str, f):
+    """Aralash qatorni (arabcha + lotin/kirill) bo'laklarga ajratadi, har biriga o'z shrifti."""
+    out, pos = [], 0
+    size, weight = getattr(f, "iv_size", 40), getattr(f, "iv_weight", "Bold")
+    for m in AR_RUN_RE.finditer(text):
+        if m.start() > pos:
+            seg = text[pos:m.start()]
+            out.append((seg, font_for(seg, "", size, weight) if seg.strip() else f))
+        out.append((m.group(0), _load("ar", size, weight)))
+        pos = m.end()
+    if pos < len(text):
+        seg = text[pos:]
+        out.append((seg, font_for(seg, "", size, weight) if seg.strip() else f))
+    return out
+
+
+def _is_mixed(text: str) -> bool:
+    return is_arabic(text) and not pure_arabic(text)
+
+
 def text_w(draw, text, f) -> float:
+    if _is_mixed(text):
+        return sum(draw.textlength(shape(r), font=rf, **_kw(r)) for r, rf in _runs(text, f))
     return draw.textlength(shape(text), font=f, **_kw(text))
 
 
 def draw_text(draw, xy, text, f, fill, anchor="la", **kw):
-    kw.update(_kw(text))
-    draw.text(xy, shape(text), font=f, fill=fill, anchor=anchor, **kw)
+    if not _is_mixed(text):
+        kw.update(_kw(text))
+        draw.text(xy, shape(text), font=f, fill=fill, anchor=anchor, **kw)
+        return
+    x, y = xy
+    total = text_w(draw, text, f)
+    x -= total * {"l": 0, "m": 0.5, "r": 1}.get(anchor[0], 0)
+    asc, desc = f.getmetrics()
+    v = anchor[1] if len(anchor) > 1 else "a"
+    base = {"a": y + asc, "t": y + asc, "m": y + (asc - desc) / 2, "s": y, "d": y - desc, "b": y - desc}.get(v, y + asc)
+    for r, rf in _runs(text, f):
+        k = dict(kw)
+        k.update(_kw(r))
+        draw.text((x, base), shape(r), font=rf, fill=fill, anchor="ls", **k)
+        x += draw.textlength(shape(r), font=rf, **_kw(r))
 
 
 def wrap(draw, text: str, f, max_w: int) -> list[str]:
@@ -429,7 +475,7 @@ def t_notebook(card, rng):
     note_c = rng.choice([(255, 236, 153), (255, 205, 210), (200, 230, 201), (187, 222, 251)])
     note = Image.new("RGBA", (300, 150), note_c + (255,))
     nd = ImageDraw.Draw(note)
-    nd.text((150, 75), "Yodda tuting!", font=font("caveat", 52, "Bold"), fill=ink, anchor="mm")
+    nd.text((150, 75), "Yodda tuting!", font=font("caveat", 40, "Bold"), fill=ink, anchor="mm")
     note = note.rotate(rng.uniform(-8, 8), expand=True, resample=Image.BICUBIC)
     sh = Image.new("RGBA", note.size, (0, 0, 0, 0))
     sh.putalpha(note.split()[3].point(lambda a: int(a * 0.25)))
@@ -582,7 +628,7 @@ def t_frame_classic(card, rng):
         d.rectangle([cx - 14, cy - 14, cx + 14, cy + 14], fill=acc)
     paste_logo(img, ((W - 240) / 2, 90), bg, 240)
     f = font("montserrat", 28, "Bold")
-    t = LANG[card.lang]["badge"] + "   ◆   " + card.category
+    t = LANG[card.lang]["badge"] + "   •   " + card.category
     draw_text(d, (W / 2, 330), t, f, acc, anchor="mm")
     content_block(d, card, 110, 400, W - 220, H - 400 - 200, ink, acc, rng.choice(["playfair", "montserrat"]), align="center", sub_ink=lerp(ink, bg, 0.2))
     draw_footer(img, card, ink, y=H - 100)
@@ -889,19 +935,19 @@ def render_greeting(kind: str, wish: str = "", footer: str = "t.me/investtalim  
     size = {"caveat": 170, "playfair": 130, "montserrat": 118, "comfortaa": 116}[mfont_name]
     mf = font(mfont_name, size, "Bold")
     y = 250 + size // 2 + 40
-    st = {"stroke_width": 3, "stroke_fill": (0, 0, 0, 70)}
+    st = {"stroke_width": 2, "stroke_fill": (0, 0, 0, 60)}
     draw_text(d, (W / 2 + 4, y + 6), main, mf, (0, 0, 0, 110), anchor="mm")
     draw_text(d, (W / 2, y), main, mf, (255, 255, 255), anchor="mm", **st)
     y += size // 2 + 54
     for t in [t for _, t in lines[1:]]:
         f = font_for(t, "montserrat", 50 if is_arabic(t) else 46, "SemiBold")
-        draw_text(d, (W / 2, y), t, f, (255, 250, 240), anchor="mm", stroke_width=2, stroke_fill=(0, 0, 0, 90))
+        draw_text(d, (W / 2, y), t, f, (255, 250, 240), anchor="mm", stroke_width=1, stroke_fill=(0, 0, 0, 120))
         y += 66
     if wish:
         y += 20
         wf, wl, wlh = fit_text(d, wish, "montserrat", W - 180, 170, 42, 28, "SemiBold", 1.25)
         for line in wl:
-            draw_text(d, (W / 2, y), line, wf, (255, 255, 255), anchor="mm", stroke_width=2, stroke_fill=(0, 0, 0, 100))
+            draw_text(d, (W / 2, y), line, wf, (255, 255, 255), anchor="mm", stroke_width=1, stroke_fill=(0, 0, 0, 130))
             y += wlh
     ff = font("montserrat", 30, "SemiBold")
     draw_text(d, (W / 2, H - 60), footer, ff, (255, 255, 255), anchor="mm")
