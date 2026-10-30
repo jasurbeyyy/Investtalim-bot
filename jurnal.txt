@@ -1,13 +1,2 @@
-2026-10-30 12:05:35,608 INFO Ishga tushdi: tur= test=False hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-10-30 12:05:37,022 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-10-30 12:05:42,188 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-10-30 12:06:04,807 INFO Post en/ibora urinish 1: baho 10, ["Matndagi 'muqvili' terim xatosi 'muqobili' ga to‘g‘rilandi.", "Rasm tavsifida (image_prompt) 'An vintage' grammatik xatosi 'A vintage' ga almashtirildi."]
-2026-10-30 12:09:06,108 INFO Kanalga chiqdi: 2026-10-30_1700_en
+2026-10-30 17:58:43,097 INFO Ishga tushdi: tur= test=False hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-30 17:58:43,430 INFO Hozir navbatdagi post yo'q.
