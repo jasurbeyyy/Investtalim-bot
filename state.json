@@ -1,7 +1,8 @@
 {
  "history": {
   "en": [
-   "O‘qilmaydigan harflar va talaffuz"
+   "O‘qilmaydigan harflar va talaffuz",
+   "Vaqt predlogi bilan bog‘liq ibora: Behind the times"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -10,7 +11,8 @@
  },
  "types": {
   "en": [
-   "dialog"
+   "dialog",
+   "ibora"
   ],
   "ar": [
    "lugat",
@@ -20,9 +22,12 @@
  "templates": [
   "classic",
   "bigletter",
-  "neon"
+  "neon",
+  "waves"
  ],
  "paused": false,
- "done": {},
+ "done": {
+  "2026-10-30_1700_en": "published"
+ },
  "offset": 0
 }
