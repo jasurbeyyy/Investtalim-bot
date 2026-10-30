@@ -2,15 +2,22 @@
  "history": {
   "en": [
    "O‘qilmaydigan harflar va talaffuz"
+  ],
+  "ar": [
+   "Yaqin va uzoq ko‘rsatish olmoshlari"
   ]
  },
  "types": {
   "en": [
    "dialog"
+  ],
+  "ar": [
+   "lugat"
   ]
  },
  "templates": [
-  "classic"
+  "classic",
+  "bigletter"
  ],
  "paused": false,
  "done": {},

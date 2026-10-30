@@ -1,24 +1,7 @@
-models list: 200
-generateContent: gemini-2.5-flash, gemini-2.5-pro, gemini-2.5-flash-preview-tts, gemini-2.5-pro-preview-tts, gemma-4-26b-a4b-it, gemma-4-31b-it, gemini-flash-latest, gemini-flash-lite-latest, gemini-pro-latest, gemini-2.5-flash-lite, gemini-2.5-flash-image, gemini-3-flash-preview, gemini-3.1-pro-preview, gemini-3.1-pro-preview-customtools, gemini-3.1-flash-lite-preview, gemini-3.1-flash-lite, gemini-3-pro-image-preview, gemini-3-pro-image, nano-banana-pro-preview, gemini-3.1-flash-image-preview, gemini-3.1-flash-image, gemini-3.1-flash-lite-image, gemini-nano-banana-2.1, gemini-3.5-flash, gemini-3.5-flash-lite, gemini-omni-flash-preview, gemini-omni-1.1-flash, gemini-3.5-transcribe, gemini-3.6-flash, gemini-3.7-flash, gemini-3.8-flash, gemini-4-argon, lyria-3-clip-preview, lyria-3-pro-preview, lyria-3.5, gemini-3.1-flash-tts-preview, gemini-3.8-flash-tts, gemini-3.8-flash-lite-tts, gemini-robotics-er-2-preview, gemini-2.5-computer-use-preview-10-2025, antigravity-preview-05-2026, antigravity-preview-09-2026, antigravity-preview-latest, deep-research-max-preview-04-2026, deep-research-preview-04-2026, deep-research-pro-preview-12-2025
-gemini-2.5-flash {'thinkingLevel': 'low'}: 404 0.1s {   "error": {     "code": 404,     "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge
-gemini-2.5-flash {'thinkingBudget': 0}: 404 0.2s {   "error": {     "code": 404,     "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge
-gemini-2.5-flash default: 404 0.1s {   "error": {     "code": 404,     "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/ge
-gemini-flash-latest {'thinkingConfig': {'thinkingLevel': 'low'}}: XATO The read operation timed out 90.1s
-gemini-flash-latest {'thinkingBudget': 0}: 200 54.5s 
-gemini-flash-lite-latest {'thinkingLevel': 'low'}: 200 11.3s 
-gemini-2.5-flash-lite {'thinkingLevel': 'low'}: 404 0.1s {   "error": {     "code": 404,     "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use mode
-gemini-2.5-flash-lite {'thinkingBudget': 0}: 404 0.1s {   "error": {     "code": 404,     "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use mode
-gemini-2.5-flash-lite default: 404 0.1s {   "error": {     "code": 404,     "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use mode
-gemini-3-flash-preview {'thinkingLevel': 'low'}: 200 0.9s 
-gemini-3.1-flash-lite-preview {'thinkingLevel': 'low'}: 200 0.9s 
-gemini-3.1-flash-lite {'thinkingLevel': 'low'}: 200 1.1s 
-gemini-3.5-flash {'thinkingLevel': 'low'}: 200 0.8s 
-gemini-3.5-flash-lite {'thinkingLevel': 'low'}: 200 22.2s 
-gemini-omni-flash-preview {'thinkingLevel': 'low'}: 429 0.1s {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,
-gemini-omni-flash-preview {'thinkingBudget': 0}: 429 0.1s {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,
-gemini-omni-flash-preview default: 429 0.1s {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,
-gemini-omni-1.1-flash {'thinkingLevel': 'low'}: 429 0.3s {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,
-gemini-omni-1.1-flash {'thinkingBudget': 0}: 429 0.2s {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,
-gemini-omni-1.1-flash default: 429 0.2s {   "error": {     "code": 429,     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error,
-gemini-3.6-flash {'thinkingLevel': 'low'}: 503 0.7s {   "error": {     "code": 503,     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later
-gemini-3.6-flash {'thinkingBudget': 0}: 200 0.8s 
+2026-10-30 09:51:10,973 INFO Ishga tushdi: tur=ar test=True hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-30 09:51:24,123 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-10-30 09:51:45,711 INFO Post ar/lugat urinish 1: baho 10, ['Arabcha ko‘rsatish olmoshlariga (هَٰذَا, ذَٰلِكَ va b.) to‘liq harakatlar va to‘g‘ri alif xanjariya qo‘shildi.', 'Post matni uzunligi belgilangan me’yorga (450–720 belgi) moslashtirildi.', 'O‘zbekcha lotin yozuvi imlosi hamda tuturuq belgilari (o‘, g‘) standartlashtirildi.']
