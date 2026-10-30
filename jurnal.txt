@@ -1,2 +1,43 @@
-2026-10-30 09:13:10,399 INFO Ishga tushdi: tur=en test=True hozir=False | token=YO'Q gemini=bor admin=6118336151 kanal=@investtalim2
-2026-10-30 09:13:10,399 ERROR BOT_TOKEN, ADMIN_ID yoki KANAL yo'q (GitHub Secrets ni tekshiring)
+2026-10-30 09:17:00,200 INFO Ishga tushdi: tur=en test=True hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-30 09:17:03,515 WARNING AI xato: Gemini gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs
+2026-10-30 09:19:03,642 WARNING AI xato: The read operation timed out
+2026-10-30 09:20:09,523 WARNING AI xato: Gemini gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs
+2026-10-30 09:22:09,581 WARNING AI xato: The read operation timed out
+2026-10-30 09:24:09,712 WARNING AI xato: The read operation timed out
+2026-10-30 09:24:09,829 WARNING AI xato: Gemini gemini-2.5-flash-lite: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemin
+2026-10-30 09:24:09,843 INFO Post en/dialog urinish 1: baho 5, ['tekshiruv bajarilmadi: Barcha AI urinishlari muvaffaqiyatsiz: The read operation timed out | The read operation timed out | Gemini gemini-2.5-flash-lite: 404 {\n  "error": {\n    "code": 404,\n    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gem']
+2026-10-30 09:24:09,949 WARNING AI xato: Gemini gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs
+2026-10-30 09:26:10,065 WARNING AI xato: The read operation timed out
+2026-10-30 09:28:10,156 WARNING AI xato: The read operation timed out
+2026-10-30 09:28:10,314 WARNING AI xato: Gemini gemini-2.5-flash-lite: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemin
+2026-10-30 09:28:10,423 WARNING AI xato: Gemini gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs
+2026-10-30 09:30:10,461 WARNING AI xato: The read operation timed out
+2026-10-30 09:31:48,398 WARNING AI xato: Gemini gemini-2.5-flash: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash is no longer available to new users. Please update your code to use models/gemini-3.8-flash for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemini-api/docs
+2026-10-30 09:33:48,461 WARNING AI xato: The read operation timed out
+2026-10-30 09:35:48,601 WARNING AI xato: The read operation timed out
+2026-10-30 09:35:48,957 WARNING AI xato: Gemini gemini-2.5-flash-lite: 404 {
+  "error": {
+    "code": 404,
+    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest features and improvements. We recommend you to use the Interactions API (https://ai.google.dev/gemin
+2026-10-30 09:35:48,957 INFO Post en/dialog urinish 3: baho 5, ['tekshiruv bajarilmadi: Barcha AI urinishlari muvaffaqiyatsiz: The read operation timed out | The read operation timed out | Gemini gemini-2.5-flash-lite: 404 {\n  "error": {\n    "code": 404,\n    "message": "This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gem']

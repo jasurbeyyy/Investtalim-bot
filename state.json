@@ -1,1 +1,18 @@
-{"history": {}, "types": {}, "templates": [], "paused": false, "done": {}, "offset": 0}
+{
+ "history": {
+  "en": [
+   "O‘qilmaydigan harflar va talaffuz"
+  ]
+ },
+ "types": {
+  "en": [
+   "dialog"
+  ]
+ },
+ "templates": [
+  "classic"
+ ],
+ "paused": false,
+ "done": {},
+ "offset": 0
+}
