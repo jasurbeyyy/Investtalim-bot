@@ -31,7 +31,9 @@ import images as I
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "data")
 os.makedirs(os.path.join(DATA, "rasmlar"), exist_ok=True)
-logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", stream=sys.stdout)
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s",
+                    handlers=[logging.StreamHandler(sys.stdout),
+                              logging.FileHandler(os.path.join(BASE, "jurnal.txt"), mode="w", encoding="utf-8")])
 logging.getLogger("httpx").setLevel(logging.WARNING)
 log = logging.getLogger("runner")
 
@@ -359,7 +361,7 @@ def handle_commands(tg, st, msg):
 
 def run(force_kind=None, test=False, manual=False):
     if not TOKEN or not ADMIN or not CHANNEL:
-        log.error("BOT_TOKEN, ADMIN_ID yoki KANAL yo'q")
+        log.error("BOT_TOKEN, ADMIN_ID yoki KANAL yo'q (GitHub Secrets ni tekshiring)")
         sys.exit(1)
     tg = TG(TOKEN)
     st = load_state()
@@ -569,4 +571,12 @@ if __name__ == "__main__":
     p.add_argument("--test", action="store_true", help="sinov posti (kanalga faqat 📤 bilan chiqadi)")
     p.add_argument("--hozir", action="store_true", help="hozir post tayyorlash, 10 daqiqadan keyin avtomatik chiqadi")
     a = p.parse_args()
-    run(a.tur.strip() or None, a.test, a.hozir)
+    log.info("Ishga tushdi: tur=%s test=%s hozir=%s | token=%s gemini=%s admin=%s kanal=%s",
+             a.tur, a.test, a.hozir, "bor" if TOKEN else "YO'Q", "bor" if ai.gemini_key else "YO'Q", ADMIN, CHANNEL)
+    try:
+        run(a.tur.strip() or None, a.test, a.hozir)
+    except SystemExit:
+        raise
+    except Exception:
+        log.exception("Kutilmagan xato")
+        sys.exit(1)
