@@ -116,22 +116,42 @@ class AIError(Exception):
 class AI:
     def __init__(self, gemini_key: str, models: list[str], groq_key: str = "", groq_model: str = "llama-3.3-70b-versatile"):
         self.gemini_key = gemini_key.strip()
-        self.models = models
+        self.models = list(models)
         self.groq_key = groq_key.strip()
         self.groq_model = groq_model
         self.last_used = ""
+        self.dead: set[str] = set()      # bu ishga tushishda ishlamagan modellar
+        self.discovered = False
 
-    def _gemini(self, model: str, prompt: str, temperature: float) -> str:
+    def _discover(self):
+        """Kalitga ochiq bo'lgan flash modellarni avtomatik topadi (eski modellar yopilsa ham ishlayveradi)."""
+        self.discovered = True
+        try:
+            r = httpx.get("https://generativelanguage.googleapis.com/v1beta/models",
+                          headers={"x-goog-api-key": self.gemini_key}, params={"pageSize": 200}, timeout=30)
+            names = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                     if "generateContent" in m.get("supportedGenerationMethods", [])]
+            bad = ("image", "tts", "live", "audio", "embedding", "omni", "pro")
+            extra = [n for n in names if "flash" in n and not any(b in n for b in bad) and n not in self.models]
+            extra.sort(key=lambda n: ("preview" in n, "lite" in n))
+            self.models += extra
+            log.info("Qo'shimcha modellar topildi: %s", extra)
+        except Exception as e:
+            log.warning("Modellar ro'yxatini olib bo'lmadi: %s", e)
+
+    def _gemini(self, model: str, prompt: str, temperature: float, thinking: str) -> str:
         url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-        body = {
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": temperature, "responseMimeType": "application/json",
-                                 "maxOutputTokens": 8192},
-        }
+        cfg = {"temperature": temperature, "responseMimeType": "application/json", "maxOutputTokens": 8192}
+        if thinking:
+            cfg["thinkingConfig"] = {"thinkingLevel": thinking}
+        body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": cfg}
         # Yangi "AQ." kalitlar ham, eski "AIza" kalitlar ham sarlavha (header) orqali ishlaydi
-        r = httpx.post(url, headers={"x-goog-api-key": self.gemini_key}, json=body, timeout=120)
+        r = httpx.post(url, headers={"x-goog-api-key": self.gemini_key}, json=body, timeout=150)
+        if r.status_code == 400 and "thinking" in r.text.lower():  # model bu sozlamani qo'llamasa
+            cfg.pop("thinkingConfig", None)
+            r = httpx.post(url, headers={"x-goog-api-key": self.gemini_key}, json=body, timeout=150)
         if r.status_code in (401, 403):  # zaxira: kalitni manzil orqali yuborib ko'ramiz
-            r = httpx.post(url, params={"key": self.gemini_key}, json=body, timeout=120)
+            r = httpx.post(url, params={"key": self.gemini_key}, json=body, timeout=150)
         if r.status_code != 200:
             raise AIError(f"Gemini {model}: {r.status_code} {r.text[:300]}")
         data = r.json()
@@ -154,22 +174,33 @@ class AI:
             raise AIError(f"Groq: {r.status_code} {r.text[:300]}")
         return r.json()["choices"][0]["message"]["content"]
 
-    def json(self, prompt: str, temperature: float = 0.9) -> dict:
+    def json(self, prompt: str, temperature: float = 0.9, thinking: str = "low") -> dict:
         errors = []
         if self.gemini_key:
-            for m in self.models:
-                for attempt in range(2):
-                    try:
-                        out = parse_json(self._gemini(m, prompt, temperature))
-                        self.last_used = m
-                        return out
-                    except Exception as e:
-                        errors.append(str(e)[:200])
-                        log.warning("AI xato: %s", e)
-                        if "429" in str(e) or "503" in str(e):
-                            time.sleep(8 * (attempt + 1))
-                        elif "404" in str(e) or "400" in str(e):
-                            break  # bu model mavjud emas — keyingisiga o'tamiz
+            for round_ in range(2):
+                for m in [m for m in self.models if m not in self.dead]:
+                    for attempt in range(2):
+                        try:
+                            out = parse_json(self._gemini(m, prompt, temperature, thinking))
+                            self.last_used = m
+                            return out
+                        except Exception as e:
+                            msg = str(e)
+                            errors.append(msg[:200])
+                            log.warning("AI xato (%s): %s", m, msg[:200])
+                            if " 404 " in msg or " 403 " in msg or " 401 " in msg:
+                                self.dead.add(m)  # bu model yopiq — boshqa urinmaymiz
+                                break
+                            if "timed out" in msg or " 400 " in msg:
+                                break  # sekin yoki mos emas — keyingi modelga
+                            if " 429 " in msg or " 503 " in msg or " 500 " in msg:
+                                time.sleep(4 * (attempt + 1))
+                                continue
+                            if attempt == 0:  # JSON buzilgan bo'lsa — bir marta qayta urinamiz
+                                continue
+                if self.discovered:
+                    break
+                self._discover()
         if self.groq_key:
             try:
                 out = parse_json(self._groq(prompt, temperature))
@@ -338,7 +369,7 @@ def generate_post(ai: AI, lang: str, ptype: str, history_topics: list[str], topi
             chk = ai.json(CHECK_PROMPT % {"lang": lname, "min": min_len, "max": max_len,
                                           "lang_rules": LANG_RULES[lang], "ptype": label,
                                           "post": json.dumps(draft, ensure_ascii=False, indent=1)},
-                          temperature=0.2)
+                          temperature=0.2, thinking="medium")
             fixed = chk.get("post") or draft
             for k in draft:
                 fixed.setdefault(k, draft[k])
