@@ -1,0 +1,100 @@
+# ═══════════════════════════════════════════════════════════════
+#  Foreign Investta'lim — avtomatik post boti sozlamalari
+#  Bu faylni oddiy matn muharririda o'zgartirishingiz mumkin.
+#  GitHub'da o'zgartirsangiz, keyingi post vaqtidan boshlab kuchga kiradi.
+# ═══════════════════════════════════════════════════════════════
+
+vaqt_mintaqasi: Asia/Tashkent
+admin_id: 6118336151          # tasdiqlash xabarlari keladigan Telegram ID
+kanal: "@investtalim2"        # postlar chiqadigan kanal
+
+# Kunlik jadval.  tur:  en = ingliz tili, ar = arab tili, ru = rus tili,
+#                       tong = Xayrli tong, tun = Xayrli tun
+# Vaqtlar 07:00 dan 21:00 gacha, soat boshida (:00) bo'lishi kerak.
+jadval:
+  - { vaqt: "07:00", tur: tong }
+  - { vaqt: "08:00", tur: en }
+  - { vaqt: "10:00", tur: ar }
+  - { vaqt: "12:00", tur: ru }
+  - { vaqt: "13:00", tur: ar }
+  - { vaqt: "15:00", tur: ru }
+  - { vaqt: "17:00", tur: en }
+  - { vaqt: "21:00", tur: tun }
+
+tasdiqlash:
+  oldindan_daqiqa: 10          # post sizga necha daqiqa oldin keladi
+  tayyorlash_daqiqa: 3         # AI yozish va tekshirish uchun qo'shimcha vaqt
+  javob_bolmasa: yuborish      # yuborish | yubormaslik
+  tasdiqlansa: vaqtida         # vaqtida = belgilangan vaqtda chiqadi, darhol = tasdiqlashingiz bilan chiqadi
+
+# Post matni sozlamalari
+post:
+  min_belgi: 450               # asosiy matn uzunligi (o'rtacha post)
+  max_belgi: 720
+  min_baho: 7                  # sifat tekshiruvi bahosi (10 dan). Past bo'lsa qayta yoziladi
+  # Post turlari: grammatika, lugat, ibora, test, xatoni_top, dialog, kunning_sozi, tarjima, farq, fakt
+  turlar: [grammatika, lugat, ibora, test, xatoni_top, dialog, kunning_sozi, tarjima, farq, fakt]
+  qoshimcha_uslub: ""          # masalan: "Ko'proq IELTS va CEFR ga oid misollar bering"
+
+# Har bir til bo'yicha mavzular (bot har safar ulardan birini tanlab, aniq mavzu topadi).
+# Xohlagancha qo'shishingiz yoki o'chirishingiz mumkin.
+mavzular:
+  en:
+    - "Tenses (Present/Past/Future, Perfect, Continuous)"
+    - "Articles a/an/the, countable/uncountable nouns"
+    - "Prepositions of time and place"
+    - "Phrasal verbs for everyday life"
+    - "Modal verbs (can, must, should, have to)"
+    - "Conditionals and wishes"
+    - "Comparatives and superlatives"
+    - "Everyday vocabulary: family, food, school, travel, shopping, weather, health, jobs"
+    - "Useful phrases for speaking exams (CEFR, IELTS)"
+    - "Idioms and collocations"
+    - "Commonly confused words (make/do, say/tell, borrow/lend ...)"
+    - "Pronunciation and spelling tips"
+  ar:
+    - "Ism, fe’l, harf — so‘z turkumlari"
+    - "Muzakkar va muannas, birlik/ikkilik/ko‘plik"
+    - "Ot gap (mubtado va xabar), fe’l gap"
+    - "Moziy, muzori’, amr fe’llari va tuslanishi"
+    - "Idofa, sifat va mavsuf"
+    - "Olmoshlar va ko‘rsatish olmoshlari"
+    - "Harflar al-jarr (في، من، إلى، على ...)"
+    - "Kundalik lug‘at: oila, uy, maktab, ovqat, sayohat, bozor, vaqt"
+    - "So‘zlashuv iboralari: salomlashish, tanishish, so‘rash"
+    - "Hikmatli so‘zlar va maqollar"
+    - "Sonlar va sanash qoidalari"
+    - "CEFR arab tili imtihoniga foydali so‘zlar"
+  ru:
+    - "Rod (мужской, женский, средний)"
+    - "Падежи (kelishiklar) va ularning savollari"
+    - "Глаголы движения (идти/ходить, ехать/ездить)"
+    - "Вид глагола (совершенный/несовершенный)"
+    - "Прошедшее и будущее время"
+    - "Местоимения и притяжательные местоимения"
+    - "Kundalik lug‘at: oila, ovqat, transport, ish, shahar, shifokorda, do‘konda"
+    - "So‘zlashuv iboralari va odob so‘zlari"
+    - "Пословицы и поговорки"
+    - "Часто путаемые слова (одеть/надеть ...)"
+    - "Числительные, vaqt va sana"
+
+# Har bir post oxiriga qo'shiladigan qism
+pastki_qism: |
+  ━━━━━━━━━━━━━━━
+  🏫 Foreign Investta’lim o‘quv markazi
+  👉 Guruhimizga qo‘shiling: https://t.me/investtalim
+  📍 Namangan shahri
+  📞 +998 90 642 18 08
+  📞 +998 69 227 57 59
+
+# Rasm pastidagi qisqa yozuv
+rasm_yozuvi: "t.me/investtalim  •  +998 90 642 18 08"
+
+rasm:
+  ai_fon_ehtimoli: 0.35        # dars postlarida bepul AI fotosurat fon ishlatish ehtimoli (0 = hech qachon, 1 = doim)
+  ai_fon_tabrik: 0.5           # Xayrli tong/tun rasmlarida AI fotosurat ehtimoli
+
+ai:
+  # Bepul Gemini modellari (birinchisi ishlamasa keyingisi sinaladi)
+  gemini_modellar: [gemini-2.5-flash, gemini-flash-latest, gemini-2.5-flash-lite]
+  groq_model: llama-3.3-70b-versatile

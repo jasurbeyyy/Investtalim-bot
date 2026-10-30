@@ -1,0 +1,74 @@
+name: Kanal postlari
+
+on:
+  schedule:
+    # Har soat :31 da (Toshkent vaqti 06:31 — 20:31). Bot o'zi navbatdagi post vaqtini topadi.
+    # GitHub vaqtni UTC da hisoblaydi: Toshkent = UTC + 5.
+    - cron: "31 1-15 * * *"
+  workflow_dispatch:
+    inputs:
+      tur:
+        description: "Qaysi post: en / ar / ru / tong / tun"
+        required: true
+        default: "en"
+        type: choice
+        options: [en, ar, ru, tong, tun]
+      rejim:
+        description: "sinov = faqat sizga keladi (📤 bossangiz chiqadi); hozir = 10 daqiqadan keyin kanalga chiqadi"
+        required: true
+        default: "sinov"
+        type: choice
+        options: [sinov, hozir]
+
+concurrency:
+  group: kanal-postlari
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Arab yozuvi uchun kutubxona
+        run: sudo apt-get install -y -qq libfribidi0 > /dev/null || true
+
+      - name: Kutubxonalarni o'rnatish
+        run: pip install -q -r requirements.txt
+
+      - name: Postni tayyorlash va chiqarish
+        env:
+          BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          POLLINATIONS_KEY: ${{ secrets.POLLINATIONS_KEY }}
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            if [ "${{ inputs.rejim }}" = "sinov" ]; then
+              python runner.py --tur "${{ inputs.tur }}" --test
+            else
+              python runner.py --tur "${{ inputs.tur }}" --hozir
+            fi
+          else
+            python runner.py
+          fi
+
+      - name: Holatni saqlash (takrorlanmasligi uchun)
+        if: always()
+        run: |
+          git config user.name "investtalim-bot"
+          git config user.email "investtalim-bot@users.noreply.github.com"
+          git add state.json
+          if ! git diff --cached --quiet; then
+            git commit -q -m "holat yangilandi"
+            git pull -q --rebase && git push -q || echo "holatni saqlab bo'lmadi"
+          fi
