@@ -7,6 +7,9 @@
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
    "Hikmatli so‘zlar va maqollar haqida qiziqarli fakt"
+  ],
+  "ru": [
+   "Do‘konda: «Мне нужен» va «Мне нужна» iboralari"
   ]
  },
  "types": {
@@ -17,13 +20,17 @@
   "ar": [
    "lugat",
    "fakt"
+  ],
+  "ru": [
+   "grammatika"
   ]
  },
  "templates": [
   "classic",
   "bigletter",
   "neon",
-  "waves"
+  "waves",
+  "split"
  ],
  "paused": false,
  "done": {
