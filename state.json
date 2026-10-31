@@ -2,7 +2,8 @@
  "history": {
   "en": [
    "O‘qilmaydigan harflar va talaffuz",
-   "Vaqt predlogi bilan bog‘liq ibora: Behind the times"
+   "Vaqt predlogi bilan bog‘liq ibora: Behind the times",
+   "Ovqat bilan bog‘liq inglizcha iboralar"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -17,7 +18,8 @@
  "types": {
   "en": [
    "dialog",
-   "ibora"
+   "ibora",
+   "fakt"
   ],
   "ar": [
    "lugat",
@@ -36,7 +38,8 @@
   "waves",
   "split",
   "stripes",
-  "glass"
+  "glass",
+  "gradient"
  ],
  "paused": false,
  "done": {
