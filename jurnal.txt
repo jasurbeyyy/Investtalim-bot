@@ -1,3 +1,7 @@
-2026-10-31 10:00:19,526 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-10-31 11:48:12,351 INFO Post en/fakt urinish 1: baho 10, ["O‘zbek tilidagi 'poypul' hamda 'bo‘kib boqadigan' kabi imlo va uslubiy xatolar tuzatildi.", 'Apostrof va belgilash belgilarining standarti (o‘, g‘, ’) to‘g‘rilandi.', 'Matn uzunligi va shakli Telegram standarti (450-720 belgi) hamda qoidalarga to‘liq moslashtirildi.']
-2026-10-31 12:00:01,500 INFO Kanalga chiqdi: 2026-10-31_1700_en
+2026-10-31 12:00:24,004 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-31 15:47:04,352 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-10-31 16:00:00,769 INFO Kanalga chiqdi: 2026-10-31_2100_tun
