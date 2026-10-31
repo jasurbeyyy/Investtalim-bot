@@ -5,7 +5,7 @@ on:
     # Har 10 daqiqada (Toshkent vaqti 06:00 — 21:50). Bot o'zi navbatdagi post vaqtini topadi,
     # post yo'q bo'lsa 1 daqiqada tugaydi. GitHub ba'zi ishga tushirishlarni o'tkazib yuborishi
     # mumkin — tez-tez tekshirish shuning uchun.  GitHub vaqti UTC: Toshkent = UTC + 5.
-    - cron: "*/10 1-16 * * *"
+    - cron: "5-59/10 1-16 * * *"
   workflow_dispatch:
     inputs:
       tur:
