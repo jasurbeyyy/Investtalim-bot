@@ -10,7 +10,8 @@
    "Tanishuv iborasidagi xatolik"
   ],
   "ru": [
-   "Do‘konda: «Мне нужен» va «Мне нужна» iboralari"
+   "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
+   "Fe’l ko‘rinishlari: Сделать va Делать"
   ]
  },
  "types": {
@@ -24,7 +25,8 @@
    "xatoni_top"
   ],
   "ru": [
-   "grammatika"
+   "grammatika",
+   "tarjima"
   ]
  },
  "templates": [
@@ -33,7 +35,8 @@
   "neon",
   "waves",
   "split",
-  "stripes"
+  "stripes",
+  "glass"
  ],
  "paused": false,
  "done": {
