@@ -27,7 +27,11 @@
  ],
  "paused": false,
  "done": {
-  "2026-10-30_1700_en": "published"
+  "2026-10-30_1700_en": "published",
+  "2026-10-31_1000_ar": "published",
+  "2026-10-30_2100_tun": "late",
+  "2026-10-31_0700_tong": "late",
+  "2026-10-31_0800_en": "late"
  },
  "offset": 0
 }
