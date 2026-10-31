@@ -6,7 +6,8 @@
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
-   "Hikmatli so‘zlar va maqollar haqida qiziqarli fakt"
+   "Hikmatli so‘zlar va maqollar haqida qiziqarli fakt",
+   "Tanishuv iborasidagi xatolik"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari"
@@ -19,7 +20,8 @@
   ],
   "ar": [
    "lugat",
-   "fakt"
+   "fakt",
+   "xatoni_top"
   ],
   "ru": [
    "grammatika"
@@ -30,7 +32,8 @@
   "bigletter",
   "neon",
   "waves",
-  "split"
+  "split",
+  "stripes"
  ],
  "paused": false,
  "done": {
