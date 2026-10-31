@@ -1,13 +1,3 @@
-2026-10-31 07:00:31,137 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-10-31 07:47:02,271 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-10-31 07:47:20,336 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-10-31 07:47:39,711 INFO Post ar/xatoni_top urinish 1: baho 10, ["Caption matnidagi imloviy xato tuzatildi ('Seningisming' -> 'Sening isming').", 'Caption uzunligi talab qilingan 450-720 belgi oralig‘iga yetkazildi.', 'Arabcha iboralarga to‘liq harakatlar (tashkeel) qo‘yildi («مَا هُوَ ٱسْمُكَ؟» / «مَا ٱسْمُكَ؟»).', 'Grammatik izohda arab tili atamalari (munfasil zamir, muttasil zamir) to‘g‘ri qo‘llanildi.']
-2026-10-31 08:00:01,281 INFO Kanalga chiqdi: 2026-10-31_1300_ar
+2026-10-31 08:00:18,593 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-31 09:47:27,601 INFO Post ru/tarjima urinish 1: baho 10, ['Matn uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi.', 'Grammatik tushuntirishda fe’l ko‘rinishi (НСВ/СВ), zamon va so‘roqlar (что делать / что сделать) aniq ko‘rsatildi.', 'Uzbek tili imlosi standartga moslashtirildi (o‘, ’).']
+2026-10-31 10:00:00,819 INFO Kanalga chiqdi: 2026-10-31_1500_ru
