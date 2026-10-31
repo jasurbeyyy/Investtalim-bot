@@ -1,11 +1,10 @@
 name: Kanal postlari
+run-name: "${{ inputs.rejim || 'jadval' }} ${{ inputs.tur }}"
 
+# Bot o'zini o'zi navbatma-navbat ishga tushiradi: har bir ishga tushirish navbatdagi postni
+# (ko'pi bilan ~5 soat oldindan) kutadi, chiqaradi va keyingisini ishga tushiradi.
+# "Qorovul" (qorovul.yml) zanjir uzilib qolsa, uni qayta boshlaydi.
 on:
-  schedule:
-    # Har 10 daqiqada (Toshkent vaqti 06:00 — 21:50). Bot o'zi navbatdagi post vaqtini topadi,
-    # post yo'q bo'lsa 1 daqiqada tugaydi. GitHub ba'zi ishga tushirishlarni o'tkazib yuborishi
-    # mumkin — tez-tez tekshirish shuning uchun.  GitHub vaqti UTC: Toshkent = UTC + 5.
-    - cron: "5-59/10 1-16 * * *"
   workflow_dispatch:
     inputs:
       tur:
@@ -27,12 +26,16 @@ concurrency:
 
 permissions:
   contents: write
+  actions: write
 
 jobs:
   post:
     runs-on: ubuntu-latest
-    timeout-minutes: 75
+    timeout-minutes: 355
     steps:
+      - name: Boshlanish vaqti
+        run: echo "BOSHLANDI=$(date +%s)" >> "$GITHUB_ENV"
+
       - uses: actions/checkout@v4
 
       - uses: actions/setup-python@v5
@@ -52,20 +55,14 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           POLLINATIONS_KEY: ${{ secrets.POLLINATIONS_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
-          if [ "${{ inputs.rejim }}" = "tekshiruv" ]; then
-            python diag.py
-          elif [ "${{ inputs.rejim }}" = "jadval" ]; then
-            python runner.py
-          elif [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            if [ "${{ inputs.rejim }}" = "sinov" ]; then
-              python runner.py --tur "${{ inputs.tur }}" --test
-            else
-              python runner.py --tur "${{ inputs.tur }}" --hozir
-            fi
-          else
-            python runner.py
-          fi
+          case "${{ inputs.rejim }}" in
+            tekshiruv) python diag.py ;;
+            sinov)     python runner.py --tur "${{ inputs.tur }}" --test ;;
+            hozir)     python runner.py --tur "${{ inputs.tur }}" --hozir ;;
+            *)         python runner.py --zanjir ;;
+          esac
 
       - name: Holatni saqlash (takrorlanmasligi uchun)
         if: always()
@@ -75,5 +72,17 @@ jobs:
           git add state.json jurnal.txt 2>/dev/null || git add state.json
           if ! git diff --cached --quiet; then
             git commit -q -m "holat yangilandi"
-            git pull -q --rebase && git push -q || echo "holatni saqlab bo'lmadi"
+            for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done || echo "holatni saqlab bo'lmadi"
           fi
+
+      - name: Navbatdagi ishga tushirish
+        if: always() && inputs.rejim != 'tekshiruv'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          o=$(( $(date +%s) - BOSHLANDI ))
+          if [ "${{ inputs.rejim }}" = "jadval" ] && [ ! -f erta_chiqish ] && [ "$o" -lt 300 ]; then
+            echo "Juda tez tugadi — 10 daqiqa kutiladi"; sleep $(( 600 - o ))
+          fi
+          gh api -X POST "repos/${{ github.repository }}/actions/workflows/postlar.yml/dispatches" \
+            -f ref=main -f 'inputs[tur]=en' -f 'inputs[rejim]=jadval' && echo "Keyingisi ishga tushirildi"

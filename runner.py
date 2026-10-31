@@ -317,8 +317,8 @@ def control_kb(d, key):
 
 
 # ───────────────────────── Asosiy jarayon ─────────────────────────
-def find_slot(done: dict, force_kind=None):
-    """Hozirgi vaqtga eng yaqin, hali bajarilmagan jadval vaqtini topadi."""
+def find_slot(done: dict, force_kind=None, ahead_min=60):
+    """Hozirgi vaqtga eng yaqin, hali bajarilmagan jadval vaqtini topadi (ahead_min daqiqa oldindan)."""
     n = now()
     best = None
     for slot in CFG.get("jadval", []):
@@ -329,9 +329,23 @@ def find_slot(done: dict, force_kind=None):
             t = slot_dt(day, hhmm)
             if f"{t.date().isoformat()}_{hhmm.replace(':', '')}_{kind}" in done:
                 continue
-            if t - dt.timedelta(minutes=60) <= n <= t + LATE_LIMIT:
+            if t - dt.timedelta(minutes=ahead_min) <= n <= t + LATE_LIMIT:
                 if best is None or abs((t - n).total_seconds()) < abs((best[0] - n).total_seconds()):
                     best = (t, hhmm, kind)
+    return best
+
+
+def next_slot_time(done: dict):
+    """Bajarilmagan eng yaqin kelajakdagi jadval vaqti (bugun yoki ertaga)."""
+    n, best = now(), None
+    for slot in CFG.get("jadval", []):
+        hhmm, kind = str(slot["vaqt"]), str(slot["tur"])
+        for day in (n.date(), n.date() + dt.timedelta(days=1)):
+            t = slot_dt(day, hhmm)
+            if f"{t.date().isoformat()}_{hhmm.replace(':', '')}_{kind}" in done or t + LATE_LIMIT < n:
+                continue
+            if best is None or t < best:
+                best = t
     return best
 
 
@@ -359,7 +373,32 @@ def handle_commands(tg, st, msg):
     return True
 
 
-def run(force_kind=None, test=False, manual=False):
+def other_run_waiting() -> bool:
+    """Navbatda boshqa GitHub ishga tushirishi (masalan, sinov posti) kutib turibdimi?"""
+    tok, repo, me = os.getenv("GITHUB_TOKEN"), os.getenv("GITHUB_REPOSITORY"), os.getenv("GITHUB_RUN_ID")
+    if not (tok and repo and me):
+        return False
+    try:
+        r = httpx.get(f"https://api.github.com/repos/{repo}/actions/runs", params={"per_page": 15},
+                      headers={"Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}, timeout=20)
+        for run_ in r.json().get("workflow_runs", []):
+            if str(run_.get("id")) != me and run_.get("status") in ("queued", "pending", "waiting", "requested") \
+                    and run_.get("path", "").endswith("postlar.yml"):
+                return True
+    except Exception as e:
+        log.warning("GitHub navbatini tekshirib bo'lmadi: %s", e)
+    return False
+
+
+def early_exit_flag():
+    with open(os.path.join(BASE, "erta_chiqish"), "w") as f:
+        f.write("1")
+
+
+CHAIN_HORIZON = dt.timedelta(minutes=300)  # bitta GitHub ishga tushirishi ko'pi bilan ~5 soat kutadi
+
+
+def run(force_kind=None, test=False, manual=False, chain=False):
     if not TOKEN or not ADMIN or not CHANNEL:
         log.error("BOT_TOKEN, ADMIN_ID yoki KANAL yo'q (GitHub Secrets ni tekshiring)")
         sys.exit(1)
@@ -375,10 +414,27 @@ def run(force_kind=None, test=False, manual=False):
         hhmm, kind = t.strftime("%H:%M"), force_kind or "en"
         key = f"{'test' if test else 'qolda'}-{int(time.time())}-{kind}"
     else:
-        slot = find_slot(st["done"], force_kind)
+        slot = find_slot(st["done"], force_kind, int(CHAIN_HORIZON.total_seconds() // 60) if chain else 60)
         if not slot:
-            log.info("Hozir navbatdagi post yo'q.")
-            poll_commands(tg, st)
+            if chain:  # navbatdagi post uzoq — kutib turamiz va keyingi ishga tushirishga topshiramiz
+                nxt = next_slot_time(st["done"])
+                until = now() + CHAIN_HORIZON
+                if nxt:
+                    until = min(until, nxt - CHAIN_HORIZON + dt.timedelta(minutes=5))
+                log.info("Navbatdagi post: %s. %s gacha kutiladi.", nxt, until.strftime("%H:%M"))
+                last_check = 0.0
+                while now() < until:
+                    poll_commands(tg, st, timeout=25)
+                    save_state(st)
+                    if time.time() - last_check > 60:
+                        last_check = time.time()
+                        if other_run_waiting():
+                            log.info("Navbatda boshqa ishga tushirish bor — unga joy bo'shatiladi.")
+                            early_exit_flag()
+                            break
+            else:
+                log.info("Hozir navbatdagi post yo'q.")
+                poll_commands(tg, st)
             save_state(st)
             return
         t, hhmm, kind = slot
@@ -388,8 +444,17 @@ def run(force_kind=None, test=False, manual=False):
             return
         prep_at = t - dt.timedelta(minutes=LEAD_MIN + PREP_MIN)
         # tayyorlash vaqtigacha kutamiz (shu orada admin buyruqlarini ham o'qiymiz)
+        last_check = 0.0
         while now() < prep_at:
             poll_commands(tg, st, timeout=min(25, max(1, int((prep_at - now()).total_seconds()))))
+            if chain and time.time() - last_check > 60 and prep_at - now() > dt.timedelta(minutes=20):
+                last_check = time.time()
+                save_state(st)
+                if other_run_waiting():
+                    log.info("Navbatda boshqa ishga tushirish bor — unga joy bo'shatiladi.")
+                    early_exit_flag()
+                    save_state(st)
+                    return
         if st.get("paused"):
             log.info("Pauza yoqilgan — %s o'tkazib yuborildi", key)
             st["done"][key] = "paused"
@@ -570,11 +635,12 @@ if __name__ == "__main__":
     p.add_argument("--tur", default="", help="en / ar / ru / tong / tun")
     p.add_argument("--test", action="store_true", help="sinov posti (kanalga faqat 📤 bilan chiqadi)")
     p.add_argument("--hozir", action="store_true", help="hozir post tayyorlash, 10 daqiqadan keyin avtomatik chiqadi")
+    p.add_argument("--zanjir", action="store_true", help="navbatdagi postni (5 soatgacha) kutib chiqaradi")
     a = p.parse_args()
-    log.info("Ishga tushdi: tur=%s test=%s hozir=%s | token=%s gemini=%s admin=%s kanal=%s",
-             a.tur, a.test, a.hozir, "bor" if TOKEN else "YO'Q", "bor" if ai.gemini_key else "YO'Q", ADMIN, CHANNEL)
+    log.info("Ishga tushdi: tur=%s test=%s hozir=%s zanjir=%s | token=%s gemini=%s admin=%s kanal=%s",
+             a.tur, a.test, a.hozir, a.zanjir, "bor" if TOKEN else "YO'Q", "bor" if ai.gemini_key else "YO'Q", ADMIN, CHANNEL)
     try:
-        run(a.tur.strip() or None, a.test, a.hozir)
+        run(a.tur.strip() or None, a.test, a.hozir, a.zanjir)
     except SystemExit:
         raise
     except Exception:

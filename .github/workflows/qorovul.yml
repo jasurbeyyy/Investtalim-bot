@@ -1,0 +1,27 @@
+name: Qorovul
+# Har 30 daqiqada tekshiradi: post boti ishlab turibdimi? To'xtab qolgan bo'lsa, qayta ishga tushiradi.
+on:
+  schedule:
+    - cron: "7,37 * * * *"
+  workflow_dispatch:
+
+permissions:
+  actions: write
+
+jobs:
+  tekshir:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Bot ishlayaptimi?
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          n=$(gh api "repos/${{ github.repository }}/actions/workflows/postlar.yml/runs?per_page=10" \
+               --jq '[.workflow_runs[] | select(.status != "completed")] | length')
+          echo "Faol ishga tushirishlar: $n"
+          if [ "$n" = "0" ]; then
+            gh api -X POST "repos/${{ github.repository }}/actions/workflows/postlar.yml/dispatches" \
+              -f ref=main -f 'inputs[tur]=en' -f 'inputs[rejim]=jadval'
+            echo "Bot qayta ishga tushirildi"
+          fi

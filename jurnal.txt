@@ -1,2 +1,0 @@
-2026-10-30 17:58:43,097 INFO Ishga tushdi: tur= test=False hozir=False | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-10-30 17:58:43,430 INFO Hozir navbatdagi post yo'q.
