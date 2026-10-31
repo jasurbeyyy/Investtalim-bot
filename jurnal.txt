@@ -1,0 +1,36 @@
+2026-10-31 05:00:14,871 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-10-31 05:00:15,805 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-10-31 05:00:19,936 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-10-31 05:00:28,063 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-10-31 05:00:57,700 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-10-31 05:01:01,821 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-10-31 05:01:13,437 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-10-31 05:01:17,575 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-10-31 05:02:26,098 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
+2026-10-31 05:02:33,124 WARNING AI xato (gemini-3-flash-preview): Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+ 
