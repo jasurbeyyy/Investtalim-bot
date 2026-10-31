@@ -83,22 +83,80 @@ def slot_dt(date: dt.date, hhmm: str) -> dt.datetime:
 STATE_PATH = os.path.join(BASE, "state.json")
 
 
+_GH = {"sha": None, "last": None}
+
+
+def _gh():
+    tok, repo = os.getenv("GITHUB_TOKEN"), os.getenv("GITHUB_REPOSITORY")
+    if not (tok and repo):
+        return None, None
+    return f"https://api.github.com/repos/{repo}/contents/state.json", {
+        "Authorization": f"Bearer {tok}", "Accept": "application/vnd.github+json"}
+
+
+def _gh_get():
+    url, h = _gh()
+    if not url:
+        return None
+    r = httpx.get(url, headers=h, params={"ref": "main"}, timeout=30)
+    r.raise_for_status()
+    j = r.json()
+    import base64
+    _GH["sha"] = j["sha"]
+    return json.loads(base64.b64decode(j["content"]).decode("utf-8"))
+
+
 def load_state() -> dict:
+    """Holatni GitHub'dan (eng so'nggi nusxa) yoki mahalliy fayldan o'qiydi."""
     st = {"history": {}, "types": {}, "templates": [], "paused": False, "done": {}, "offset": 0}
-    if os.path.exists(STATE_PATH):
+    data = None
+    try:
+        data = _gh_get()
+    except Exception as e:
+        log.warning("Holatni GitHub'dan o'qib bo'lmadi: %s", e)
+    if data is None and os.path.exists(STATE_PATH):
         try:
             with open(STATE_PATH, encoding="utf-8") as f:
-                st.update(json.load(f))
+                data = json.load(f)
         except Exception:
             log.exception("state.json o'qilmadi")
+    if data:
+        st.update(data)
+    _GH["last"] = json.dumps(st, ensure_ascii=False, sort_keys=True)
     return st
 
 
 def save_state(st: dict):
+    """Holatni mahalliy faylga va darhol GitHub'ga yozadi (o'zgargan bo'lsa)."""
+    import base64
     cutoff = (now() - dt.timedelta(days=14)).date().isoformat()
     st["done"] = {k: v for k, v in st.get("done", {}).items() if k[:10] >= cutoff}
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(st, f, ensure_ascii=False, indent=1)
+    cur = json.dumps(st, ensure_ascii=False, sort_keys=True)
+    url, h = _gh()
+    if not url or cur == _GH["last"]:
+        return
+    body = json.dumps(st, ensure_ascii=False, indent=1).encode("utf-8")
+    for attempt in range(4):
+        try:
+            if _GH["sha"] is None:
+                _gh_get()
+            r = httpx.put(url, headers=h, timeout=30, json={
+                "message": "holat yangilandi", "branch": "main", "sha": _GH["sha"],
+                "content": base64.b64encode(body).decode(),
+                "committer": {"name": "investtalim-bot", "email": "investtalim-bot@users.noreply.github.com"}})
+            if r.status_code in (200, 201):
+                _GH["sha"] = r.json()["content"]["sha"]
+                _GH["last"] = cur
+                return
+            if r.status_code in (409, 422):  # boshqa o'zgarish bor — sha ni yangilab qayta urinamiz
+                _gh_get()
+                continue
+            log.warning("Holatni GitHub'ga yozib bo'lmadi: %s %s", r.status_code, r.text[:200])
+        except Exception as e:
+            log.warning("Holatni GitHub'ga yozib bo'lmadi: %s", e)
+        time.sleep(3)
 
 
 def push(lst: list, value, keep=60):
