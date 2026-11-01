@@ -1,3 +1,3 @@
-2026-11-01 05:00:24,916 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-01 06:47:27,129 INFO Post ru/xatoni_top urinish 1: baho 10, ['«Muzlik jinsi» xatosi «мужской род (erkak jinsi)» deb tuzatildi («muzlik» so‘zi inglizcha glacier degani).', 'Post matni uzunligi belgilangan standartga (450-720 belgi) yetkazildi.', 'O‘zbekcha lotin yozuvidagi tutuq va o‘/g‘ belgilari standartga moslashtirildi.']
-2026-11-01 07:00:01,281 INFO Kanalga chiqdi: 2026-11-01_1200_ru
+2026-11-01 07:00:18,729 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-01 07:47:19,125 INFO Post ar/test urinish 1: baho 10, ['Arab tili grammatikasi tuzatildi: «كِتَابٌ» muzakkar jinsida bo‘lgani uchun test savolidagi ko‘rsatish olmoshi «هَذِهِ» dan «هَذَا» ga o‘zgartirildi.', 'Post matni (caption) talab qilingan uzunlikka (450-720 belgi) keltirildi.', 'Arabcha so‘zlar hamda misollarga to‘liq harakatlar (tashkeel) qo‘yildi.']
+2026-11-01 08:00:01,956 INFO Kanalga chiqdi: 2026-11-01_1300_ar
