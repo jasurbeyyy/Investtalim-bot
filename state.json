@@ -14,7 +14,8 @@
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
-   "Fe’l ko‘rinishlari: Сделать va Делать"
+   "Fe’l ko‘rinishlari: Сделать va Делать",
+   "Jins (Род): 'Кофе' so‘zining jinsi"
   ]
  },
  "types": {
@@ -32,7 +33,8 @@
   ],
   "ru": [
    "grammatika",
-   "tarjima"
+   "tarjima",
+   "xatoni_top"
   ]
  },
  "templates": [
@@ -45,7 +47,8 @@
   "glass",
   "gradient",
   "neon",
-  "split"
+  "split",
+  "notebook"
  ],
  "paused": false,
  "done": {
