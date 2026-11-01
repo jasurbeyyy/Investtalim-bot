@@ -1,2 +1,3 @@
-2026-10-31 21:00:52,620 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-01 02:00:01,388 INFO Kanalga chiqdi: 2026-11-01_0700_tong
+2026-11-01 02:00:22,207 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-01 02:47:18,323 INFO Post en/lugat urinish 1: baho 10, ['Caption\'dagi "mumki-n emas" imlo xatosi tuzatildi.', 'O‘zbekcha matnlardagi o‘, g‘ va tutuq belgisi (’) to‘g‘ri shaklga keltirildi.', 'Matn uzunligi talab qilingan mezon (450-720 belgi) doirasida boyitildi.']
+2026-11-01 03:00:01,549 INFO Kanalga chiqdi: 2026-11-01_0800_en
