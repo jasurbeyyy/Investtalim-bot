@@ -3,7 +3,8 @@
   "en": [
    "O‘qilmaydigan harflar va talaffuz",
    "Vaqt predlogi bilan bog‘liq ibora: Behind the times",
-   "Ovqat bilan bog‘liq inglizcha iboralar"
+   "Ovqat bilan bog‘liq inglizcha iboralar",
+   "Modal fe’llar: Majburiyat va maslahat (must, should, have to)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -19,7 +20,8 @@
   "en": [
    "dialog",
    "ibora",
-   "fakt"
+   "fakt",
+   "lugat"
   ],
   "ar": [
    "lugat",
@@ -39,7 +41,8 @@
   "split",
   "stripes",
   "glass",
-  "gradient"
+  "gradient",
+  "neon"
  ],
  "paused": false,
  "done": {
