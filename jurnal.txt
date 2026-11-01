@@ -1,3 +1,13 @@
-2026-11-01 07:00:18,729 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-01 07:47:19,125 INFO Post ar/test urinish 1: baho 10, ['Arab tili grammatikasi tuzatildi: «كِتَابٌ» muzakkar jinsida bo‘lgani uchun test savolidagi ko‘rsatish olmoshi «هَذِهِ» dan «هَذَا» ga o‘zgartirildi.', 'Post matni (caption) talab qilingan uzunlikka (450-720 belgi) keltirildi.', 'Arabcha so‘zlar hamda misollarga to‘liq harakatlar (tashkeel) qo‘yildi.']
-2026-11-01 08:00:01,956 INFO Kanalga chiqdi: 2026-11-01_1300_ar
+2026-11-01 08:00:26,258 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-01 09:47:02,084 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-01 09:47:09,744 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-01 09:47:35,437 INFO Post ru/lugat urinish 1: baho 10, ['"Проезда́" grammatik xatosi "Прое́зд" (bosh kelishik, м.р.) shakliga almashtirildi va urg\'usi to\'g\'rilandi.', '"Kонду́ктор" so\'zidagi lotincha "K" harfi kirillcha "К" harfiga almashtirildi.', "Ruscha so'zlarning jinsi (м.р., ж.р.) va urg'ulari aniq ko'rsatildi.", "Muloqot uchun natural misol iboralar qo'shilib, post hajmi talab qilingan 450-720 belgi oralig'iga yetkazildi.", 'Xeshteglardagi imloviy xato (#russchavali) tuzatildi.']
+2026-11-01 10:00:00,638 INFO Kanalga chiqdi: 2026-11-01_1500_ru
