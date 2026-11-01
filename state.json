@@ -4,7 +4,8 @@
    "O‘qilmaydigan harflar va talaffuz",
    "Vaqt predlogi bilan bog‘liq ibora: Behind the times",
    "Ovqat bilan bog‘liq inglizcha iboralar",
-   "Modal fe’llar: Majburiyat va maslahat (must, should, have to)"
+   "Modal fe’llar: Majburiyat va maslahat (must, should, have to)",
+   "Sanaladigan va sanalmaydigan otlar (Countable vs Uncountable)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -25,7 +26,8 @@
    "dialog",
    "ibora",
    "fakt",
-   "lugat"
+   "lugat",
+   "dialog"
   ],
   "ar": [
    "lugat",
@@ -42,7 +44,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "neon",
   "waves",
   "split",
@@ -53,7 +54,8 @@
   "split",
   "notebook",
   "photo",
-  "classic"
+  "classic",
+  "neon"
  ],
  "paused": false,
  "done": {
