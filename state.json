@@ -16,7 +16,8 @@
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
    "Fe’l ko‘rinishlari: Сделать va Делать",
-   "Jins (Род): 'Кофе' so‘zining jinsi"
+   "Jins (Род): 'Кофе' so‘zining jinsi",
+   "Shahar jamoat transporti lug‘ati"
   ]
  },
  "types": {
@@ -36,11 +37,11 @@
   "ru": [
    "grammatika",
    "tarjima",
-   "xatoni_top"
+   "xatoni_top",
+   "lugat"
   ]
  },
  "templates": [
-  "classic",
   "bigletter",
   "neon",
   "waves",
@@ -51,7 +52,8 @@
   "neon",
   "split",
   "notebook",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
