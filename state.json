@@ -10,7 +10,8 @@
    "Yaqin va uzoq ko‘rsatish olmoshlari",
    "Hikmatli so‘zlar va maqollar haqida qiziqarli fakt",
    "Tanishuv iborasidagi xatolik",
-   "Kishilik olmoshlari (Muzakkar va Muannas)"
+   "Kishilik olmoshlari (Muzakkar va Muannas)",
+   "Egalik olmoshlari (Muttasil olmoshlar)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -29,7 +30,8 @@
    "lugat",
    "fakt",
    "xatoni_top",
-   "tarjima"
+   "tarjima",
+   "test"
   ],
   "ru": [
    "grammatika",
@@ -48,7 +50,8 @@
   "gradient",
   "neon",
   "split",
-  "notebook"
+  "notebook",
+  "photo"
  ],
  "paused": false,
  "done": {
