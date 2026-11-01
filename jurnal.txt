@@ -1,3 +1,13 @@
-2026-11-01 02:00:22,207 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-01 02:47:18,323 INFO Post en/lugat urinish 1: baho 10, ['Caption\'dagi "mumki-n emas" imlo xatosi tuzatildi.', 'O‘zbekcha matnlardagi o‘, g‘ va tutuq belgisi (’) to‘g‘ri shaklga keltirildi.', 'Matn uzunligi talab qilingan mezon (450-720 belgi) doirasida boyitildi.']
-2026-11-01 03:00:01,549 INFO Kanalga chiqdi: 2026-11-01_0800_en
+2026-11-01 03:00:20,314 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-01 04:47:02,296 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-01 04:47:17,469 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-01 04:47:37,403 INFO Post ar/tarjima urinish 1: baho 10, ['Matn uzunligi belgilangan me’yorga (450-720 belgi) yetkazildi.', 'G‘aliz «boshingizni qarating» iborasi «yashirin javob ustiga bosing» tarzida to‘g‘rilandi.', 'Grammatik tushuntirish boyitildi va o‘zbek tilidagi mos grammatik atamalar (birlik, ikkilik, muzakkar, muannas) kiritildi.']
+2026-11-01 05:00:01,616 INFO Kanalga chiqdi: 2026-11-01_1000_ar
