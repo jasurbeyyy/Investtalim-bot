@@ -22,7 +22,8 @@
    "Fe’l ko‘rinishlari: Сделать va Делать",
    "Jins (Род): 'Кофе' so‘zining jinsi",
    "Shahar jamoat transporti lug‘ati",
-   "Kelasi zamon: Будущее время (Быть + fe’l)"
+   "Kelasi zamon: Будущее время (Быть + fe’l)",
+   "Egalik olmoshlari: «чей», «чья», «чьё», «чьи»"
   ]
  },
  "types": {
@@ -48,11 +49,11 @@
    "tarjima",
    "xatoni_top",
    "lugat",
-   "grammatika"
+   "grammatika",
+   "test"
   ]
  },
  "templates": [
-  "glass",
   "gradient",
   "neon",
   "split",
@@ -63,7 +64,8 @@
   "quiz",
   "photo",
   "photo",
-  "glass"
+  "glass",
+  "quiz"
  ],
  "paused": false,
  "done": {
