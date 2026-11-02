@@ -1,3 +1,3 @@
-2026-11-02 07:00:18,610 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-02 07:47:19,581 INFO Post ar/farq urinish 1: baho 10, ["Arabcha 'ذَهَبْتُ لِلِدِرَاسَةِ' imlosidagi xatolik 'ذَهَبْتُ لِلدِّرَاسَةِ' ko‘rinishida to‘g‘rilandi.", "Eski 'birlan' so‘zi zamonaviy 'bilan' so‘ziga almashtirildi.", "Rasm sarlavhasidagi tushunarsiz 'AMALlI' so‘zi 'بِـ VA لِـ HARFLARI' deb to‘g‘rilandi.", 'Matn hajmi belgilangan talabga (450-720 belgi) moslashtirildi va arabcha so‘zlarga to‘liq harakatlar qo‘yildi.']
-2026-11-02 08:00:00,776 INFO Kanalga chiqdi: 2026-11-02_1300_ar
+2026-11-02 08:00:20,128 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-02 09:47:18,485 INFO Post ru/test urinish 1: baho 10, ['«Muzrabor» imloviy xatosi «muzlik jinsi»ga to‘g‘rilandi', '«Orta jins» birikmasi to‘g‘ri o‘zbekcha lotin grafikasida «o‘rta jins» qilib tuzatildi', '«Tog‘ri» so‘zidagi tutuq/apostroflar «To‘g‘ri» shakliga keltirildi', 'Post matni belgilar soni talabiga (450–720 belgi) moslab yetkazildi']
+2026-11-02 10:00:01,305 INFO Kanalga chiqdi: 2026-11-02_1500_ru
