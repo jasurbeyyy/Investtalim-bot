@@ -1,3 +1,3 @@
-2026-11-02 08:00:20,128 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-02 09:47:18,485 INFO Post ru/test urinish 1: baho 10, ['«Muzrabor» imloviy xatosi «muzlik jinsi»ga to‘g‘rilandi', '«Orta jins» birikmasi to‘g‘ri o‘zbekcha lotin grafikasida «o‘rta jins» qilib tuzatildi', '«Tog‘ri» so‘zidagi tutuq/apostroflar «To‘g‘ri» shakliga keltirildi', 'Post matni belgilar soni talabiga (450–720 belgi) moslab yetkazildi']
-2026-11-02 10:00:01,305 INFO Kanalga chiqdi: 2026-11-02_1500_ru
+2026-11-02 10:00:22,203 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-02 11:47:16,158 INFO Post en/tarjima urinish 1: baho 9, ["Matn uzunligi talab qilingan 450-720 belgilar oralig'iga keltirildi.", "O'zbekcha harflar va apostrof belgilari (o‘, g‘) standart shaklga keltirildi."]
+2026-11-02 12:00:01,724 INFO Kanalga chiqdi: 2026-11-02_1700_en
