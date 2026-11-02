@@ -6,7 +6,8 @@
    "Ovqat bilan bog‘liq inglizcha iboralar",
    "Modal fe’llar: Majburiyat va maslahat (must, should, have to)",
    "Sanaladigan va sanalmaydigan otlar (Countable vs Uncountable)",
-   "Sifatlarning qiyosiy darajasi: double consonants"
+   "Sifatlarning qiyosiy darajasi: double consonants",
+   "Vaqt predloglari: In, On, At"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -33,7 +34,8 @@
    "fakt",
    "lugat",
    "dialog",
-   "test"
+   "test",
+   "tarjima"
   ],
   "ar": [
    "lugat",
@@ -54,7 +56,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "neon",
   "split",
   "notebook",
@@ -65,7 +66,8 @@
   "photo",
   "photo",
   "glass",
-  "quiz"
+  "quiz",
+  "notebook"
  ],
  "paused": false,
  "done": {
