@@ -1,3 +1,3 @@
-2026-11-02 02:00:19,415 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-02 02:47:16,878 INFO Post en/test urinish 1: baho 10, ['Post matni uzunligi talab qilingan minimal chegaradan kam edi (426 belgi), u 571 belgigacha uzaytirildi (norma: 450-720 belgi).', '"Xshsh" kabi noo‘rin ko‘rinishdagi so‘z "Xo‘sh" ga to‘g‘rilandi va grammatik tushuntirish yanada aniqroq berildi.']
-2026-11-02 03:00:01,589 INFO Kanalga chiqdi: 2026-11-02_0800_en
+2026-11-02 03:00:21,014 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-02 04:47:17,993 INFO Post ar/grammatika urinish 1: baho 10, ["Rasm sarlavhasidagi 'كَيْفَ حَالُكَا' so‘zidagi imlo xatosi 'كَيْفَ حَالُكَ' deb to‘g‘rilandi.", "Matndagi 'Aolga' bosiq xatosi 'Ayol kishiga' deb to‘g‘rilandi.", "Grammatik atama anshoqliroq bo‘lishi uchun 'olmosh oxiri' o‘rniga 'birikma olmoshi' tushunchasi kiritildi va matn hajm talabiga (450-720 belgi) moslashtirildi."]
+2026-11-02 05:00:00,721 INFO Kanalga chiqdi: 2026-11-02_1000_ar
