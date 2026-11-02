@@ -20,7 +20,8 @@
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
    "Fe’l ko‘rinishlari: Сделать va Делать",
    "Jins (Род): 'Кофе' so‘zining jinsi",
-   "Shahar jamoat transporti lug‘ati"
+   "Shahar jamoat transporti lug‘ati",
+   "Kelasi zamon: Будущее время (Быть + fe’l)"
   ]
  },
  "types": {
@@ -44,11 +45,11 @@
    "grammatika",
    "tarjima",
    "xatoni_top",
-   "lugat"
+   "lugat",
+   "grammatika"
   ]
  },
  "templates": [
-  "split",
   "stripes",
   "glass",
   "gradient",
@@ -59,6 +60,7 @@
   "classic",
   "neon",
   "quiz",
+  "photo",
   "photo"
  ],
  "paused": false,
