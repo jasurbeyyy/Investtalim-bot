@@ -1,3 +1,3 @@
-2026-11-02 03:00:21,014 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-02 04:47:17,993 INFO Post ar/grammatika urinish 1: baho 10, ["Rasm sarlavhasidagi 'كَيْفَ حَالُكَا' so‘zidagi imlo xatosi 'كَيْفَ حَالُكَ' deb to‘g‘rilandi.", "Matndagi 'Aolga' bosiq xatosi 'Ayol kishiga' deb to‘g‘rilandi.", "Grammatik atama anshoqliroq bo‘lishi uchun 'olmosh oxiri' o‘rniga 'birikma olmoshi' tushunchasi kiritildi va matn hajm talabiga (450-720 belgi) moslashtirildi."]
-2026-11-02 05:00:00,721 INFO Kanalga chiqdi: 2026-11-02_1000_ar
+2026-11-02 05:00:20,941 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-02 06:47:17,484 INFO Post ru/grammatika urinish 1: baho 10, ['Uzbek tilidagi belgilar (o‘, g‘, ’) standart shaklga keltirildi.', 'Rus tilidagi fe’llarga urg‘ular qo‘shildi va grammatik atama (инфинитив) aniqlashtirildi.', 'Caption uzunligi talab qilingan me’yorga (450-720 belgi) moslashtirildi.']
+2026-11-02 07:00:01,490 INFO Kanalga chiqdi: 2026-11-02_1200_ru
