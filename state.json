@@ -13,7 +13,8 @@
    "Hikmatli so‘zlar va maqollar haqida qiziqarli fakt",
    "Tanishuv iborasidagi xatolik",
    "Kishilik olmoshlari (Muzakkar va Muannas)",
-   "Egalik olmoshlari (Muttasil olmoshlar)"
+   "Egalik olmoshlari (Muttasil olmoshlar)",
+   "Salomlashish va ahvol so‘rash grammatikasi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -36,7 +37,8 @@
    "fakt",
    "xatoni_top",
    "tarjima",
-   "test"
+   "test",
+   "grammatika"
   ],
   "ru": [
    "grammatika",
@@ -46,7 +48,6 @@
   ]
  },
  "templates": [
-  "waves",
   "split",
   "stripes",
   "glass",
@@ -57,7 +58,8 @@
   "photo",
   "classic",
   "neon",
-  "quiz"
+  "quiz",
+  "photo"
  ],
  "paused": false,
  "done": {
