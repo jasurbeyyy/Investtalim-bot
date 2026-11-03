@@ -18,7 +18,8 @@
    "Egalik olmoshlari (Muttasil olmoshlar)",
    "Salomlashish va ahvol so‘rash grammatikasi",
    "CEFR: بِـ (Bi) va لِـ (Li) jar harflari o‘rtasidagi farq",
-   "Sabr va uning mevalari haqida maqol"
+   "Sabr va uning mevalari haqida maqol",
+   "CEFR arab tili: Ta'limga oid muhim so'zlar"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -49,7 +50,8 @@
    "test",
    "grammatika",
    "farq",
-   "dialog"
+   "dialog",
+   "tarjima"
   ],
   "ru": [
    "grammatika",
@@ -62,7 +64,6 @@
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "neon",
   "quiz",
@@ -73,7 +74,8 @@
   "notebook",
   "bigletter",
   "photo",
-  "split"
+  "split",
+  "neon"
  ],
  "paused": false,
  "done": {
