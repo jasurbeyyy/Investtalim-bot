@@ -1,3 +1,3 @@
-2026-11-02 21:01:15,623 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-03 01:14:08,652 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
-2026-11-03 02:00:01,293 INFO Kanalga chiqdi: 2026-11-03_0700_tong
+2026-11-03 02:00:17,749 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-03 02:47:17,813 INFO Post en/grammatika urinish 1: baho 10, ["Matn ichidagi noo‘rin ishlatilgan 'clearly' so‘zi olib tashlanib, jümlo tabiiy o‘zbek tiliga moslashtirildi.", 'Qoidadagi noaniqlik tuzatildi: qo‘shimcha harfga emas, fe’l oxiridagi tovushga qarab talaffuz qilinishi ko‘rsatildi.', 'Matn uzunligi va formatlashi talab etilgan 450-720 me’yoriga keltirildi.']
+2026-11-03 03:00:01,198 INFO Kanalga chiqdi: 2026-11-03_0800_en
