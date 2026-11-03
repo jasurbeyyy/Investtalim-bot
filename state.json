@@ -7,7 +7,8 @@
    "Modal fe’llar: Majburiyat va maslahat (must, should, have to)",
    "Sanaladigan va sanalmaydigan otlar (Countable vs Uncountable)",
    "Sifatlarning qiyosiy darajasi: double consonants",
-   "Vaqt predloglari: In, On, At"
+   "Vaqt predloglari: In, On, At",
+   "-ed qo‘shimchasining talaffuz qoidalari"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -35,7 +36,8 @@
    "lugat",
    "dialog",
    "test",
-   "tarjima"
+   "tarjima",
+   "grammatika"
   ],
   "ar": [
    "lugat",
@@ -56,7 +58,6 @@
   ]
  },
  "templates": [
-  "neon",
   "split",
   "notebook",
   "photo",
@@ -67,7 +68,8 @@
   "photo",
   "glass",
   "quiz",
-  "notebook"
+  "notebook",
+  "bigletter"
  ],
  "paused": false,
  "done": {
