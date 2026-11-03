@@ -26,7 +26,8 @@
    "Jins (Род): 'Кофе' so‘zining jinsi",
    "Shahar jamoat transporti lug‘ati",
    "Kelasi zamon: Будущее время (Быть + fe’l)",
-   "Egalik olmoshlari: «чей», «чья», «чьё», «чьи»"
+   "Egalik olmoshlari: «чей», «чья», «чьё», «чьи»",
+   "Часто путаемые слова: Одеть va Надеть"
   ]
  },
  "types": {
@@ -56,11 +57,11 @@
    "xatoni_top",
    "lugat",
    "grammatika",
-   "test"
+   "test",
+   "kunning_sozi"
   ]
  },
  "templates": [
-  "notebook",
   "photo",
   "classic",
   "neon",
@@ -71,7 +72,8 @@
   "quiz",
   "notebook",
   "bigletter",
-  "photo"
+  "photo",
+  "split"
  ],
  "paused": false,
  "done": {
