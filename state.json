@@ -28,7 +28,8 @@
    "Shahar jamoat transporti lug‘ati",
    "Kelasi zamon: Будущее время (Быть + fe’l)",
    "Egalik olmoshlari: «чей», «чья», «чьё», «чьи»",
-   "Часто путаемые слова: Одеть va Надеть"
+   "Часто путаемые слова: Одеть va Надеть",
+   "Rus tilidagi «сорок» so‘zining kelib chiqishi"
   ]
  },
  "types": {
@@ -60,11 +61,11 @@
    "lugat",
    "grammatika",
    "test",
-   "kunning_sozi"
+   "kunning_sozi",
+   "fakt"
   ]
  },
  "templates": [
-  "classic",
   "neon",
   "quiz",
   "photo",
@@ -75,7 +76,8 @@
   "bigletter",
   "photo",
   "split",
-  "neon"
+  "neon",
+  "photo"
  ],
  "paused": false,
  "done": {
