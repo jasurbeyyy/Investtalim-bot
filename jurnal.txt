@@ -1,3 +1,23 @@
-2026-11-03 08:00:23,656 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-03 09:47:18,434 INFO Post ru/fakt urinish 1: baho 9, ['«ishlatilingan» degan grammatik xato «ishlatilgan» shakliga tuzatildi.', '10 soni «-дцать» qo‘shimchasiga ega bo‘lmagani uchun matn aniqlashtirilib, faqat 20 va 30 sonlari misol qilib keltirildi.', 'Lug‘at qismidagi otlarning jinsi (м.р., ж.р.) va urg‘ulari aniq ko‘rsatildi.', 'Kapshon hajmi talab qilingan 450–720 belgi oralig‘iga moslashtirildi.']
-2026-11-03 10:00:01,768 INFO Kanalga chiqdi: 2026-11-03_1500_ru
+2026-11-03 10:00:19,870 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-03 11:47:05,665 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-03 11:47:10,472 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-03 11:47:26,756 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-03 11:47:35,643 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-03 11:48:10,303 INFO Post en/lugat urinish 1: baho 10, ['Caption uzunligi talab qilingan miqdorgacha (450-720 belgi) oshirildi', 'O‘zbek tilidagi imlo xatolari tuzatildi (yeman -> yeyman)', 'Rasm ichidagi matnlar uzunligi 34 belgidan oshmasligi ta’minlandi', 'O‘zbek tili lotin alifbosi qoidalari (o‘, g‘, ’) to‘g‘rilandi', 'Tarjimalar aniqlashtirildi (bir kosada guruch -> bir kosa guruch)']
+2026-11-03 12:00:01,316 INFO Kanalga chiqdi: 2026-11-03_1700_en
