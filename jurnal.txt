@@ -1,3 +1,3 @@
-2026-11-03 07:00:24,666 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-03 07:47:21,380 INFO Post ar/tarjima urinish 1: baho 10, ["O‘zbekcha matndagi imlo va tinish belgilari tuzatildi ('Kelin' -> 'Keling', 'o'ling' -> 'oling', 'ko'p' -> 'ko‘p').", "Arabcha tarjimada 'mavzu' so‘ziga mos keluvchi 'الْمَوْضُوعَ' so‘zi ishlatildi.", 'Imtihon so‘zidagi hamza xatolari (لِلإِمْتِحَانِ -> لِلِامْتِحَانِ) va harakatlar to‘liq to‘g‘rilandi.', "Matn hajmi belgilangan me'yorga (450-720 belgi) keltirildi."]
-2026-11-03 08:00:02,032 INFO Kanalga chiqdi: 2026-11-03_1300_ar
+2026-11-03 08:00:23,656 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-03 09:47:18,434 INFO Post ru/fakt urinish 1: baho 9, ['«ishlatilingan» degan grammatik xato «ishlatilgan» shakliga tuzatildi.', '10 soni «-дцать» qo‘shimchasiga ega bo‘lmagani uchun matn aniqlashtirilib, faqat 20 va 30 sonlari misol qilib keltirildi.', 'Lug‘at qismidagi otlarning jinsi (м.р., ж.р.) va urg‘ulari aniq ko‘rsatildi.', 'Kapshon hajmi talab qilingan 450–720 belgi oralig‘iga moslashtirildi.']
+2026-11-03 10:00:01,768 INFO Kanalga chiqdi: 2026-11-03_1500_ru
