@@ -1,3 +1,3 @@
-2026-11-03 03:00:19,797 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-03 04:47:20,983 INFO Post ar/dialog urinish 1: baho 10, ["Sarlavhadagi 'haqingda' imlo xatosi 'haqida' so‘ziga tuzatildi.", "Arabcha matnda 'أَنْجَحَ' so‘zining harakatlari va hamzasi aniq shaklga keltirildi.", 'Uzbekcha tarjimalarda imlo va tinish belgilari to‘g‘rilandi (o‘ belgilari standartlashtirildi).', 'Kaption hajmi talab etilgan 450-720 belgilar oralig‘iga keltirildi.']
-2026-11-03 05:00:00,875 INFO Kanalga chiqdi: 2026-11-03_1000_ar
+2026-11-03 05:00:19,945 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-03 06:47:20,334 INFO Post ru/kunning_sozi urinish 1: baho 10, ['"Мама" tarjimasidagi "Ota-ona (ona)" xatosi "Ona" deb to‘g‘rilandi.', 'O‘zbekcha matndagi sun’iy "osonlab" so‘zi "osongina" shakliga almashtirildi.', 'Grammatik tushuntirishga kelishik (Винительный падеж) va so‘rovlar (что? / кого?) qo‘shildi.']
+2026-11-03 07:00:01,572 INFO Kanalga chiqdi: 2026-11-03_1200_ru
