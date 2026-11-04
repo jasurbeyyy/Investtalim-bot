@@ -1,7 +1,2 @@
-2026-11-04 15:43:24,887 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-04 15:47:03,229 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-04 16:00:03,616 INFO Kanalga chiqdi: 2026-11-04_2100_tun
+2026-11-04 16:00:22,365 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-04 16:00:23,084 INFO Navbatdagi post: 2026-11-05 07:00:00+05:00. 02:00 gacha kutiladi.
