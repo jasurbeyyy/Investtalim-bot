@@ -34,7 +34,8 @@
    "Egalik olmoshlari: «чей», «чья», «чьё», «чьи»",
    "Часто путаемые слова: Одеть va Надеть",
    "Rus tilidagi «сорок» so‘zining kelib chiqishi",
-   "Rus tilida soatni aytish (В ... часов)"
+   "Rus tilida soatni aytish (В ... часов)",
+   "Глаголы движения: «Идти» va «Ходить» farqi"
   ]
  },
  "types": {
@@ -71,11 +72,11 @@
    "test",
    "kunning_sozi",
    "fakt",
-   "grammatika"
+   "grammatika",
+   "dialog"
   ]
  },
  "templates": [
-  "quiz",
   "notebook",
   "bigletter",
   "photo",
@@ -86,7 +87,8 @@
   "bigletter",
   "photo",
   "photo",
-  "stripes"
+  "stripes",
+  "neon"
  ],
  "paused": false,
  "done": {
