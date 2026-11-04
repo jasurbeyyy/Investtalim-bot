@@ -1,8 +1,27 @@
-2026-11-04 03:00:23,891 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-04 04:47:16,326 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-04 05:00:22,037 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-04 06:47:38,901 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-04 04:47:42,731 INFO Post ar/ibora urinish 1: baho 9, ["Arabcha so‘zdagi Kirillcha 'Б' harfi to‘g‘ri arabcha 'ب' harfiga tuzatildi.", 'Matndagi barcha arabcha ibora va misollarga to‘liq harakatlar (tashkeel) berildi.', 'Post matni talab qilingan me’yoriy hajmgacha (450-720 belgi) keltirildi.']
-2026-11-04 05:00:01,098 INFO Kanalga chiqdi: 2026-11-04_1000_ar
+2026-11-04 06:48:24,089 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-04 06:48:32,243 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-04 06:48:38,544 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-04 06:48:57,319 WARNING AI xato (gemini-3-flash-preview): Gemini gemini-3-flash-preview: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+ 
+2026-11-04 06:49:26,208 INFO Post ru/grammatika urinish 1: baho 10, ['«Oltida» so‘zidagi imlo xatosi tuzatildi', 'O‘, G‘ harflari va tutuq belgisi standartga keltirildi', 'Matn hajmi talabga mos ravishda 580 belgigacha kengaytirildi', 'Rasm sarlavhasi va mazmuni grammatik mavzuga moslashtirildi', 'Rus tilidagi so‘zlarga urg‘u belgilari qo‘shildi', 'Mavzuni mustahkamlash uchun test (quiz) qo‘shildi']
+2026-11-04 07:00:01,395 INFO Kanalga chiqdi: 2026-11-04_1200_ru
