@@ -32,7 +32,8 @@
    "Kelasi zamon: Будущее время (Быть + fe’l)",
    "Egalik olmoshlari: «чей», «чья», «чьё», «чьи»",
    "Часто путаемые слова: Одеть va Надеть",
-   "Rus tilidagi «сорок» so‘zining kelib chiqishi"
+   "Rus tilidagi «сорок» so‘zining kelib chiqishi",
+   "Rus tilida soatni aytish (В ... часов)"
   ]
  },
  "types": {
@@ -68,11 +69,11 @@
    "grammatika",
    "test",
    "kunning_sozi",
-   "fakt"
+   "fakt",
+   "grammatika"
   ]
  },
  "templates": [
-  "photo",
   "glass",
   "quiz",
   "notebook",
@@ -83,6 +84,7 @@
   "photo",
   "glass",
   "bigletter",
+  "photo",
   "photo"
  ],
  "paused": false,
