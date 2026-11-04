@@ -9,7 +9,8 @@
    "Sifatlarning qiyosiy darajasi: double consonants",
    "Vaqt predloglari: In, On, At",
    "-ed qo‘shimchasining talaffuz qoidalari",
-   "Sanalmaydigan oziq-ovqat otlari va ularning o‘lchov birliklari"
+   "Sanalmaydigan oziq-ovqat otlari va ularning o‘lchov birliklari",
+   "Conditionals iborasi: If worst comes to worst"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -43,7 +44,8 @@
    "test",
    "tarjima",
    "grammatika",
-   "lugat"
+   "lugat",
+   "ibora"
   ],
   "ar": [
    "lugat",
@@ -68,7 +70,6 @@
   ]
  },
  "templates": [
-  "quiz",
   "photo",
   "photo",
   "glass",
@@ -79,7 +80,8 @@
   "split",
   "neon",
   "photo",
-  "glass"
+  "glass",
+  "bigletter"
  ],
  "paused": false,
  "done": {
