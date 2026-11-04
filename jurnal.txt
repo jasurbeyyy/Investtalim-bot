@@ -1,8 +1,8 @@
-2026-11-04 02:00:19,193 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-04 02:47:10,693 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-04 03:00:23,891 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-04 04:47:16,326 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-04 02:47:30,245 INFO Post en/ibora urinish 1: baho 10, ["Matndagi 'Sharshara kabi' tushunarsiz birikmasi mantiqli izoh bilan almashtirildi.", "'muqvili' so‘zidagi imlo xatosi 'muqobili' deb tuzatildi.", 'Rasm ichidagi inglizcha va o‘zbekcha matnlar belgilangan belgi cheklovlariga moslab ixchamlashtirildi.']
-2026-11-04 03:00:01,387 INFO Kanalga chiqdi: 2026-11-04_0800_en
+2026-11-04 04:47:42,731 INFO Post ar/ibora urinish 1: baho 9, ["Arabcha so‘zdagi Kirillcha 'Б' harfi to‘g‘ri arabcha 'ب' harfiga tuzatildi.", 'Matndagi barcha arabcha ibora va misollarga to‘liq harakatlar (tashkeel) berildi.', 'Post matni talab qilingan me’yoriy hajmgacha (450-720 belgi) keltirildi.']
+2026-11-04 05:00:01,098 INFO Kanalga chiqdi: 2026-11-04_1000_ar
