@@ -1,2 +1,9 @@
-2026-11-03 16:00:23,832 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-03 16:00:24,588 INFO Navbatdagi post: 2026-11-04 07:00:00+05:00. 02:00 gacha kutiladi.
+2026-11-03 21:01:34,779 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-04 01:17:10,741 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
+2026-11-04 01:17:21,214 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
+2026-11-04 01:47:02,780 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-04 02:00:01,084 INFO Kanalga chiqdi: 2026-11-04_0700_tong
