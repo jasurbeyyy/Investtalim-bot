@@ -37,7 +37,8 @@
    "Часто путаемые слова: Одеть va Надеть",
    "Rus tilidagi «сорок» so‘zining kelib chiqishi",
    "Rus tilida soatni aytish (В ... часов)",
-   "Глаголы движения: «Идти» va «Ходить» farqi"
+   "Глаголы движения: «Идти» va «Ходить» farqi",
+   "«Из» va «С» predloglari farqi"
   ]
  },
  "types": {
@@ -66,7 +67,6 @@
    "grammatika"
   ],
   "ru": [
-   "grammatika",
    "tarjima",
    "xatoni_top",
    "lugat",
@@ -75,11 +75,11 @@
    "kunning_sozi",
    "fakt",
    "grammatika",
-   "dialog"
+   "dialog",
+   "farq"
   ]
  },
  "templates": [
-  "photo",
   "split",
   "neon",
   "photo",
@@ -90,7 +90,8 @@
   "stripes",
   "neon",
   "photo",
-  "classic"
+  "classic",
+  "split"
  ],
  "paused": false,
  "done": {
