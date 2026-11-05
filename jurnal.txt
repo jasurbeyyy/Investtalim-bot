@@ -1,3 +1,8 @@
-2026-11-04 21:01:07,491 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-05 01:14:22,276 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
-2026-11-05 02:00:01,650 INFO Kanalga chiqdi: 2026-11-05_0700_tong
+2026-11-05 02:00:24,890 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-05 02:47:44,111 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 02:48:03,636 INFO Post en/fakt urinish 1: baho 10, ["Imlo xatosi tuzatildi: 'Iglingiz' -> 'Ingliz', 'tozalamash' -> 'tozalash'.", 'Kaption belgilar soni me’yoriy diapazonga (450-720 belgi) keltirildi.', "Rasmdagi 'Dress up' iborasi ma’nosiga ko‘ra 'Yasanish' deb to‘g‘rilandi."]
+2026-11-05 03:00:03,341 INFO Kanalga chiqdi: 2026-11-05_0800_en
