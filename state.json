@@ -39,7 +39,8 @@
    "Rus tilidagi «сорок» so‘zining kelib chiqishi",
    "Rus tilida soatni aytish (В ... часов)",
    "Глаголы движения: «Идти» va «Ходить» farqi",
-   "«Из» va «С» predloglari farqi"
+   "«Из» va «С» predloglari farqi",
+   "Kelishik iborasi: «С глаз доло́й — из се́рдца вон»"
   ]
  },
  "types": {
@@ -68,7 +69,6 @@
    "test"
   ],
   "ru": [
-   "tarjima",
    "xatoni_top",
    "lugat",
    "grammatika",
@@ -77,11 +77,11 @@
    "fakt",
    "grammatika",
    "dialog",
-   "farq"
+   "farq",
+   "ibora"
   ]
  },
  "templates": [
-  "neon",
   "photo",
   "glass",
   "bigletter",
@@ -92,7 +92,8 @@
   "photo",
   "classic",
   "split",
-  "photo"
+  "photo",
+  "neon"
  ],
  "paused": false,
  "done": {
