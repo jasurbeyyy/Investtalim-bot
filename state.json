@@ -24,7 +24,8 @@
    "Sabr va uning mevalari haqida maqol",
    "CEFR arab tili: Ta'limga oid muhim so'zlar",
    "Uyga oid ibora: Bayti - baytuk (Mening uyim — sening uying)",
-   "Kunning so‘zi: كِتَابٌ (Kitob) - Ism turkumi"
+   "Kunning so‘zi: كِتَابٌ (Kitob) - Ism turkumi",
+   "Arab tilida so‘z turkumlari: Ism, fe’l va harf"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -53,7 +54,6 @@
    "fakt"
   ],
   "ar": [
-   "fakt",
    "xatoni_top",
    "tarjima",
    "test",
@@ -62,7 +62,8 @@
    "dialog",
    "tarjima",
    "ibora",
-   "kunning_sozi"
+   "kunning_sozi",
+   "grammatika"
   ],
   "ru": [
    "grammatika",
@@ -78,7 +79,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "photo",
   "split",
   "neon",
@@ -89,7 +89,8 @@
   "photo",
   "stripes",
   "neon",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
