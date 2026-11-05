@@ -1,13 +1,4 @@
-2026-11-05 03:00:29,732 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-05 04:47:14,512 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-05 04:47:29,586 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-05 04:47:51,694 INFO Post ar/grammatika urinish 1: baho 9, ['Arabcha so‘zlarga to‘liq harakatlar va to‘g‘ri hamza imlosi berildi (الاِسْمُ o‘rniga الِاسْمُ).', 'Uzbekcha tutuq belgilari va harflar (o‘, g‘, ’) imlo qoidalariga moslashtirildi.', 'Matn uzunligi va qoidalar aniqlashtirildi hamda 450-720 belgilik me’yorga keltirildi.']
-2026-11-05 05:00:01,323 INFO Kanalga chiqdi: 2026-11-05_1000_ar
+2026-11-05 05:00:24,839 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-05 05:47:20,784 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-05 06:47:18,758 INFO Post ru/farq urinish 1: baho 9, ['Родительный падеж uchun noto‘g‘ri berilgan «O‘rin-payt» atamasi olib tashlanib, «Chiqish kelishigi» deb tuzatildi.', "«tomda'n» so‘zidagi imlo xatosi («tomdan») tuzatildi.", 'Matn hajmi talablarga mos ravishda 450–720 belgi oralig‘iga keltirildi va «в ➔ из», «на ➔ с» qoidasi qo‘shildi.']
+2026-11-05 07:00:01,605 INFO Kanalga chiqdi: 2026-11-05_1200_ru
