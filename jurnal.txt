@@ -1,3 +1,8 @@
-2026-11-05 07:00:26,678 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-05 07:47:32,929 INFO Post ar/test urinish 1: baho 10, ['Post matni uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi.', 'Grammatik izoh ilmiy jihatdan to‘g‘rilandi va arab tili atamalari (ishorat ismi, musanno, raf‘ holati, xabar) aniq qo‘llandi.', 'Rasm ichidagi sarlavha va matnlar belgilangan belgi cheklovlariga moslashtirildi.', 'O‘zbek tilidagi o‘, g‘ va tutuq belgilari imlosi qoidalarga mos ravishda to‘g‘rilandi.']
-2026-11-05 08:00:01,431 INFO Kanalga chiqdi: 2026-11-05_1300_ar
+2026-11-05 08:00:25,904 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-05 09:47:06,839 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 09:48:03,890 INFO Post ru/ibora urinish 1: baho 10, ['O‘zbekcha matndagi apostroflar va o‘/g‘ harflari standart belgilarga o‘tkazildi.', 'Rus tilidagi misollarda va sarlavhalarda urg‘ular aniqlashtirildi.', 'Matn va rasm elementlarining uzunlik hamda imlo qoidalariga mosligi to‘liq tasdiqlandi.']
+2026-11-05 10:00:01,391 INFO Kanalga chiqdi: 2026-11-05_1500_ru
