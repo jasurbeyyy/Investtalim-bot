@@ -11,7 +11,8 @@
    "-ed qo‘shimchasining talaffuz qoidalari",
    "Sanalmaydigan oziq-ovqat otlari va ularning o‘lchov birliklari",
    "Conditionals iborasi: If worst comes to worst",
-   "Kundalik iborali fe’llar: 'Wake up' va 'Get up' farqi"
+   "Kundalik iborali fe’llar: 'Wake up' va 'Get up' farqi",
+   "Talaffuzda 'ph' va 'gh' birikmalari"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -45,7 +46,6 @@
  },
  "types": {
   "en": [
-   "ibora",
    "fakt",
    "lugat",
    "dialog",
@@ -54,7 +54,8 @@
    "grammatika",
    "lugat",
    "ibora",
-   "fakt"
+   "fakt",
+   "grammatika"
   ],
   "ar": [
    "tarjima",
@@ -82,7 +83,6 @@
   ]
  },
  "templates": [
-  "photo",
   "glass",
   "bigletter",
   "photo",
@@ -93,7 +93,8 @@
   "classic",
   "split",
   "photo",
-  "neon"
+  "neon",
+  "photo"
  ],
  "paused": false,
  "done": {
