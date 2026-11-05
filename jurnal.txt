@@ -1,8 +1,38 @@
-2026-11-05 08:00:25,904 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-05 09:47:06,839 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-05 10:00:26,238 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-05 11:47:18,490 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-05 09:48:03,890 INFO Post ru/ibora urinish 1: baho 10, ['O‘zbekcha matndagi apostroflar va o‘/g‘ harflari standart belgilarga o‘tkazildi.', 'Rus tilidagi misollarda va sarlavhalarda urg‘ular aniqlashtirildi.', 'Matn va rasm elementlarining uzunlik hamda imlo qoidalariga mosligi to‘liq tasdiqlandi.']
-2026-11-05 10:00:01,391 INFO Kanalga chiqdi: 2026-11-05_1500_ru
+2026-11-05 11:47:28,518 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 11:47:39,279 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 11:47:46,613 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 11:48:00,008 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 11:48:07,057 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 11:48:32,350 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 11:48:56,922 INFO Post en/grammatika urinish 1: baho 10, ["Ingliz tilidagi 'enough difficult' grammatik xatosi 'difficult enough' shakliga tuzatildi.", 'O‘zbekcha matndagi tutuq va maxsus belgilar (o‘, g‘, ’) standart lotin alifbosiga keltirildi.', 'Matn uzunligi belgilangan 450-720 belgi oralig‘iga moslashtirildi.']
+2026-11-05 12:00:01,456 INFO Kanalga chiqdi: 2026-11-05_1700_en
