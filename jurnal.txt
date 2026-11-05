@@ -1,8 +1,13 @@
-2026-11-05 02:00:24,890 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-05 02:47:44,111 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-05 03:00:29,732 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-05 04:47:14,512 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-05 02:48:03,636 INFO Post en/fakt urinish 1: baho 10, ["Imlo xatosi tuzatildi: 'Iglingiz' -> 'Ingliz', 'tozalamash' -> 'tozalash'.", 'Kaption belgilar soni me’yoriy diapazonga (450-720 belgi) keltirildi.', "Rasmdagi 'Dress up' iborasi ma’nosiga ko‘ra 'Yasanish' deb to‘g‘rilandi."]
-2026-11-05 03:00:03,341 INFO Kanalga chiqdi: 2026-11-05_0800_en
+2026-11-05 04:47:29,586 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-05 04:47:51,694 INFO Post ar/grammatika urinish 1: baho 9, ['Arabcha so‘zlarga to‘liq harakatlar va to‘g‘ri hamza imlosi berildi (الاِسْمُ o‘rniga الِاسْمُ).', 'Uzbekcha tutuq belgilari va harflar (o‘, g‘, ’) imlo qoidalariga moslashtirildi.', 'Matn uzunligi va qoidalar aniqlashtirildi hamda 450-720 belgilik me’yorga keltirildi.']
+2026-11-05 05:00:01,323 INFO Kanalga chiqdi: 2026-11-05_1000_ar
