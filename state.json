@@ -25,7 +25,8 @@
    "CEFR arab tili: Ta'limga oid muhim so'zlar",
    "Uyga oid ibora: Bayti - baytuk (Mening uyim — sening uying)",
    "Kunning so‘zi: كِتَابٌ (Kitob) - Ism turkumi",
-   "Arab tilida so‘z turkumlari: Ism, fe’l va harf"
+   "Arab tilida so‘z turkumlari: Ism, fe’l va harf",
+   "Arab tilida ikkilik shakli (Musanno)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -55,7 +56,6 @@
    "fakt"
   ],
   "ar": [
-   "xatoni_top",
    "tarjima",
    "test",
    "grammatika",
@@ -64,7 +64,8 @@
    "tarjima",
    "ibora",
    "kunning_sozi",
-   "grammatika"
+   "grammatika",
+   "test"
   ],
   "ru": [
    "tarjima",
@@ -80,7 +81,6 @@
   ]
  },
  "templates": [
-  "split",
   "neon",
   "photo",
   "glass",
@@ -91,7 +91,8 @@
   "neon",
   "photo",
   "classic",
-  "split"
+  "split",
+  "photo"
  ],
  "paused": false,
  "done": {
