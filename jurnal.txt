@@ -1,2 +1,2 @@
-2026-11-06 12:00:21,163 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-06 16:00:00,963 INFO Kanalga chiqdi: 2026-11-06_2100_tun
+2026-11-06 16:00:21,913 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-06 16:00:22,747 INFO Navbatdagi post: 2026-11-07 07:00:00+05:00. 02:00 gacha kutiladi.
