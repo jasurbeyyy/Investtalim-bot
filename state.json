@@ -28,7 +28,8 @@
    "Uyga oid ibora: Bayti - baytuk (Mening uyim — sening uying)",
    "Kunning so‘zi: كِتَابٌ (Kitob) - Ism turkumi",
    "Arab tilida so‘z turkumlari: Ism, fe’l va harf",
-   "Arab tilida ikkilik shakli (Musanno)"
+   "Arab tilida ikkilik shakli (Musanno)",
+   "Tanishish va o‘zini tanishtirish iboralari"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -59,7 +60,6 @@
    "tarjima"
   ],
   "ar": [
-   "tarjima",
    "test",
    "grammatika",
    "farq",
@@ -68,7 +68,8 @@
    "ibora",
    "kunning_sozi",
    "grammatika",
-   "test"
+   "test",
+   "lugat"
   ],
   "ru": [
    "xatoni_top",
@@ -84,7 +85,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "photo",
   "photo",
   "stripes",
@@ -95,7 +95,8 @@
   "photo",
   "neon",
   "photo",
-  "notebook"
+  "notebook",
+  "split"
  ],
  "paused": false,
  "done": {
