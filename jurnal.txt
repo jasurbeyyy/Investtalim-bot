@@ -1,21 +1,11 @@
-2026-11-06 03:00:19,967 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-06 04:47:04,341 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+2026-11-06 05:00:24,051 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-06 06:47:04,328 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-06 04:47:12,515 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 04:47:22,550 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 04:47:26,715 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+2026-11-06 06:47:08,488 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-06 04:47:52,245 INFO Post ar/lugat urinish 1: baho 10, ['“shtishtirish” so‘zidagi imlo xatosi “tanishtirish” deb tuzatildi', 'Arabcha so‘zlarga o‘quvchilar qiynalmasligi uchun to‘liq harakatlar (tashkeel) qo‘yildi', 'Matn hajmi talab qilingan 450-720 belgi oralig‘iga keltirildi', 'Grammatik tushunchalarni ifodalash uchun “muzakkar” va “muannas” terminlari qo‘shildi', 'Muloqot misoli tabiiyroq ko‘rinishga keltirildi va xatolar tuzatildi']
-2026-11-06 05:00:03,420 INFO Kanalga chiqdi: 2026-11-06_1000_ar
+2026-11-06 06:47:32,702 INFO Post ru/lugat urinish 1: baho 10, ['«Потеха» so‘zining tarjimasi «o‘yin-kulgi» deb aniqlashtirildi.', '«Кончил дело» maqoli jonli muloqotda ko‘proq qo‘llanadigan «Сделал дело — гуляй смело» shakliga keltirildi va Uzbekcha tarjimasi ravonlashtirildi.', 'Ruscha maqollar va misol matniga to‘g‘ri urg‘u (́) belgilari qo‘yildi.', 'Matn hajmi 450–720 belgi oralig‘iga va Uzbek Latin imlo qoidalariga to‘liq moslashtirildi.']
+2026-11-06 07:00:03,703 INFO Kanalga chiqdi: 2026-11-06_1200_ru
