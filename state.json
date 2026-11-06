@@ -13,7 +13,8 @@
    "Conditionals iborasi: If worst comes to worst",
    "Kundalik iborali fe’llar: 'Wake up' va 'Get up' farqi",
    "Talaffuzda 'ph' va 'gh' birikmalari",
-   "Ob-havo va kiyim-kechak so‘z boyligi"
+   "Ob-havo va kiyim-kechak so‘z boyligi",
+   "Kollokatsiya: 'Make a mistake' iborasi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -51,7 +52,6 @@
  },
  "types": {
   "en": [
-   "lugat",
    "dialog",
    "test",
    "tarjima",
@@ -60,7 +60,8 @@
    "ibora",
    "fakt",
    "grammatika",
-   "tarjima"
+   "tarjima",
+   "xatoni_top"
   ],
   "ar": [
    "grammatika",
@@ -88,7 +89,6 @@
   ]
  },
  "templates": [
-  "neon",
   "photo",
   "classic",
   "split",
@@ -99,7 +99,8 @@
   "split",
   "waves",
   "bigletter",
-  "gradient"
+  "gradient",
+  "stripes"
  ],
  "paused": false,
  "done": {
