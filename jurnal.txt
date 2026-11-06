@@ -1,32 +1,3 @@
-2026-11-06 08:00:18,170 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-06 09:47:02,834 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 09:47:08,654 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 09:47:28,741 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 09:47:36,414 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 09:47:53,920 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 09:47:58,096 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-06 09:48:22,660 INFO Post ru/tarjima urinish 1: baho 10, ['«Unining» so‘zidagi imlo xatosi «Uning» deb tuzatildi', 'Matn uzunligi talab qilingan 450-720 belgi oralig‘iga yetkazildi', 'Rus tilidagi urg‘ular (stress marks) to‘g‘ri qo‘yildi va grammatik izohlar kengaytirildi', 'O‘zbek tili lotin alifbosi qoidalariga (o‘, g‘, ’) muvofiqlashtirildi', 'Rasm ichidagi matnlar belgilangan uzunlik cheklovlariga moslandi']
-2026-11-06 10:00:00,961 INFO Kanalga chiqdi: 2026-11-06_1500_ru
+2026-11-06 10:00:23,965 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-06 11:47:25,862 INFO Post en/xatoni_top urinish 1: baho 10, ['"Tog‘ri" so‘zidagi imloviy xato "To‘g‘ri" ko‘rinishida tuzatildi.', 'Rasm matnida javob tayyor ko‘rsatilgan edi, u topshiriq ko‘rinishiga o‘zgartirildi.', 'Post matni uzunligi belgilangan 450-720 belgi oralig‘iga aniq moslashtirildi.']
+2026-11-06 12:00:01,889 INFO Kanalga chiqdi: 2026-11-06_1700_en
