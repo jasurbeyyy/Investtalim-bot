@@ -1,19 +1,21 @@
-2026-11-06 02:00:18,568 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-06 02:28:01,781 WARNING Telegram tarmoq xatosi (getUpdates): The read operation timed out
-2026-11-06 02:47:01,867 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-06 03:00:19,967 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-06 04:47:04,341 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-06 04:47:12,515 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-06 02:47:13,383 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-06 04:47:22,550 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-06 02:47:19,071 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-06 04:47:26,715 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-06 02:47:40,148 INFO Post en/tarjima urinish 1: baho 10, ['"Charqlab" imlo xatosi "charaqlab" shakliga to‘g‘rilandi.', 'Mavzu nomidagi "soz boyligi" iborasi "so‘z boyligi" ga o‘zgartirildi.', 'Matn simvollar soni talab qilingan mezon (450-720 belgi) oralig‘iga yetkazildi.']
-2026-11-06 03:00:01,347 INFO Kanalga chiqdi: 2026-11-06_0800_en
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-06 04:47:52,245 INFO Post ar/lugat urinish 1: baho 10, ['“shtishtirish” so‘zidagi imlo xatosi “tanishtirish” deb tuzatildi', 'Arabcha so‘zlarga o‘quvchilar qiynalmasligi uchun to‘liq harakatlar (tashkeel) qo‘yildi', 'Matn hajmi talab qilingan 450-720 belgi oralig‘iga keltirildi', 'Grammatik tushunchalarni ifodalash uchun “muzakkar” va “muannas” terminlari qo‘shildi', 'Muloqot misoli tabiiyroq ko‘rinishga keltirildi va xatolar tuzatildi']
+2026-11-06 05:00:03,420 INFO Kanalga chiqdi: 2026-11-06_1000_ar
