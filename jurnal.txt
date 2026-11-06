@@ -1,3 +1,2 @@
-2026-11-06 10:00:23,965 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-06 11:47:25,862 INFO Post en/xatoni_top urinish 1: baho 10, ['"Tog‘ri" so‘zidagi imloviy xato "To‘g‘ri" ko‘rinishida tuzatildi.', 'Rasm matnida javob tayyor ko‘rsatilgan edi, u topshiriq ko‘rinishiga o‘zgartirildi.', 'Post matni uzunligi belgilangan 450-720 belgi oralig‘iga aniq moslashtirildi.']
-2026-11-06 12:00:01,889 INFO Kanalga chiqdi: 2026-11-06_1700_en
+2026-11-06 12:00:21,163 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-06 16:00:00,963 INFO Kanalga chiqdi: 2026-11-06_2100_tun
