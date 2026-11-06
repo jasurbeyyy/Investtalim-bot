@@ -12,7 +12,8 @@
    "Sanalmaydigan oziq-ovqat otlari va ularning o‘lchov birliklari",
    "Conditionals iborasi: If worst comes to worst",
    "Kundalik iborali fe’llar: 'Wake up' va 'Get up' farqi",
-   "Talaffuzda 'ph' va 'gh' birikmalari"
+   "Talaffuzda 'ph' va 'gh' birikmalari",
+   "Ob-havo va kiyim-kechak so‘z boyligi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -46,7 +47,6 @@
  },
  "types": {
   "en": [
-   "fakt",
    "lugat",
    "dialog",
    "test",
@@ -55,7 +55,8 @@
    "lugat",
    "ibora",
    "fakt",
-   "grammatika"
+   "grammatika",
+   "tarjima"
   ],
   "ar": [
    "tarjima",
@@ -83,7 +84,6 @@
   ]
  },
  "templates": [
-  "glass",
   "bigletter",
   "photo",
   "photo",
@@ -94,7 +94,8 @@
   "split",
   "photo",
   "neon",
-  "photo"
+  "photo",
+  "notebook"
  ],
  "paused": false,
  "done": {
