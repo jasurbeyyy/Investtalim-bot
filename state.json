@@ -43,7 +43,8 @@
    "Rus tilida soatni aytish (В ... часов)",
    "Глаголы движения: «Идти» va «Ходить» farqi",
    "«Из» va «С» predloglari farqi",
-   "Kelishik iborasi: «С глаз доло́й — из се́рдца вон»"
+   "Kelishik iborasi: «С глаз доло́й — из се́рдца вон»",
+   "Mehnat va harakat haqida ruscha maqollar"
   ]
  },
  "types": {
@@ -72,7 +73,6 @@
    "lugat"
   ],
   "ru": [
-   "xatoni_top",
    "lugat",
    "grammatika",
    "test",
@@ -81,11 +81,11 @@
    "grammatika",
    "dialog",
    "farq",
-   "ibora"
+   "ibora",
+   "lugat"
   ]
  },
  "templates": [
-  "photo",
   "photo",
   "stripes",
   "neon",
@@ -96,7 +96,8 @@
   "neon",
   "photo",
   "notebook",
-  "split"
+  "split",
+  "waves"
  ],
  "paused": false,
  "done": {
