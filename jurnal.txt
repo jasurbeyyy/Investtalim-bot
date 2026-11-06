@@ -1,11 +1,19 @@
-2026-11-06 05:00:24,051 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-06 06:47:04,328 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+2026-11-06 07:00:23,236 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-06 07:47:08,617 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-06 06:47:08,488 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+2026-11-06 07:47:12,752 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-06 06:47:32,702 INFO Post ru/lugat urinish 1: baho 10, ['«Потеха» so‘zining tarjimasi «o‘yin-kulgi» deb aniqlashtirildi.', '«Кончил дело» maqoli jonli muloqotda ko‘proq qo‘llanadigan «Сделал дело — гуляй смело» shakliga keltirildi va Uzbekcha tarjimasi ravonlashtirildi.', 'Ruscha maqollar va misol matniga to‘g‘ri urg‘u (́) belgilari qo‘yildi.', 'Matn hajmi 450–720 belgi oralig‘iga va Uzbek Latin imlo qoidalariga to‘liq moslashtirildi.']
-2026-11-06 07:00:03,703 INFO Kanalga chiqdi: 2026-11-06_1200_ru
+2026-11-06 07:47:20,855 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-06 07:47:24,988 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-06 07:47:56,680 INFO Post ar/xatoni_top urinish 1: baho 10, ['Arabcha so‘zlarga to‘liq harakatlar (tashkeel) qo‘yildi.', 'O‘zbek tilidagi imlo xatolari (o‘, g‘, ’) imlo qoidalariga muvofiq tuzatildi.', 'Matn uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi.', 'Grammatik atamalar (muannas, muzakkar, muzori’ fe’li) to‘g‘ri qo‘llanildi.', 'Rasm ichidagi matnlar belgilangan uzunlik me’yorlariga moslandi.', 'Viktorina (quiz) qo‘shildi va unda bitta to‘g‘ri javob ko‘rsatildi.']
+2026-11-06 08:00:00,820 INFO Kanalga chiqdi: 2026-11-06_1300_ar
