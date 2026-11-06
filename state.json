@@ -45,7 +45,8 @@
    "Глаголы движения: «Идти» va «Ходить» farqi",
    "«Из» va «С» predloglari farqi",
    "Kelishik iborasi: «С глаз доло́й — из се́рдца вон»",
-   "Mehnat va harakat haqida ruscha maqollar"
+   "Mehnat va harakat haqida ruscha maqollar",
+   "Shifokorda: Kasallik va og‘riq haqida gapirish (У меня болит)"
   ]
  },
  "types": {
@@ -74,7 +75,6 @@
    "xatoni_top"
   ],
   "ru": [
-   "lugat",
    "grammatika",
    "test",
    "kunning_sozi",
@@ -83,11 +83,11 @@
    "dialog",
    "farq",
    "ibora",
-   "lugat"
+   "lugat",
+   "tarjima"
   ]
  },
  "templates": [
-  "stripes",
   "neon",
   "photo",
   "classic",
@@ -98,7 +98,8 @@
   "notebook",
   "split",
   "waves",
-  "bigletter"
+  "bigletter",
+  "gradient"
  ],
  "paused": false,
  "done": {
