@@ -1,13 +1,8 @@
-2026-11-07 08:00:20,187 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-07 09:47:02,143 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-07 10:00:21,684 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-07 11:47:05,119 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-07 09:47:11,432 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-07 09:47:30,952 INFO Post ru/kunning_sozi urinish 1: baho 10, ['«Arapfada» imloviy xatosi hamda turkiy «cümlangizni» so‘zi o‘zbekcha «gapingizni» so‘ziga tuzatildi.', '«Вчера» so‘ziga «o‘tgan kuni» ma’nosi noto‘g‘ri berilgan edi (o‘tgan kuni — позавчера), u «kecha» deb to‘g‘rilandi va tegishli aloqador so‘zlar bilan almashtirildi.', 'Ruscha misollardagi so‘zlarga urg‘ular (акцент) to‘liq va to‘g‘ri qo‘yildi.']
-2026-11-07 10:00:03,183 INFO Kanalga chiqdi: 2026-11-07_1500_ru
+2026-11-07 11:47:21,966 INFO Post en/kunning_sozi urinish 1: baho 10, ['Apostroflar va tutuq belgilari standart o‘, g‘, ’ shakliga keltirildi', "Post matni strukturasi va o'qilish qulayligi oshirildi, belgi soni (600+) talabga moslashtirildi"]
+2026-11-07 12:00:01,159 INFO Kanalga chiqdi: 2026-11-07_1700_en
