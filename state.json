@@ -15,7 +15,8 @@
    "Talaffuzda 'ph' va 'gh' birikmalari",
    "Ob-havo va kiyim-kechak so‘z boyligi",
    "Kollokatsiya: 'Make a mistake' iborasi",
-   "Modal fe’llar: Can va Could"
+   "Modal fe’llar: Can va Could",
+   "Borrow va Lend fe’llarining farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -57,7 +58,6 @@
  },
  "types": {
   "en": [
-   "test",
    "tarjima",
    "grammatika",
    "lugat",
@@ -66,7 +66,8 @@
    "grammatika",
    "tarjima",
    "xatoni_top",
-   "test"
+   "test",
+   "kunning_sozi"
   ],
   "ar": [
    "dialog",
@@ -94,7 +95,6 @@
   ]
  },
  "templates": [
-  "photo",
   "notebook",
   "split",
   "waves",
@@ -105,7 +105,8 @@
   "photo",
   "photo",
   "quiz",
-  "bigletter"
+  "bigletter",
+  "gradient"
  ],
  "paused": false,
  "done": {
