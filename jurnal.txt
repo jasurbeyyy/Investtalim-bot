@@ -1,20 +1,13 @@
-2026-11-07 07:00:16,997 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-07 07:47:20,864 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-07 08:00:20,187 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-07 09:47:02,143 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-07 07:47:24,993 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+2026-11-07 09:47:11,432 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-07 07:47:33,153 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-07 07:47:37,279 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-07 07:48:10,459 INFO Post ar/test urinish 1: baho 10, ['Caption uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi (628 belgi)', 'Hashtaglar caption ichidan olib tashlandi', 'Barcha arabcha so‘zlarga to‘liq harakatlar (tashkeel) qo‘yildi', 'O‘zbek tili imlosi (o‘, g‘, ’) va tarjimalar senior editor darajasida to‘g‘rilandi', "Izoh qismiga 'ism' va 'harf' kabi grammatik atamalar qo‘shildi", 'Rasm matnlari belgilangan uzunlik cheklovlariga moslandi']
-2026-11-07 08:00:03,501 INFO Kanalga chiqdi: 2026-11-07_1300_ar
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-07 09:47:30,952 INFO Post ru/kunning_sozi urinish 1: baho 10, ['«Arapfada» imloviy xatosi hamda turkiy «cümlangizni» so‘zi o‘zbekcha «gapingizni» so‘ziga tuzatildi.', '«Вчера» so‘ziga «o‘tgan kuni» ma’nosi noto‘g‘ri berilgan edi (o‘tgan kuni — позавчера), u «kecha» deb to‘g‘rilandi va tegishli aloqador so‘zlar bilan almashtirildi.', 'Ruscha misollardagi so‘zlarga urg‘ular (акцент) to‘liq va to‘g‘ri qo‘yildi.']
+2026-11-07 10:00:03,183 INFO Kanalga chiqdi: 2026-11-07_1500_ru
