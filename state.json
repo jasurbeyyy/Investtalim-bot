@@ -51,7 +51,8 @@
    "Kelishik iborasi: «С глаз доло́й — из се́рдца вон»",
    "Mehnat va harakat haqida ruscha maqollar",
    "Shifokorda: Kasallik va og‘riq haqida gapirish (У меня болит)",
-   "Часто путаемые слова: «Положить» va «Класть»"
+   "Часто путаемые слова: «Положить» va «Класть»",
+   "Наречие времени: Вчера (Kecha)"
   ]
  },
  "types": {
@@ -80,7 +81,6 @@
    "test"
   ],
   "ru": [
-   "test",
    "kunning_sozi",
    "fakt",
    "grammatika",
@@ -89,11 +89,11 @@
    "ibora",
    "lugat",
    "tarjima",
-   "xatoni_top"
+   "xatoni_top",
+   "kunning_sozi"
   ]
  },
  "templates": [
-  "neon",
   "photo",
   "notebook",
   "split",
@@ -104,7 +104,8 @@
   "split",
   "photo",
   "photo",
-  "quiz"
+  "quiz",
+  "bigletter"
  ],
  "paused": false,
  "done": {
