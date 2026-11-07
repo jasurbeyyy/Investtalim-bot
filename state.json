@@ -14,7 +14,8 @@
    "Kundalik iborali fe’llar: 'Wake up' va 'Get up' farqi",
    "Talaffuzda 'ph' va 'gh' birikmalari",
    "Ob-havo va kiyim-kechak so‘z boyligi",
-   "Kollokatsiya: 'Make a mistake' iborasi"
+   "Kollokatsiya: 'Make a mistake' iborasi",
+   "Modal fe’llar: Can va Could"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -52,7 +53,6 @@
  },
  "types": {
   "en": [
-   "dialog",
    "test",
    "tarjima",
    "grammatika",
@@ -61,7 +61,8 @@
    "fakt",
    "grammatika",
    "tarjima",
-   "xatoni_top"
+   "xatoni_top",
+   "test"
   ],
   "ar": [
    "grammatika",
@@ -89,7 +90,6 @@
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "split",
   "photo",
@@ -100,7 +100,8 @@
   "waves",
   "bigletter",
   "gradient",
-  "stripes"
+  "stripes",
+  "split"
  ],
  "paused": false,
  "done": {
