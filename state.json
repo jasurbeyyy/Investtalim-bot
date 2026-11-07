@@ -32,7 +32,8 @@
    "Arab tilida so‘z turkumlari: Ism, fe’l va harf",
    "Arab tilida ikkilik shakli (Musanno)",
    "Tanishish va o‘zini tanishtirish iboralari",
-   "Xato top: Vaqtlashish iborasi (تُصْبِحُ عَلَى خَيْرٍ)"
+   "Xato top: Vaqtlashish iborasi (تُصْبِحُ عَلَى خَيْرٍ)",
+   "Arab tilida muannas (jins) ko‘pligi: Idorada"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -65,7 +66,6 @@
    "test"
   ],
   "ar": [
-   "grammatika",
    "farq",
    "dialog",
    "tarjima",
@@ -74,7 +74,8 @@
    "grammatika",
    "test",
    "lugat",
-   "xatoni_top"
+   "xatoni_top",
+   "dialog"
   ],
   "ru": [
    "grammatika",
@@ -90,7 +91,6 @@
   ]
  },
  "templates": [
-  "classic",
   "split",
   "photo",
   "neon",
@@ -101,7 +101,8 @@
   "bigletter",
   "gradient",
   "stripes",
-  "split"
+  "split",
+  "photo"
  ],
  "paused": false,
  "done": {
