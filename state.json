@@ -33,7 +33,8 @@
    "Arab tilida ikkilik shakli (Musanno)",
    "Tanishish va o‘zini tanishtirish iboralari",
    "Xato top: Vaqtlashish iborasi (تُصْبِحُ عَلَى خَيْرٍ)",
-   "Arab tilida muannas (jins) ko‘pligi: Idorada"
+   "Arab tilida muannas (jins) ko‘pligi: Idorada",
+   "Xayrlashuv iboralari: Ma’as-salāmah va Ilal-liqā’"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -67,7 +68,6 @@
    "test"
   ],
   "ar": [
-   "farq",
    "dialog",
    "tarjima",
    "ibora",
@@ -76,7 +76,8 @@
    "test",
    "lugat",
    "xatoni_top",
-   "dialog"
+   "dialog",
+   "test"
   ],
   "ru": [
    "test",
@@ -92,7 +93,6 @@
   ]
  },
  "templates": [
-  "photo",
   "neon",
   "photo",
   "notebook",
@@ -103,7 +103,8 @@
   "stripes",
   "split",
   "photo",
-  "photo"
+  "photo",
+  "quiz"
  ],
  "paused": false,
  "done": {
