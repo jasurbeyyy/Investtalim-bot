@@ -49,7 +49,8 @@
    "«Из» va «С» predloglari farqi",
    "Kelishik iborasi: «С глаз доло́й — из се́рдца вон»",
    "Mehnat va harakat haqida ruscha maqollar",
-   "Shifokorda: Kasallik va og‘riq haqida gapirish (У меня болит)"
+   "Shifokorda: Kasallik va og‘riq haqida gapirish (У меня болит)",
+   "Часто путаемые слова: «Положить» va «Класть»"
   ]
  },
  "types": {
@@ -78,7 +79,6 @@
    "dialog"
   ],
   "ru": [
-   "grammatika",
    "test",
    "kunning_sozi",
    "fakt",
@@ -87,11 +87,11 @@
    "farq",
    "ibora",
    "lugat",
-   "tarjima"
+   "tarjima",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "split",
   "photo",
   "neon",
   "photo",
@@ -102,6 +102,7 @@
   "gradient",
   "stripes",
   "split",
+  "photo",
   "photo"
  ],
  "paused": false,
