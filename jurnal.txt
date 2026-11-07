@@ -1,23 +1,8 @@
-2026-11-07 02:00:17,859 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-07 02:48:04,937 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-07 03:00:21,663 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-07 04:47:32,085 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-07 02:48:15,293 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-07 02:48:38,154 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-07 02:48:44,953 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-07 02:50:19,765 INFO Post en/test urinish 1: baho 10, ['Caption uzunligi talabga ko‘ra 450-720 belgigacha oshirildi', 'O‘zbek tili imlosi (o‘, g‘, ’) xalqaro standartga muvofiqlashtirildi', 'Rasm matnlari qisqartirildi va mazmuni aniqlashtirildi', 'Grammatik tushuntirish va misollar boyitildi']
-2026-11-07 03:00:01,121 INFO Kanalga chiqdi: 2026-11-07_0800_en
+2026-11-07 04:48:01,140 INFO Post ar/dialog urinish 1: baho 10, ["Tarjimadagi 'O‘qituvchi/Xodim ayollar' birikmasidan 'O‘qituvchi' so‘zi olib tashlandi ('al-muwazzafaat' faqat xodim ayollarni bildiradi)", "'bandlar-mi?' so‘zi tuturuqsiz chiziqchasiz 'bandlarmi?' shakliga tuzatildi", 'Sarlavhadagi va matndagi arabcha so‘zlarning harakatlari to‘liq va aniq qilindi', 'Matn uzunligi va format Telegram standartlariga (450-720 belgi) muvofiqlashtirildi']
+2026-11-07 05:00:01,120 INFO Kanalga chiqdi: 2026-11-07_1000_ar
