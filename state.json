@@ -36,7 +36,8 @@
    "Tanishish va o‘zini tanishtirish iboralari",
    "Xato top: Vaqtlashish iborasi (تُصْبِحُ عَلَى خَيْرٍ)",
    "Arab tilida muannas (jins) ko‘pligi: Idorada",
-   "Xayrlashuv iboralari: Ma’as-salāmah va Ilal-liqā’"
+   "Xayrlashuv iboralari: Ma’as-salāmah va Ilal-liqā’",
+   "Fe’li moziy (O‘tgan zamon fe’li) sodda ko‘rinishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -71,7 +72,6 @@
    "farq"
   ],
   "ar": [
-   "dialog",
    "tarjima",
    "ibora",
    "kunning_sozi",
@@ -80,7 +80,8 @@
    "lugat",
    "xatoni_top",
    "dialog",
-   "test"
+   "test",
+   "grammatika"
   ],
   "ru": [
    "kunning_sozi",
@@ -96,7 +97,6 @@
   ]
  },
  "templates": [
-  "split",
   "waves",
   "bigletter",
   "gradient",
@@ -107,7 +107,8 @@
   "quiz",
   "bigletter",
   "gradient",
-  "photo"
+  "photo",
+  "split"
  ],
  "paused": false,
  "done": {
