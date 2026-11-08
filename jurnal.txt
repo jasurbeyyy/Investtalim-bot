@@ -1,3 +1,4 @@
-2026-11-08 07:00:19,438 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-08 07:47:15,319 INFO Post ar/kunning_sozi urinish 1: baho 9, ['Inglizcha «Part of speech» iborasi o‘zbekcha «So‘z turkumi»ga almashtirildi.', 'Matn uzunligi talab qilingan 450–720 belgi oralig‘iga yetkazildi.', 'Arabcha sozlar to‘liq harakatlantirildi va o‘zbekcha arab tili grammatik terminlari (fe’li moziy, amr fe’li) to‘g‘ri qo‘llandi.']
-2026-11-08 08:00:01,006 INFO Kanalga chiqdi: 2026-11-08_1300_ar
+2026-11-08 08:00:17,593 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-08 09:17:23,479 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
+2026-11-08 09:47:13,955 INFO Post ru/farq urinish 1: baho 9, ['«Стол лежит» iborasi tabiiyroq bo‘lgan «Стол стоит» ga o‘zgartirildi (rus tilida mebel yotmaydi, turadi).', "O‘zbek tilidagi imlo xatolari va apostroflar to‘g‘rilandi (uzbek -> o‘zbek, O'zbek -> O‘zbek, roduga -> rodiga).", 'Rasm matnlari belgilangan belgi cheklovlariga muvofiqlashtirildi.']
+2026-11-08 10:00:00,943 INFO Kanalga chiqdi: 2026-11-08_1500_ru
