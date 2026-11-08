@@ -1,18 +1,3 @@
-2026-11-08 05:00:20,498 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-08 06:47:09,937 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-08 06:47:16,372 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-08 06:47:36,145 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-08 06:47:51,833 INFO Post ru/fakt urinish 1: baho 10, ['Matndagi «nima bo» bosma xatosi to‘g‘rilandi va «oldiga nima tushsa» deb almashtirildi.', 'Lug‘at qismida rus tilidagi so‘zlarning grammatik xususiyatlari (so‘z turkumi, jins, fe’l ko‘rinishi) qo‘shildi.', 'O‘zbekcha matn imlosi (o‘, g‘, ’ belgilari) standart shaklga keltirildi.', 'Post matni uzunligi belgilangan 450–720 belgi talabiga moslashtirildi.']
-2026-11-08 07:00:01,536 INFO Kanalga chiqdi: 2026-11-08_1200_ru
+2026-11-08 07:00:19,438 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-08 07:47:15,319 INFO Post ar/kunning_sozi urinish 1: baho 9, ['Inglizcha «Part of speech» iborasi o‘zbekcha «So‘z turkumi»ga almashtirildi.', 'Matn uzunligi talab qilingan 450–720 belgi oralig‘iga yetkazildi.', 'Arabcha sozlar to‘liq harakatlantirildi va o‘zbekcha arab tili grammatik terminlari (fe’li moziy, amr fe’li) to‘g‘ri qo‘llandi.']
+2026-11-08 08:00:01,006 INFO Kanalga chiqdi: 2026-11-08_1300_ar
