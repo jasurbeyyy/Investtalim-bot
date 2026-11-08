@@ -57,7 +57,8 @@
    "Shifokorda: Kasallik va og‘riq haqida gapirish (У меня болит)",
    "Часто путаемые слова: «Положить» va «Класть»",
    "Наречие времени: Вчера (Kecha)",
-   "«Го́лод не тётка» maqolining kelib chiqishi"
+   "«Го́лод не тётка» maqolining kelib chiqishi",
+   "Rod: Мужской va Женский родda «он» va «она» almashinuvi"
   ]
  },
  "types": {
@@ -86,7 +87,6 @@
    "kunning_sozi"
   ],
   "ru": [
-   "fakt",
    "grammatika",
    "dialog",
    "farq",
@@ -95,11 +95,11 @@
    "tarjima",
    "xatoni_top",
    "kunning_sozi",
-   "fakt"
+   "fakt",
+   "farq"
   ]
  },
  "templates": [
-  "gradient",
   "stripes",
   "split",
   "photo",
@@ -110,7 +110,8 @@
   "photo",
   "split",
   "notebook",
-  "photo"
+  "photo",
+  "bigletter"
  ],
  "paused": false,
  "done": {
