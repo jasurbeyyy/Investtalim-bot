@@ -16,7 +16,8 @@
    "Ob-havo va kiyim-kechak so‘z boyligi",
    "Kollokatsiya: 'Make a mistake' iborasi",
    "Modal fe’llar: Can va Could",
-   "Borrow va Lend fe’llarining farqi"
+   "Borrow va Lend fe’llarining farqi",
+   "'Travel' va 'Trip' so‘zlarining farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -58,7 +59,6 @@
  },
  "types": {
   "en": [
-   "tarjima",
    "grammatika",
    "lugat",
    "ibora",
@@ -67,7 +67,8 @@
    "tarjima",
    "xatoni_top",
    "test",
-   "kunning_sozi"
+   "kunning_sozi",
+   "farq"
   ],
   "ar": [
    "dialog",
@@ -95,7 +96,6 @@
   ]
  },
  "templates": [
-  "notebook",
   "split",
   "waves",
   "bigletter",
@@ -106,7 +106,8 @@
   "photo",
   "quiz",
   "bigletter",
-  "gradient"
+  "gradient",
+  "photo"
  ],
  "paused": false,
  "done": {
