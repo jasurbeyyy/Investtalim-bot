@@ -1,3 +1,18 @@
-2026-11-08 03:00:15,797 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-08 04:47:19,177 INFO Post ar/grammatika urinish 1: baho 10, ['Arabcha so‘z va birikmalarga to‘liq harakatlar (tashkeel) qo‘yildi hamda imlosi bir xillashtirildi.', 'Grammatik tushuncha aniqlashtirildi va an’anaviy atamalar (fo‘il, rofe holati) kiritildi.', 'Uzbekcha lotin yozuvi qoidalariga (o‘, fe’l) moslashtirildi va matn hajmi 618 belgigacha muvofiqlashtirildi.']
-2026-11-08 05:00:01,062 INFO Kanalga chiqdi: 2026-11-08_1000_ar
+2026-11-08 05:00:20,498 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-08 06:47:09,937 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-08 06:47:16,372 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-08 06:47:36,145 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-08 06:47:51,833 INFO Post ru/fakt urinish 1: baho 10, ['Matndagi «nima bo» bosma xatosi to‘g‘rilandi va «oldiga nima tushsa» deb almashtirildi.', 'Lug‘at qismida rus tilidagi so‘zlarning grammatik xususiyatlari (so‘z turkumi, jins, fe’l ko‘rinishi) qo‘shildi.', 'O‘zbekcha matn imlosi (o‘, g‘, ’ belgilari) standart shaklga keltirildi.', 'Post matni uzunligi belgilangan 450–720 belgi talabiga moslashtirildi.']
+2026-11-08 07:00:01,536 INFO Kanalga chiqdi: 2026-11-08_1200_ru
