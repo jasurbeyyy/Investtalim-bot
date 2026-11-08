@@ -17,7 +17,8 @@
    "Kollokatsiya: 'Make a mistake' iborasi",
    "Modal fe’llar: Can va Could",
    "Borrow va Lend fe’llarining farqi",
-   "'Travel' va 'Trip' so‘zlarining farqi"
+   "'Travel' va 'Trip' so‘zlarining farqi",
+   "Pay attention kollokatsiyasi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -63,7 +64,6 @@
  },
  "types": {
   "en": [
-   "grammatika",
    "lugat",
    "ibora",
    "fakt",
@@ -72,7 +72,8 @@
    "xatoni_top",
    "test",
    "kunning_sozi",
-   "farq"
+   "farq",
+   "grammatika"
   ],
   "ar": [
    "ibora",
@@ -100,7 +101,6 @@
   ]
  },
  "templates": [
-  "stripes",
   "split",
   "photo",
   "photo",
@@ -111,7 +111,8 @@
   "split",
   "notebook",
   "photo",
-  "bigletter"
+  "bigletter",
+  "neon"
  ],
  "paused": false,
  "done": {
