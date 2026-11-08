@@ -55,7 +55,8 @@
    "Mehnat va harakat haqida ruscha maqollar",
    "Shifokorda: Kasallik va og‘riq haqida gapirish (У меня болит)",
    "Часто путаемые слова: «Положить» va «Класть»",
-   "Наречие времени: Вчера (Kecha)"
+   "Наречие времени: Вчера (Kecha)",
+   "«Го́лод не тётка» maqolining kelib chiqishi"
   ]
  },
  "types": {
@@ -84,7 +85,6 @@
    "grammatika"
   ],
   "ru": [
-   "kunning_sozi",
    "fakt",
    "grammatika",
    "dialog",
@@ -93,11 +93,11 @@
    "lugat",
    "tarjima",
    "xatoni_top",
-   "kunning_sozi"
+   "kunning_sozi",
+   "fakt"
   ]
  },
  "templates": [
-  "waves",
   "bigletter",
   "gradient",
   "stripes",
@@ -108,7 +108,8 @@
   "bigletter",
   "gradient",
   "photo",
-  "split"
+  "split",
+  "notebook"
  ],
  "paused": false,
  "done": {
