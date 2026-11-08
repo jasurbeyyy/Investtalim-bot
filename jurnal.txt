@@ -1,8 +1,2 @@
-2026-11-08 10:00:16,903 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-08 11:47:00,961 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-08 11:47:20,008 INFO Post en/grammatika urinish 1: baho 10, ['Rasm ostidagi matnda (subtitle) to‘g‘ri o‘zbek lotin alifbosi belgilari (o‘, g‘, ’) o‘rnatildi.']
-2026-11-08 12:00:01,264 INFO Kanalga chiqdi: 2026-11-08_1700_en
+2026-11-08 12:00:16,461 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-08 16:00:00,956 INFO Kanalga chiqdi: 2026-11-08_2100_tun
