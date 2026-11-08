@@ -37,7 +37,8 @@
    "Xato top: Vaqtlashish iborasi (تُصْبِحُ عَلَى خَيْرٍ)",
    "Arab tilida muannas (jins) ko‘pligi: Idorada",
    "Xayrlashuv iboralari: Ma’as-salāmah va Ilal-liqā’",
-   "Fe’li moziy (O‘tgan zamon fe’li) sodda ko‘rinishi"
+   "Fe’li moziy (O‘tgan zamon fe’li) sodda ko‘rinishi",
+   "Fe’li muzori’ (Hozirgi-kelasi zamon fe’li) va uning qo‘llanishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -73,7 +74,6 @@
    "farq"
   ],
   "ar": [
-   "tarjima",
    "ibora",
    "kunning_sozi",
    "grammatika",
@@ -82,7 +82,8 @@
    "xatoni_top",
    "dialog",
    "test",
-   "grammatika"
+   "grammatika",
+   "kunning_sozi"
   ],
   "ru": [
    "fakt",
@@ -98,7 +99,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "gradient",
   "stripes",
   "split",
@@ -109,7 +109,8 @@
   "gradient",
   "photo",
   "split",
-  "notebook"
+  "notebook",
+  "photo"
  ],
  "paused": false,
  "done": {
