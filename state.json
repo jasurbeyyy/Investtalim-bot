@@ -61,7 +61,8 @@
    "Часто путаемые слова: «Положить» va «Класть»",
    "Наречие времени: Вчера (Kecha)",
    "«Го́лод не тётка» maqolining kelib chiqishi",
-   "Rod: Мужской va Женский родda «он» va «она» almashinuvi"
+   "Rod: Мужской va Женский родda «он» va «она» almashinuvi",
+   "Do‘stlik haqida ruscha maqollar"
   ]
  },
  "types": {
@@ -90,7 +91,6 @@
    "xatoni_top"
   ],
   "ru": [
-   "grammatika",
    "dialog",
    "farq",
    "ibora",
@@ -99,11 +99,11 @@
    "xatoni_top",
    "kunning_sozi",
    "fakt",
-   "farq"
+   "farq",
+   "tarjima"
   ]
  },
  "templates": [
-  "photo",
   "quiz",
   "bigletter",
   "gradient",
@@ -114,6 +114,7 @@
   "bigletter",
   "neon",
   "split",
+  "photo",
   "photo"
  ],
  "paused": false,
