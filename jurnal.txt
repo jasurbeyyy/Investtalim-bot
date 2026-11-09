@@ -1,8 +1,3 @@
-2026-11-09 03:00:19,287 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-09 04:47:12,678 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-09 04:47:26,326 INFO Post ar/xatoni_top urinish 1: baho 10, ['Kapshondagi Kirill alifbosidagi «Чунки» so‘zi Lotin alifbosidagi «Chunki» so‘ziga hamda «Tog‘ri» so‘zi «To‘g‘ri»ga tuzatildi.', 'Arabcha gap va iboralarga to‘liq harakatlar (tashkeel) qo‘yildi.', 'Kapshon uzunligi 450-720 belgi oralig‘iga keltirildi.']
-2026-11-09 05:00:01,033 INFO Kanalga chiqdi: 2026-11-09_1000_ar
+2026-11-09 05:00:25,471 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-09 06:47:13,996 INFO Post ru/tarjima urinish 1: baho 9, ['Ruscha javoblarda urg‘ular to‘liq qo‘yildi («но́вых» so‘ziga urg‘u belgilandi).', 'O‘zbekcha iboradagi keraksiz qavslar olib tashlanib, «Do‘st kulfatda bilinadi» ko‘rinishida aniqlashtirildi.', 'Post matni belgilar soni talabiga (450–720 belgi) moslab tartibga solindi.']
+2026-11-09 07:00:01,139 INFO Kanalga chiqdi: 2026-11-09_1200_ru
