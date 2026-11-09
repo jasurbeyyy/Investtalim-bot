@@ -18,7 +18,8 @@
    "Modal fe’llar: Can va Could",
    "Borrow va Lend fe’llarining farqi",
    "'Travel' va 'Trip' so‘zlarining farqi",
-   "Pay attention kollokatsiyasi"
+   "Pay attention kollokatsiyasi",
+   "Sog‘liq va shifokor qabuli so‘zlari"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -64,7 +65,6 @@
  },
  "types": {
   "en": [
-   "lugat",
    "ibora",
    "fakt",
    "grammatika",
@@ -73,7 +73,8 @@
    "test",
    "kunning_sozi",
    "farq",
-   "grammatika"
+   "grammatika",
+   "lugat"
   ],
   "ar": [
    "ibora",
@@ -101,7 +102,6 @@
   ]
  },
  "templates": [
-  "split",
   "photo",
   "photo",
   "quiz",
@@ -112,7 +112,8 @@
   "notebook",
   "photo",
   "bigletter",
-  "neon"
+  "neon",
+  "split"
  ],
  "paused": false,
  "done": {
