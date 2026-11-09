@@ -1,3 +1,3 @@
-2026-11-09 07:00:17,534 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-09 07:47:14,729 INFO Post ar/lugat urinish 1: baho 10, ["Topic sarlovhasidagi 'keraksiz' so‘zi 'kerakli' so‘ziga tuzatildi.", 'Arabcha so‘zlar va misol jumlaga to‘liq harakatlar (tashkeel) qo‘yildi va tarjimasi anig‘lashtirildi.', 'Matn uzunligi talab etilgan 450-720 belgilar oralig‘iga keltirildi.']
-2026-11-09 08:00:01,175 INFO Kanalga chiqdi: 2026-11-09_1300_ar
+2026-11-09 08:00:19,901 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-09 09:47:52,182 INFO Post ru/dialog urinish 1: baho 10, ['O‘zbekcha matndagi imloviy xatolar tuzatildi («nortadan» -> «narsadan», «vos» -> «voz»).', 'Apostrof belgilarining to‘g‘ri shakli qo‘llanildi (o‘, g‘).', 'Fe’llarning grammatik xususiyatlari (turi va kelishigi: сов. вид, Творительный падеж) aniqlashtirildi.', 'Matn uzunligi belgilangan talabga (450-720 belgi) moslashtirildi.']
+2026-11-09 10:00:01,567 INFO Kanalga chiqdi: 2026-11-09_1500_ru
