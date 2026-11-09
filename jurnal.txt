@@ -1,8 +1,8 @@
-2026-11-09 10:03:46,797 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-09 11:47:03,143 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-09 12:00:21,280 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-09 12:52:32,964 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
+2026-11-09 15:47:12,398 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-09 11:47:41,060 INFO Post en/tarjima urinish 1: baho 10, ['Post matni talab qilingan 450–720 belgi oralig‘iga yetkazildi va boyitildi.', "Ingliz tilidagi 3-tarжима gapidagi 'takes a break often every day' g‘aliz ibora 'often takes breaks during work' ko‘rinishida tabiiylashtirildi.", 'O‘zbekcha matndagi tutuq va maxsus belgilar (o‘, g‘, ’) standart imlo qoidalariga moslashtirildi.']
-2026-11-09 12:00:01,800 INFO Kanalga chiqdi: 2026-11-09_1700_en
+2026-11-09 16:00:00,864 INFO Kanalga chiqdi: 2026-11-09_2100_tun
