@@ -19,7 +19,8 @@
    "Borrow va Lend fe’llarining farqi",
    "'Travel' va 'Trip' so‘zlarining farqi",
    "Pay attention kollokatsiyasi",
-   "Sog‘liq va shifokor qabuli so‘zlari"
+   "Sog‘liq va shifokor qabuli so‘zlari",
+   "‘Catch a cold’ va ‘Take a break’ kollokatsiyalari"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -69,7 +70,6 @@
  },
  "types": {
   "en": [
-   "ibora",
    "fakt",
    "grammatika",
    "tarjima",
@@ -78,7 +78,8 @@
    "kunning_sozi",
    "farq",
    "grammatika",
-   "lugat"
+   "lugat",
+   "tarjima"
   ],
   "ar": [
    "grammatika",
@@ -106,7 +107,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "photo",
   "split",
   "notebook",
@@ -117,7 +117,8 @@
   "photo",
   "photo",
   "photo",
-  "gradient"
+  "gradient",
+  "waves"
  ],
  "paused": false,
  "done": {
