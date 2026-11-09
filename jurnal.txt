@@ -1,3 +1,8 @@
-2026-11-09 02:00:19,444 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-09 02:47:14,956 INFO Post en/lugat urinish 1: baho 10, ['«O‘zingizni yomon his qilganda» iborasi grammatik va uslubiy jihatdan «o‘zingizni yomon his qilganingizda» shakliga tuzatildi.', 'Tarjimalar va misol gaplar yanada aniqroq hamda tabiiyroq ko‘rinishga keltirildi.', 'Post matni uzunligi talab qilingan 450–720 belgilar oralig‘iga muvofiqlashtirildi.']
-2026-11-09 03:00:01,235 INFO Kanalga chiqdi: 2026-11-09_0800_en
+2026-11-09 03:00:19,287 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-09 04:47:12,678 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-09 04:47:26,326 INFO Post ar/xatoni_top urinish 1: baho 10, ['Kapshondagi Kirill alifbosidagi «Чунки» so‘zi Lotin alifbosidagi «Chunki» so‘ziga hamda «Tog‘ri» so‘zi «To‘g‘ri»ga tuzatildi.', 'Arabcha gap va iboralarga to‘liq harakatlar (tashkeel) qo‘yildi.', 'Kapshon uzunligi 450-720 belgi oralig‘iga keltirildi.']
+2026-11-09 05:00:01,033 INFO Kanalga chiqdi: 2026-11-09_1000_ar
