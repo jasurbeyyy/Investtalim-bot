@@ -63,7 +63,8 @@
    "Наречие времени: Вчера (Kecha)",
    "«Го́лод не тётка» maqolining kelib chiqishi",
    "Rod: Мужской va Женский родda «он» va «она» almashinuvi",
-   "Do‘stlik haqida ruscha maqollar"
+   "Do‘stlik haqida ruscha maqollar",
+   "Часто путаемые слова: «Поступить» va «Поступиться»"
   ]
  },
  "types": {
@@ -92,7 +93,6 @@
    "lugat"
   ],
   "ru": [
-   "dialog",
    "farq",
    "ibora",
    "lugat",
@@ -101,11 +101,11 @@
    "kunning_sozi",
    "fakt",
    "farq",
-   "tarjima"
+   "tarjima",
+   "dialog"
   ]
  },
  "templates": [
-  "bigletter",
   "gradient",
   "photo",
   "split",
@@ -116,7 +116,8 @@
   "split",
   "photo",
   "photo",
-  "photo"
+  "photo",
+  "gradient"
  ],
  "paused": false,
  "done": {
