@@ -41,7 +41,8 @@
    "Xayrlashuv iboralari: Ma’as-salāmah va Ilal-liqā’",
    "Fe’li moziy (O‘tgan zamon fe’li) sodda ko‘rinishi",
    "Fe’li muzori’ (Hozirgi-kelasi zamon fe’li) va uning qo‘llanishi",
-   "Xato top: Harf va Ismning birikishi (Jar harflari)"
+   "Xato top: Harf va Ismning birikishi (Jar harflari)",
+   "Sayohat lug‘ati: Aeroportda kerakli so‘zlar"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -79,7 +80,6 @@
    "lugat"
   ],
   "ar": [
-   "kunning_sozi",
    "grammatika",
    "test",
    "lugat",
@@ -88,7 +88,8 @@
    "test",
    "grammatika",
    "kunning_sozi",
-   "xatoni_top"
+   "xatoni_top",
+   "lugat"
   ],
   "ru": [
    "dialog",
@@ -104,7 +105,6 @@
   ]
  },
  "templates": [
-  "quiz",
   "bigletter",
   "gradient",
   "photo",
@@ -114,6 +114,7 @@
   "bigletter",
   "neon",
   "split",
+  "photo",
   "photo",
   "photo"
  ],
