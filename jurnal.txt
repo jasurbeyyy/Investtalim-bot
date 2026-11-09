@@ -1,3 +1,3 @@
-2026-11-08 21:00:49,330 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-09 01:12:34,776 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
-2026-11-09 02:00:01,465 INFO Kanalga chiqdi: 2026-11-09_0700_tong
+2026-11-09 02:00:19,444 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-09 02:47:14,956 INFO Post en/lugat urinish 1: baho 10, ['«O‘zingizni yomon his qilganda» iborasi grammatik va uslubiy jihatdan «o‘zingizni yomon his qilganingizda» shakliga tuzatildi.', 'Tarjimalar va misol gaplar yanada aniqroq hamda tabiiyroq ko‘rinishga keltirildi.', 'Post matni uzunligi talab qilingan 450–720 belgilar oralig‘iga muvofiqlashtirildi.']
+2026-11-09 03:00:01,235 INFO Kanalga chiqdi: 2026-11-09_0800_en
