@@ -40,7 +40,8 @@
    "Arab tilida muannas (jins) ko‘pligi: Idorada",
    "Xayrlashuv iboralari: Ma’as-salāmah va Ilal-liqā’",
    "Fe’li moziy (O‘tgan zamon fe’li) sodda ko‘rinishi",
-   "Fe’li muzori’ (Hozirgi-kelasi zamon fe’li) va uning qo‘llanishi"
+   "Fe’li muzori’ (Hozirgi-kelasi zamon fe’li) va uning qo‘llanishi",
+   "Xato top: Harf va Ismning birikishi (Jar harflari)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -77,7 +78,6 @@
    "lugat"
   ],
   "ar": [
-   "ibora",
    "kunning_sozi",
    "grammatika",
    "test",
@@ -86,7 +86,8 @@
    "dialog",
    "test",
    "grammatika",
-   "kunning_sozi"
+   "kunning_sozi",
+   "xatoni_top"
   ],
   "ru": [
    "grammatika",
@@ -103,7 +104,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "quiz",
   "bigletter",
   "gradient",
@@ -113,7 +113,8 @@
   "photo",
   "bigletter",
   "neon",
-  "split"
+  "split",
+  "photo"
  ],
  "paused": false,
  "done": {
