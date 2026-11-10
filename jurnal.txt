@@ -1,4 +1,3 @@
-2026-11-09 21:00:37,858 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-10 01:11:51,138 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
-2026-11-10 01:13:12,173 WARNING Telegram tarmoq xatosi (getUpdates): The read operation timed out
-2026-11-10 02:00:01,492 INFO Kanalga chiqdi: 2026-11-10_0700_tong
+2026-11-10 02:00:19,524 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-10 02:47:16,909 INFO Post en/kunning_sozi urinish 1: baho 10, ["Matn boshidagi kichik harf va ortiqcha bo‘sh joy to‘g‘rilandi (' bugun' -> 'Bugun').", "Rasmdagi 'Alloqachon' so‘zidagi imloviy xato 'Allaqachon' deb tuzatildi.", 'Hashtaglardagi nomuvofiqlik tuzatildi (#kunningsatiri -> #kunningsozi).', 'O‘zbekcha matndagi tutuq belgilar va o‘, g‘ harflari standart lotin alifbosiga moslashtirildi.', 'Post matni belgilar soni talabiga (450-720 belgi) moslab optimallashtirildi.']
+2026-11-10 03:00:01,111 INFO Kanalga chiqdi: 2026-11-10_0800_en
