@@ -45,7 +45,8 @@
    "Fe’li muzori’ (Hozirgi-kelasi zamon fe’li) va uning qo‘llanishi",
    "Xato top: Harf va Ismning birikishi (Jar harflari)",
    "Sayohat lug‘ati: Aeroportda kerakli so‘zlar",
-   "1 va 2 sonlarining sanoq qoidasi"
+   "1 va 2 sonlarining sanoq qoidasi",
+   "Harfi jar: عَلَى (Ala) va فِي (Fi) farqi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -85,7 +86,6 @@
    "kunning_sozi"
   ],
   "ar": [
-   "test",
    "lugat",
    "xatoni_top",
    "dialog",
@@ -94,7 +94,8 @@
    "kunning_sozi",
    "xatoni_top",
    "lugat",
-   "grammatika"
+   "grammatika",
+   "farq"
   ],
   "ru": [
    "ibora",
@@ -110,7 +111,6 @@
   ]
  },
  "templates": [
-  "photo",
   "bigletter",
   "neon",
   "split",
@@ -121,7 +121,8 @@
   "waves",
   "neon",
   "stripes",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
