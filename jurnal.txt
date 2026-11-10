@@ -1,13 +1,22 @@
-2026-11-10 10:00:23,672 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-10 11:47:42,104 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-10 12:00:24,233 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-10 15:47:01,982 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-10 11:47:55,395 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-10 15:47:08,380 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-10 11:48:18,684 INFO Post en/dialog urinish 1: baho 10, ["Mavzu nomidagi 'Sözlar' so‘zi to‘g‘ri o‘zbek lotin alifbosida 'So‘zlar' qilib tuzatildi.", "'Do a favour' iborasi aniqroq 'yaxshilik qilmoq' deb tarjima qilindi.", 'Post matni uzunligi talab qilingan 450-720 belgilar oralig‘iga va tuturuq belgilari (o‘, g‘, ’) standartiga keltirildi.']
-2026-11-10 12:00:01,614 INFO Kanalga chiqdi: 2026-11-10_1700_en
+2026-11-10 15:47:18,515 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-10 15:47:24,073 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-10 16:00:01,849 INFO Kanalga chiqdi: 2026-11-10_2100_tun
