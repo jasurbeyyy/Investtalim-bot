@@ -21,7 +21,8 @@
    "Pay attention kollokatsiyasi",
    "Sog‘liq va shifokor qabuli so‘zlari",
    "‘Catch a cold’ va ‘Take a break’ kollokatsiyalari",
-   "Hozirgi tugallangan zamon: Present Perfect"
+   "Hozirgi tugallangan zamon: Present Perfect",
+   "So‘zlar farqi: Make va Do"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -75,7 +76,6 @@
  },
  "types": {
   "en": [
-   "grammatika",
    "tarjima",
    "xatoni_top",
    "test",
@@ -84,7 +84,8 @@
    "grammatika",
    "lugat",
    "tarjima",
-   "kunning_sozi"
+   "kunning_sozi",
+   "dialog"
   ],
   "ar": [
    "lugat",
@@ -112,7 +113,6 @@
   ]
  },
  "templates": [
-  "neon",
   "split",
   "photo",
   "photo",
@@ -123,7 +123,8 @@
   "stripes",
   "photo",
   "classic",
-  "glass"
+  "glass",
+  "photo"
  ],
  "paused": false,
  "done": {
