@@ -1,3 +1,13 @@
-2026-11-10 05:00:21,367 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-10 06:47:54,566 INFO Post ru/lugat urinish 1: baho 10, ['Ruscha so‘zlardagi aralashib ketgan lotin harflari (méсяце) to‘g‘ri kirill harflariga almashtirildi.', "'Число' so‘zining 'kun tartibi' degan noto‘g‘ri tarjimasi 'sana, oy kuni' deb tuzatildi.", 'Otlar uchun grammatik jins (ср. р., м. р.) va urg‘ular aniq ko‘rsatildi.', 'Matn hajmi talab qilingan 450-720 belgi oralig‘iga keltirildi.']
-2026-11-10 07:00:01,425 INFO Kanalga chiqdi: 2026-11-10_1200_ru
+2026-11-10 07:00:19,921 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-10 07:47:07,917 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-10 07:47:28,905 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-10 07:48:14,984 INFO Post ar/farq urinish 1: baho 10, ["O‘zbekcha matndagi apostrof belgisi (Ma'noga -> Ma’noga) standart tutroq belgisiga (’) almashtirildi", "Atamashunoslik arab tili grammatikasi qoidalariga moslashtirildi ('jar harflari' o‘rniga 'harfi jarlar')", 'Arabcha matnlardagi barcha kalit so‘z va misollarga to‘liq harakatlar (tashkeel) qo‘yildi', 'Matn uzunligi belgilangan standartga (450-720 belgi) keltirildi']
+2026-11-10 08:00:01,209 INFO Kanalga chiqdi: 2026-11-10_1300_ar
