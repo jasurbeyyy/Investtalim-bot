@@ -20,7 +20,8 @@
    "'Travel' va 'Trip' so‘zlarining farqi",
    "Pay attention kollokatsiyasi",
    "Sog‘liq va shifokor qabuli so‘zlari",
-   "‘Catch a cold’ va ‘Take a break’ kollokatsiyalari"
+   "‘Catch a cold’ va ‘Take a break’ kollokatsiyalari",
+   "Hozirgi tugallangan zamon: Present Perfect"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -70,7 +71,6 @@
  },
  "types": {
   "en": [
-   "fakt",
    "grammatika",
    "tarjima",
    "xatoni_top",
@@ -79,7 +79,8 @@
    "farq",
    "grammatika",
    "lugat",
-   "tarjima"
+   "tarjima",
+   "kunning_sozi"
   ],
   "ar": [
    "grammatika",
@@ -107,7 +108,6 @@
   ]
  },
  "templates": [
-  "photo",
   "split",
   "notebook",
   "photo",
@@ -118,7 +118,8 @@
   "photo",
   "photo",
   "gradient",
-  "waves"
+  "waves",
+  "neon"
  ],
  "paused": false,
  "done": {
