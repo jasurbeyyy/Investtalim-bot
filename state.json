@@ -44,7 +44,8 @@
    "Fe’li moziy (O‘tgan zamon fe’li) sodda ko‘rinishi",
    "Fe’li muzori’ (Hozirgi-kelasi zamon fe’li) va uning qo‘llanishi",
    "Xato top: Harf va Ismning birikishi (Jar harflari)",
-   "Sayohat lug‘ati: Aeroportda kerakli so‘zlar"
+   "Sayohat lug‘ati: Aeroportda kerakli so‘zlar",
+   "1 va 2 sonlarining sanoq qoidasi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -83,7 +84,6 @@
    "kunning_sozi"
   ],
   "ar": [
-   "grammatika",
    "test",
    "lugat",
    "xatoni_top",
@@ -92,7 +92,8 @@
    "grammatika",
    "kunning_sozi",
    "xatoni_top",
-   "lugat"
+   "lugat",
+   "grammatika"
   ],
   "ru": [
    "farq",
@@ -108,7 +109,6 @@
   ]
  },
  "templates": [
-  "split",
   "notebook",
   "photo",
   "bigletter",
@@ -119,7 +119,8 @@
   "photo",
   "gradient",
   "waves",
-  "neon"
+  "neon",
+  "stripes"
  ],
  "paused": false,
  "done": {
