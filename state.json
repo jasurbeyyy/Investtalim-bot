@@ -69,7 +69,8 @@
    "Rod: Мужской va Женский родda «он» va «она» almashinuvi",
    "Do‘stlik haqida ruscha maqollar",
    "Часто путаемые слова: «Поступить» va «Поступиться»",
-   "Sana va oylarni aytish (Дни недели и месяцы)"
+   "Sana va oylarni aytish (Дни недели и месяцы)",
+   "Часто путаемые слова: «Подня́ть» va «Повы́сить»"
   ]
  },
  "types": {
@@ -98,7 +99,6 @@
    "farq"
   ],
   "ru": [
-   "ibora",
    "lugat",
    "tarjima",
    "xatoni_top",
@@ -107,11 +107,11 @@
    "farq",
    "tarjima",
    "dialog",
-   "lugat"
+   "lugat",
+   "test"
   ]
  },
  "templates": [
-  "bigletter",
   "neon",
   "split",
   "photo",
@@ -122,7 +122,8 @@
   "neon",
   "stripes",
   "photo",
-  "classic"
+  "classic",
+  "glass"
  ],
  "paused": false,
  "done": {
