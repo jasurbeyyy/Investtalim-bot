@@ -1,18 +1,3 @@
-2026-11-10 03:00:20,246 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-10 04:47:01,724 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-10 04:47:15,976 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-10 04:47:22,500 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-10 04:47:44,212 INFO Post ar/grammatika urinish 1: baho 10, ['Imlo xatosi («Birfta kitob») tuzatildi («Bitta kitob»).', '«إِثْنَانِ» va «إِثْنَتَانِ» so‘zlaridagi hamza standart hamzatul-vasl qoidasiga ko‘ra «اثْنَانِ» va «اثْنَتَانِ» ko‘rinishida to‘g‘rilandi va to‘liq harakatlar qo‘yildi.', 'Uzbek tilidagi grammatik terminlar (ma’dud, sifat, muzakkar, muannas) hamda ayn va tutuq belgilar to‘g‘ri shaklga keltirildi.', 'Matn uzunligi va format Telegram kanali uchun moslashtirildi (450–720 belgi oralig‘ida).']
-2026-11-10 05:00:01,278 INFO Kanalga chiqdi: 2026-11-10_1000_ar
+2026-11-10 05:00:21,367 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-10 06:47:54,566 INFO Post ru/lugat urinish 1: baho 10, ['Ruscha so‘zlardagi aralashib ketgan lotin harflari (méсяце) to‘g‘ri kirill harflariga almashtirildi.', "'Число' so‘zining 'kun tartibi' degan noto‘g‘ri tarjimasi 'sana, oy kuni' deb tuzatildi.", 'Otlar uchun grammatik jins (ср. р., м. р.) va urg‘ular aniq ko‘rsatildi.', 'Matn hajmi talab qilingan 450-720 belgi oralig‘iga keltirildi.']
+2026-11-10 07:00:01,425 INFO Kanalga chiqdi: 2026-11-10_1200_ru
