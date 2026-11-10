@@ -67,7 +67,8 @@
    "«Го́лод не тётка» maqolining kelib chiqishi",
    "Rod: Мужской va Женский родda «он» va «она» almashinuvi",
    "Do‘stlik haqida ruscha maqollar",
-   "Часто путаемые слова: «Поступить» va «Поступиться»"
+   "Часто путаемые слова: «Поступить» va «Поступиться»",
+   "Sana va oylarni aytish (Дни недели и месяцы)"
   ]
  },
  "types": {
@@ -96,7 +97,6 @@
    "grammatika"
   ],
   "ru": [
-   "farq",
    "ibora",
    "lugat",
    "tarjima",
@@ -105,11 +105,11 @@
    "fakt",
    "farq",
    "tarjima",
-   "dialog"
+   "dialog",
+   "lugat"
   ]
  },
  "templates": [
-  "notebook",
   "photo",
   "bigletter",
   "neon",
@@ -120,7 +120,8 @@
   "gradient",
   "waves",
   "neon",
-  "stripes"
+  "stripes",
+  "photo"
  ],
  "paused": false,
  "done": {
