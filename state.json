@@ -22,7 +22,8 @@
    "Sog‘liq va shifokor qabuli so‘zlari",
    "‘Catch a cold’ va ‘Take a break’ kollokatsiyalari",
    "Hozirgi tugallangan zamon: Present Perfect",
-   "So‘zlar farqi: Make va Do"
+   "So‘zlar farqi: Make va Do",
+   "Ingliz tilida g‘alati talaffuz qilinadigan so‘zlar"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -76,7 +77,6 @@
  },
  "types": {
   "en": [
-   "tarjima",
    "xatoni_top",
    "test",
    "kunning_sozi",
@@ -85,7 +85,8 @@
    "lugat",
    "tarjima",
    "kunning_sozi",
-   "dialog"
+   "dialog",
+   "lugat"
   ],
   "ar": [
    "lugat",
@@ -113,7 +114,6 @@
   ]
  },
  "templates": [
-  "split",
   "photo",
   "photo",
   "photo",
@@ -124,6 +124,7 @@
   "photo",
   "classic",
   "glass",
+  "photo",
   "photo"
  ],
  "paused": false,
