@@ -1,3 +1,18 @@
-2026-11-11 07:00:16,254 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-11 07:47:21,846 INFO Post ar/test urinish 1: baho 10, ['Matn (caption) uzunligi talab qilingan me’yorga (450-720 belgi) yetkazildi.', 'Rasm ichidagi ikkinchi qator uzunligi 34 belgidan oshib ketgani sababli ikki qatorga ajratildi.', 'Uzbek tilidagi lotin yozuvi qoidalariga (o‘, g‘, ’) to‘liq moslashtirildi va grammatik terminlar aniqlashtirildi.']
-2026-11-11 08:00:01,220 INFO Kanalga chiqdi: 2026-11-11_1300_ar
+2026-11-11 08:00:24,466 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-11 09:47:01,538 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-11 09:47:14,711 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-11 09:47:24,414 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-11 09:47:46,242 INFO Post ru/ibora urinish 1: baho 9, ['«Muqvili» so‘zidagi imloviy xato «muqobili» ga tuzatildi.', 'Rasm matnidagi grammatik jihatdan xato yozilgan «Ни кого? Ни чего?» so‘zlari to‘g‘ri «Кого? Чего?» shakliga almashtirildi.', 'O‘zbekcha matnlardagi tutuq belgisi va apostroflar standart shaklga keltirildi.']
+2026-11-11 10:00:01,251 INFO Kanalga chiqdi: 2026-11-11_1500_ru
