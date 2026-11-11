@@ -48,7 +48,8 @@
    "Xato top: Harf va Ismning birikishi (Jar harflari)",
    "Sayohat lug‘ati: Aeroportda kerakli so‘zlar",
    "1 va 2 sonlarining sanoq qoidasi",
-   "Harfi jar: عَلَى (Ala) va فِي (Fi) farqi"
+   "Harfi jar: عَلَى (Ala) va فِي (Fi) farqi",
+   "Arab tilida ot gap haqida qiziqarli fakt"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -89,7 +90,6 @@
    "lugat"
   ],
   "ar": [
-   "lugat",
    "xatoni_top",
    "dialog",
    "test",
@@ -98,7 +98,8 @@
    "xatoni_top",
    "lugat",
    "grammatika",
-   "farq"
+   "farq",
+   "fakt"
   ],
   "ru": [
    "lugat",
@@ -116,7 +117,6 @@
  "templates": [
   "photo",
   "photo",
-  "photo",
   "gradient",
   "waves",
   "neon",
@@ -124,6 +124,7 @@
   "photo",
   "classic",
   "glass",
+  "photo",
   "photo",
   "photo"
  ],
