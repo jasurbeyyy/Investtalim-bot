@@ -49,7 +49,8 @@
    "Sayohat lug‘ati: Aeroportda kerakli so‘zlar",
    "1 va 2 sonlarining sanoq qoidasi",
    "Harfi jar: عَلَى (Ala) va فِي (Fi) farqi",
-   "Arab tilida ot gap haqida qiziqarli fakt"
+   "Arab tilida ot gap haqida qiziqarli fakt",
+   "Harfi jar: Irab qoidasi va majrur ism"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -91,7 +92,6 @@
    "lugat"
   ],
   "ar": [
-   "xatoni_top",
    "dialog",
    "test",
    "grammatika",
@@ -100,7 +100,8 @@
    "lugat",
    "grammatika",
    "farq",
-   "fakt"
+   "fakt",
+   "test"
   ],
   "ru": [
    "tarjima",
@@ -116,7 +117,6 @@
   ]
  },
  "templates": [
-  "photo",
   "gradient",
   "waves",
   "neon",
@@ -127,7 +127,8 @@
   "photo",
   "photo",
   "photo",
-  "notebook"
+  "notebook",
+  "photo"
  ],
  "paused": false,
  "done": {
