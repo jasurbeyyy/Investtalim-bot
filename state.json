@@ -73,7 +73,8 @@
    "Do‘stlik haqida ruscha maqollar",
    "Часто путаемые слова: «Поступить» va «Поступиться»",
    "Sana va oylarni aytish (Дни недели и месяцы)",
-   "Часто путаемые слова: «Подня́ть» va «Повы́сить»"
+   "Часто путаемые слова: «Подня́ть» va «Повы́сить»",
+   "Rod (Jins): 'Яблоко' so‘zining jinsi va moslashuvi"
   ]
  },
  "types": {
@@ -102,7 +103,6 @@
    "fakt"
   ],
   "ru": [
-   "lugat",
    "tarjima",
    "xatoni_top",
    "kunning_sozi",
@@ -111,11 +111,11 @@
    "tarjima",
    "dialog",
    "lugat",
-   "test"
+   "test",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "photo",
   "photo",
   "gradient",
   "waves",
@@ -126,7 +126,8 @@
   "glass",
   "photo",
   "photo",
-  "photo"
+  "photo",
+  "notebook"
  ],
  "paused": false,
  "done": {
