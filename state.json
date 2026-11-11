@@ -23,7 +23,8 @@
    "‘Catch a cold’ va ‘Take a break’ kollokatsiyalari",
    "Hozirgi tugallangan zamon: Present Perfect",
    "So‘zlar farqi: Make va Do",
-   "Ingliz tilida g‘alati talaffuz qilinadigan so‘zlar"
+   "Ingliz tilida g‘alati talaffuz qilinadigan so‘zlar",
+   "Sifatlarning orttirma darajasi (Superlatives)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -81,7 +82,6 @@
  },
  "types": {
   "en": [
-   "xatoni_top",
    "test",
    "kunning_sozi",
    "farq",
@@ -90,7 +90,8 @@
    "tarjima",
    "kunning_sozi",
    "dialog",
-   "lugat"
+   "lugat",
+   "tarjima"
   ],
   "ar": [
    "dialog",
@@ -118,7 +119,6 @@
   ]
  },
  "templates": [
-  "waves",
   "neon",
   "stripes",
   "photo",
@@ -129,7 +129,8 @@
   "photo",
   "notebook",
   "photo",
-  "classic"
+  "classic",
+  "photo"
  ],
  "paused": false,
  "done": {
