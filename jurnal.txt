@@ -1,3 +1,8 @@
-2026-11-12 02:00:19,949 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-12 02:47:13,267 INFO Post en/xatoni_top urinish 1: baho 10, ["Caption uzunligi talab qilingan 450-720 belgilar oralig'iga keltirildi va takroriy chaqiriqlar olib tashlandi.", "Grammatik tushuntirish va namuna o'zbek tilida aniqroq hamda to'g'ri tutuq belgisi (e’tibor) va o‘ harfi bilan rasmiylashtirildi."]
-2026-11-12 03:00:01,399 INFO Kanalga chiqdi: 2026-11-12_0800_en
+2026-11-12 03:00:16,939 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-12 04:47:21,085 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-12 04:48:39,785 INFO Post ar/ibora urinish 1: baho 9, ['Mavzu sarlavhasidagi kelishmovchilik va xato tuzatildi', "Uzbekcha matndagi 'hesablanadi' imlo xatosi 'hisoblanadi'ga o'zgartirildi", "Arabcha ibora va misollarga to'liq harakatlar (tashkeel) qo'yildi", "Matn sarlavhasidagi noto'g'ri 'Yaxshidan ham a’lo!' iborasi haqiqiy ma'nosiga moslab o'zgartirildi", "Matn uzunligi me'yorga (450-720 belgi) keltirildi"]
+2026-11-12 05:00:01,618 INFO Kanalga chiqdi: 2026-11-12_1000_ar
