@@ -1,2 +1,3 @@
-2026-11-11 21:05:29,186 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-12 02:00:01,536 INFO Kanalga chiqdi: 2026-11-12_0700_tong
+2026-11-12 02:00:19,949 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-12 02:47:13,267 INFO Post en/xatoni_top urinish 1: baho 10, ["Caption uzunligi talab qilingan 450-720 belgilar oralig'iga keltirildi va takroriy chaqiriqlar olib tashlandi.", "Grammatik tushuntirish va namuna o'zbek tilida aniqroq hamda to'g'ri tutuq belgisi (e’tibor) va o‘ harfi bilan rasmiylashtirildi."]
+2026-11-12 03:00:01,399 INFO Kanalga chiqdi: 2026-11-12_0800_en
