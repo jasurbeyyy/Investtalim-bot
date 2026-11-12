@@ -79,7 +79,8 @@
    "Sana va oylarni aytish (Дни недели и месяцы)",
    "Часто путаемые слова: «Подня́ть» va «Повы́сить»",
    "Rod (Jins): 'Яблоко' so‘zining jinsi va moslashuvi",
-   "Kelishik iborasi: «Ни ответа ни привета»"
+   "Kelishik iborasi: «Ни ответа ни привета»",
+   "Ish: Intervyu va ishga joylashish (Suhbat)"
   ]
  },
  "types": {
@@ -108,7 +109,6 @@
    "ibora"
   ],
   "ru": [
-   "xatoni_top",
    "kunning_sozi",
    "fakt",
    "farq",
@@ -117,11 +117,11 @@
    "lugat",
    "test",
    "xatoni_top",
-   "ibora"
+   "ibora",
+   "dialog"
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "glass",
   "photo",
@@ -132,7 +132,8 @@
   "classic",
   "photo",
   "gradient",
-  "photo"
+  "photo",
+  "waves"
  ],
  "paused": false,
  "done": {
