@@ -25,7 +25,8 @@
    "So‘zlar farqi: Make va Do",
    "Ingliz tilida g‘alati talaffuz qilinadigan so‘zlar",
    "Sifatlarning orttirma darajasi (Superlatives)",
-   "Imtihon iboralari: According to my opinion xatosi"
+   "Imtihon iboralari: According to my opinion xatosi",
+   "Ikkinchi tur shartli gaplar (Second Conditional)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -87,7 +88,6 @@
  },
  "types": {
   "en": [
-   "kunning_sozi",
    "farq",
    "grammatika",
    "lugat",
@@ -96,7 +96,8 @@
    "dialog",
    "lugat",
    "tarjima",
-   "xatoni_top"
+   "xatoni_top",
+   "dialog"
   ],
   "ar": [
    "grammatika",
@@ -126,7 +127,6 @@
  "templates": [
   "photo",
   "photo",
-  "photo",
   "notebook",
   "photo",
   "classic",
@@ -135,7 +135,8 @@
   "photo",
   "waves",
   "glass",
-  "neon"
+  "neon",
+  "split"
  ],
  "paused": false,
  "done": {
