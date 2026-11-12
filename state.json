@@ -81,7 +81,8 @@
    "Часто путаемые слова: «Подня́ть» va «Повы́сить»",
    "Rod (Jins): 'Яблоко' so‘zining jinsi va moslashuvi",
    "Kelishik iborasi: «Ни ответа ни привета»",
-   "Ish: Intervyu va ishga joylashish (Suhbat)"
+   "Ish: Intervyu va ishga joylashish (Suhbat)",
+   "Fe’l ko‘rinishlari: «Выучить» va «Учить» farqi"
   ]
  },
  "types": {
@@ -110,7 +111,6 @@
    "kunning_sozi"
   ],
   "ru": [
-   "kunning_sozi",
    "fakt",
    "farq",
    "tarjima",
@@ -119,11 +119,11 @@
    "test",
    "xatoni_top",
    "ibora",
-   "dialog"
+   "dialog",
+   "farq"
   ]
  },
  "templates": [
-  "glass",
   "photo",
   "photo",
   "photo",
@@ -134,7 +134,8 @@
   "gradient",
   "photo",
   "waves",
-  "glass"
+  "glass",
+  "neon"
  ],
  "paused": false,
  "done": {
