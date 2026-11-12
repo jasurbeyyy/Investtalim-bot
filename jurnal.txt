@@ -1,3 +1,3 @@
-2026-11-12 05:00:25,700 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-12 06:47:19,698 INFO Post ru/dialog urinish 1: baho 10, ["Rasm matnida o‘zbekcha apostrof belgisi (`'`) to‘g‘ri to‘ntarilgan vergul (`‘`) belgisiga almashtirildi.", 'Rasm qatori belgilar soni 34 tadan oshgani uchun ixchamlashtirildi.', "Iboralar tahliliga fe'l ko‘rinishi (сов. вид), jins va kelshik kabi grammatik ma'lumotlar qo‘shildi.", "Matn uzunligi va urg‘ular me'yorlarga to‘liq moslashtirildi."]
-2026-11-12 07:00:00,512 INFO Kanalga chiqdi: 2026-11-12_1200_ru
+2026-11-12 07:00:20,325 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-12 07:47:17,891 INFO Post ar/kunning_sozi urinish 1: baho 10, ['Arabcha so‘zlarga to‘liq va aniq harakatlar (tashkeel) qo‘yildi.', 'Post matni uzunligi talab qilingan me’yorga (450-720 belgi) keltirildi (612 belgi).', 'O‘zbekcha lotin yozuvidagi tuturuq va harf belgilari (o‘, g‘) to‘g‘rilandi.']
+2026-11-12 08:00:01,040 INFO Kanalga chiqdi: 2026-11-12_1300_ar
