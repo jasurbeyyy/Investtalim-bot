@@ -24,7 +24,8 @@
    "Hozirgi tugallangan zamon: Present Perfect",
    "So‘zlar farqi: Make va Do",
    "Ingliz tilida g‘alati talaffuz qilinadigan so‘zlar",
-   "Sifatlarning orttirma darajasi (Superlatives)"
+   "Sifatlarning orttirma darajasi (Superlatives)",
+   "Imtihon iboralari: According to my opinion xatosi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -82,7 +83,6 @@
  },
  "types": {
   "en": [
-   "test",
    "kunning_sozi",
    "farq",
    "grammatika",
@@ -91,7 +91,8 @@
    "kunning_sozi",
    "dialog",
    "lugat",
-   "tarjima"
+   "tarjima",
+   "xatoni_top"
   ],
   "ar": [
    "dialog",
@@ -119,7 +120,6 @@
   ]
  },
  "templates": [
-  "neon",
   "stripes",
   "photo",
   "classic",
@@ -130,7 +130,8 @@
   "notebook",
   "photo",
   "classic",
-  "photo"
+  "photo",
+  "gradient"
  ],
  "paused": false,
  "done": {
