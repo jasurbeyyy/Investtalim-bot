@@ -53,7 +53,8 @@
    "Harfi jar: عَلَى (Ala) va فِي (Fi) farqi",
    "Arab tilida ot gap haqida qiziqarli fakt",
    "Harfi jar: Irab qoidasi va majrur ism",
-   "«Aynun basīratun va yadun qasīratun» iborasi va muannas jinsi"
+   "«Aynun basīratun va yadun qasīratun» iborasi va muannas jinsi",
+   "Ot gap: Mubtado va Xabar bog‘lanishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -97,7 +98,6 @@
    "xatoni_top"
   ],
   "ar": [
-   "test",
    "grammatika",
    "kunning_sozi",
    "xatoni_top",
@@ -106,7 +106,8 @@
    "farq",
    "fakt",
    "test",
-   "ibora"
+   "ibora",
+   "kunning_sozi"
   ],
   "ru": [
    "kunning_sozi",
@@ -122,7 +123,6 @@
   ]
  },
  "templates": [
-  "classic",
   "glass",
   "photo",
   "photo",
@@ -133,7 +133,8 @@
   "photo",
   "gradient",
   "photo",
-  "waves"
+  "waves",
+  "glass"
  ],
  "paused": false,
  "done": {
