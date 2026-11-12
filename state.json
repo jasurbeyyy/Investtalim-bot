@@ -52,7 +52,8 @@
    "1 va 2 sonlarining sanoq qoidasi",
    "Harfi jar: عَلَى (Ala) va فِي (Fi) farqi",
    "Arab tilida ot gap haqida qiziqarli fakt",
-   "Harfi jar: Irab qoidasi va majrur ism"
+   "Harfi jar: Irab qoidasi va majrur ism",
+   "«Aynun basīratun va yadun qasīratun» iborasi va muannas jinsi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -95,7 +96,6 @@
    "xatoni_top"
   ],
   "ar": [
-   "dialog",
    "test",
    "grammatika",
    "kunning_sozi",
@@ -104,7 +104,8 @@
    "grammatika",
    "farq",
    "fakt",
-   "test"
+   "test",
+   "ibora"
   ],
   "ru": [
    "xatoni_top",
@@ -120,7 +121,6 @@
   ]
  },
  "templates": [
-  "stripes",
   "photo",
   "classic",
   "glass",
@@ -131,7 +131,8 @@
   "photo",
   "classic",
   "photo",
-  "gradient"
+  "gradient",
+  "photo"
  ],
  "paused": false,
  "done": {
