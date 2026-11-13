@@ -85,7 +85,8 @@
    "Rod (Jins): 'Яблоко' so‘zining jinsi va moslashuvi",
    "Kelishik iborasi: «Ни ответа ни привета»",
    "Ish: Intervyu va ishga joylashish (Suhbat)",
-   "Fe’l ko‘rinishlari: «Выучить» va «Учить» farqi"
+   "Fe’l ko‘rinishlari: «Выучить» va «Учить» farqi",
+   "Часто путаемые слова: Узнать va Учиться"
   ]
  },
  "types": {
@@ -114,7 +115,6 @@
    "xatoni_top"
   ],
   "ru": [
-   "fakt",
    "farq",
    "tarjima",
    "dialog",
@@ -123,11 +123,11 @@
    "xatoni_top",
    "ibora",
    "dialog",
-   "farq"
+   "farq",
+   "grammatika"
   ]
  },
  "templates": [
-  "notebook",
   "photo",
   "classic",
   "photo",
@@ -138,7 +138,8 @@
   "neon",
   "split",
   "photo",
-  "classic"
+  "classic",
+  "photo"
  ],
  "paused": false,
  "done": {
