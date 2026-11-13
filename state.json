@@ -87,7 +87,8 @@
    "Kelishik iborasi: «Ни ответа ни привета»",
    "Ish: Intervyu va ishga joylashish (Suhbat)",
    "Fe’l ko‘rinishlari: «Выучить» va «Учить» farqi",
-   "Часто путаемые слова: Узнать va Учиться"
+   "Часто путаемые слова: Узнать va Учиться",
+   "Xatoni top: Ish: «На работе» va «В работе» predloglari"
   ]
  },
  "types": {
@@ -116,7 +117,6 @@
    "tarjima"
   ],
   "ru": [
-   "farq",
    "tarjima",
    "dialog",
    "lugat",
@@ -125,11 +125,11 @@
    "ibora",
    "dialog",
    "farq",
-   "grammatika"
+   "grammatika",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "classic",
   "photo",
   "gradient",
   "photo",
@@ -140,7 +140,8 @@
   "photo",
   "classic",
   "photo",
-  "glass"
+  "glass",
+  "notebook"
  ],
  "paused": false,
  "done": {
