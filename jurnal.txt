@@ -1,3 +1,3 @@
-2026-11-13 02:00:18,619 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-13 02:49:04,620 INFO Post en/test urinish 1: baho 10, ['Post matni (caption) belgilangan uzunlik talabiga (450-720 belgi) moslab kengaytirildi va qo‘shimcha misol bilan boyitildi.', 'O‘zbek tilidagi lotin yozuvi imlo qoidalariga ko‘ra tuturuq va tutuq belgilari muvofiqlashtirildi.']
-2026-11-13 03:00:01,229 INFO Kanalga chiqdi: 2026-11-13_0800_en
+2026-11-13 03:00:20,125 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-13 04:47:13,784 INFO Post ar/xatoni_top urinish 1: baho 9, ["'gramatika' imlo xatosi 'grammatika' shakliga tuzatildi", "'Ot gap', 'ega-kesim' o‘rniga arab tili gramatika atamalari ('ismiy gap', 'mubtado', 'xabar') qo‘llanildi", 'Arabcha gaplarga to‘liq harakatlar (tashkeel) qo‘yildi', 'Kapshon uzunligi belgilangan me’yorga (450-720 belgi) keltirildi']
+2026-11-13 05:00:01,357 INFO Kanalga chiqdi: 2026-11-13_1000_ar
