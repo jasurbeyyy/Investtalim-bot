@@ -27,7 +27,8 @@
    "Sifatlarning orttirma darajasi (Superlatives)",
    "Imtihon iboralari: According to my opinion xatosi",
    "Ikkinchi tur shartli gaplar (Second Conditional)",
-   "Past Continuous (O‘tgan zamon davom fe’li)"
+   "Past Continuous (O‘tgan zamon davom fe’li)",
+   "Talaffuzda 'Silent W' harfi qoidasi va 'Wrong' so‘zi tahlili"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -93,7 +94,6 @@
  },
  "types": {
   "en": [
-   "grammatika",
    "lugat",
    "tarjima",
    "kunning_sozi",
@@ -102,7 +102,8 @@
    "tarjima",
    "xatoni_top",
    "dialog",
-   "test"
+   "test",
+   "kunning_sozi"
   ],
   "ar": [
    "xatoni_top",
@@ -130,7 +131,6 @@
   ]
  },
  "templates": [
-  "photo",
   "gradient",
   "photo",
   "waves",
@@ -141,7 +141,8 @@
   "classic",
   "photo",
   "glass",
-  "notebook"
+  "notebook",
+  "waves"
  ],
  "paused": false,
  "done": {
