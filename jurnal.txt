@@ -1,8 +1,2 @@
-2026-11-13 10:00:18,462 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-13 11:48:11,013 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-13 11:48:41,259 INFO Post en/kunning_sozi urinish 1: baho 10, ["Mavzu sarlavhasidagi 'Homophones: Silence va Silence farqi' chalkashligi 'Silent W' qoidasiga to‘g‘rilandi.", "Ma’nosi bo‘limidagi 'Noto‘g me’yor' xatosi 'Noto‘g‘ri' deb tuzatildi.", "Misol tarjimasidagi turkcha 'Beni' so‘zi o‘zbekcha 'Meni' so‘ziga almashtirildi ('Meni noto‘g‘ri tushunmang').", 'Kaption hajmi talab etilgan 450-720 belgilar oralig‘iga moslashtirildi.']
-2026-11-13 12:00:00,996 INFO Kanalga chiqdi: 2026-11-13_1700_en
+2026-11-13 12:00:20,348 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-13 16:00:01,012 INFO Kanalga chiqdi: 2026-11-13_2100_tun
