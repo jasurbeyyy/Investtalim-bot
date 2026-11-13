@@ -1,3 +1,8 @@
-2026-11-13 03:00:20,125 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-13 04:47:13,784 INFO Post ar/xatoni_top urinish 1: baho 9, ["'gramatika' imlo xatosi 'grammatika' shakliga tuzatildi", "'Ot gap', 'ega-kesim' o‘rniga arab tili gramatika atamalari ('ismiy gap', 'mubtado', 'xabar') qo‘llanildi", 'Arabcha gaplarga to‘liq harakatlar (tashkeel) qo‘yildi', 'Kapshon uzunligi belgilangan me’yorga (450-720 belgi) keltirildi']
-2026-11-13 05:00:01,357 INFO Kanalga chiqdi: 2026-11-13_1000_ar
+2026-11-13 05:00:20,094 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-13 06:47:01,179 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-13 06:48:03,862 INFO Post ru/grammatika urinish 1: baho 10, ['Ruscha misollar lotin grafikasi o‘rniga to‘g‘ri rus alifbosida (kirill) qayta yozildi va urg‘ular qo‘yildi.', 'Uzbek tilidagi imlo va atama xatolari tuzatildi («habar» -> «xabar», «so‘zlarini» -> «fe’llarini»).', 'Fe’llarning fe’l nisbati/turi (сов. вид / несов. вид) haqida ma’lumot qo‘shildi.', 'Kaption uzunligi talab qilingan 450–720 belgi oralig‘iga keltirildi.']
+2026-11-13 07:00:00,685 INFO Kanalga chiqdi: 2026-11-13_1200_ru
