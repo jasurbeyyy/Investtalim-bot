@@ -56,7 +56,8 @@
    "Arab tilida ot gap haqida qiziqarli fakt",
    "Harfi jar: Irab qoidasi va majrur ism",
    "«Aynun basīratun va yadun qasīratun» iborasi va muannas jinsi",
-   "Ot gap: Mubtado va Xabar bog‘lanishi"
+   "Ot gap: Mubtado va Xabar bog‘lanishi",
+   "Xato top: Mubtado va fe’l gapda ega-kesim moslashuvi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -101,7 +102,6 @@
    "test"
   ],
   "ar": [
-   "grammatika",
    "kunning_sozi",
    "xatoni_top",
    "lugat",
@@ -110,7 +110,8 @@
    "fakt",
    "test",
    "ibora",
-   "kunning_sozi"
+   "kunning_sozi",
+   "xatoni_top"
   ],
   "ru": [
    "fakt",
@@ -126,7 +127,6 @@
   ]
  },
  "templates": [
-  "photo",
   "notebook",
   "photo",
   "classic",
@@ -137,7 +137,8 @@
   "glass",
   "neon",
   "split",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
