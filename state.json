@@ -26,7 +26,8 @@
    "Ingliz tilida g‘alati talaffuz qilinadigan so‘zlar",
    "Sifatlarning orttirma darajasi (Superlatives)",
    "Imtihon iboralari: According to my opinion xatosi",
-   "Ikkinchi tur shartli gaplar (Second Conditional)"
+   "Ikkinchi tur shartli gaplar (Second Conditional)",
+   "Past Continuous (O‘tgan zamon davom fe’li)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -88,7 +89,6 @@
  },
  "types": {
   "en": [
-   "farq",
    "grammatika",
    "lugat",
    "tarjima",
@@ -97,7 +97,8 @@
    "lugat",
    "tarjima",
    "xatoni_top",
-   "dialog"
+   "dialog",
+   "test"
   ],
   "ar": [
    "grammatika",
@@ -126,7 +127,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "notebook",
   "photo",
   "classic",
@@ -136,7 +136,8 @@
   "waves",
   "glass",
   "neon",
-  "split"
+  "split",
+  "photo"
  ],
  "paused": false,
  "done": {
