@@ -57,7 +57,8 @@
    "Harfi jar: Irab qoidasi va majrur ism",
    "«Aynun basīratun va yadun qasīratun» iborasi va muannas jinsi",
    "Ot gap: Mubtado va Xabar bog‘lanishi",
-   "Xato top: Mubtado va fe’l gapda ega-kesim moslashuvi"
+   "Xato top: Mubtado va fe’l gapda ega-kesim moslashuvi",
+   "Harfi jar: Irab va ma'nosi (مِنْ va إِلَى)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -103,7 +104,6 @@
    "test"
   ],
   "ar": [
-   "kunning_sozi",
    "xatoni_top",
    "lugat",
    "grammatika",
@@ -112,7 +112,8 @@
    "test",
    "ibora",
    "kunning_sozi",
-   "xatoni_top"
+   "xatoni_top",
+   "tarjima"
   ],
   "ru": [
    "farq",
@@ -128,7 +129,6 @@
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "photo",
   "gradient",
@@ -139,7 +139,8 @@
   "split",
   "photo",
   "classic",
-  "photo"
+  "photo",
+  "glass"
  ],
  "paused": false,
  "done": {
