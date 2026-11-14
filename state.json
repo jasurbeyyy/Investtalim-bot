@@ -29,7 +29,8 @@
    "Ikkinchi tur shartli gaplar (Second Conditional)",
    "Past Continuous (O‘tgan zamon davom fe’li)",
    "Talaffuzda 'Silent W' harfi qoidasi va 'Wrong' so‘zi tahlili",
-   "Put on va Take off fe'llari farqi"
+   "Put on va Take off fe'llari farqi",
+   "First Conditional (Birinchi tur shartli gaplar)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -99,7 +100,6 @@
  },
  "types": {
   "en": [
-   "tarjima",
    "kunning_sozi",
    "dialog",
    "lugat",
@@ -108,7 +108,8 @@
    "dialog",
    "test",
    "kunning_sozi",
-   "farq"
+   "farq",
+   "grammatika"
   ],
   "ar": [
    "grammatika",
@@ -136,7 +137,6 @@
   ]
  },
  "templates": [
-  "split",
   "photo",
   "classic",
   "photo",
@@ -147,7 +147,8 @@
   "photo",
   "photo",
   "split",
-  "stripes"
+  "stripes",
+  "neon"
  ],
  "paused": false,
  "done": {
