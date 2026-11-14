@@ -28,7 +28,8 @@
    "Imtihon iboralari: According to my opinion xatosi",
    "Ikkinchi tur shartli gaplar (Second Conditional)",
    "Past Continuous (O‘tgan zamon davom fe’li)",
-   "Talaffuzda 'Silent W' harfi qoidasi va 'Wrong' so‘zi tahlili"
+   "Talaffuzda 'Silent W' harfi qoidasi va 'Wrong' so‘zi tahlili",
+   "Put on va Take off fe'llari farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -94,7 +95,6 @@
  },
  "types": {
   "en": [
-   "lugat",
    "tarjima",
    "kunning_sozi",
    "dialog",
@@ -103,7 +103,8 @@
    "xatoni_top",
    "dialog",
    "test",
-   "kunning_sozi"
+   "kunning_sozi",
+   "farq"
   ],
   "ar": [
    "xatoni_top",
@@ -131,7 +132,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "photo",
   "waves",
   "glass",
@@ -142,7 +142,8 @@
   "photo",
   "glass",
   "notebook",
-  "waves"
+  "waves",
+  "photo"
  ],
  "paused": false,
  "done": {
