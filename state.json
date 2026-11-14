@@ -61,7 +61,8 @@
    "Ot gap: Mubtado va Xabar bog‘lanishi",
    "Xato top: Mubtado va fe’l gapda ega-kesim moslashuvi",
    "Harfi jar: Irab va ma'nosi (مِنْ va إِلَى)",
-   "Ko‘rsatish olmoshlari ko‘pligi: Hā’ulā’i va Ulā’ika"
+   "Ko‘rsatish olmoshlari ko‘pligi: Hā’ulā’i va Ulā’ika",
+   "Ot gap va Fe'l gap o'rtasidagi farq"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -109,7 +110,6 @@
    "farq"
   ],
   "ar": [
-   "lugat",
    "grammatika",
    "farq",
    "fakt",
@@ -118,7 +118,8 @@
    "kunning_sozi",
    "xatoni_top",
    "tarjima",
-   "dialog"
+   "dialog",
+   "farq"
   ],
   "ru": [
    "dialog",
@@ -134,7 +135,6 @@
   ]
  },
  "templates": [
-  "glass",
   "neon",
   "split",
   "photo",
@@ -145,7 +145,8 @@
   "waves",
   "photo",
   "photo",
-  "photo"
+  "photo",
+  "split"
  ],
  "paused": false,
  "done": {
