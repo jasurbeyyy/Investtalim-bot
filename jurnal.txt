@@ -1,3 +1,4 @@
-2026-11-14 08:00:26,505 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-14 09:47:22,995 INFO Post ru/lugat urinish 1: baho 10, ['«domáшнее» so‘zidagi lotin va kirill harflari aralashmasi (aralash alifbo) to‘g‘rilandi («дома́шнее»).', 'Matn uzunligi va grammatik tushuntirishlar aniqlashtirilib, 450-720 belgi mezoniga yetkazildi.']
-2026-11-14 10:00:01,282 INFO Kanalga chiqdi: 2026-11-14_1500_ru
+2026-11-14 10:00:34,006 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-14 11:08:25,378 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-14 11:47:19,364 INFO Post en/grammatika urinish 1: baho 10, ['O‘zbek tilidagi tutuq belgisi va maxsus harflar (o‘, g‘) standartlashtirildi.', 'Post matni uzunligi va rasmdagi yozuvlar belgilangan talablarga to‘liq moslashtirildi.']
+2026-11-14 12:00:01,390 INFO Kanalga chiqdi: 2026-11-14_1700_en
