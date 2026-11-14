@@ -1,2 +1,7 @@
-2026-11-13 21:00:55,809 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-14 02:00:00,997 INFO Kanalga chiqdi: 2026-11-14_0700_tong
+2026-11-14 02:00:37,187 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-14 02:31:19,599 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-14 02:32:13,031 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-14 02:47:46,877 INFO Post en/farq urinish 1: baho 10, ['’Kiynish’ imlo xatosi ’Kiyinish’ shakliga tuzatildi.', '’tashqari sovuq’ birikmasi aniqroq bo‘lishi uchun ’tashqarida sovuq’ deb to‘g‘rilandi.', 'O‘zbek tilidagi tutuq belgisi va o‘, g‘ harflari standart lotin alifbosi qoidalariga moslashtirildi.']
+2026-11-14 02:49:14,083 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-14 02:52:18,067 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-14 03:00:00,687 INFO Kanalga chiqdi: 2026-11-14_0800_en
