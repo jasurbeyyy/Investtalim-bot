@@ -91,7 +91,8 @@
    "Ish: Intervyu va ishga joylashish (Suhbat)",
    "Fe’l ko‘rinishlari: «Выучить» va «Учить» farqi",
    "Часто путаемые слова: Узнать va Учиться",
-   "Xatoni top: Ish: «На работе» va «В работе» predloglari"
+   "Xatoni top: Ish: «На работе» va «В работе» predloglari",
+   "Часто путаемые слова: «Главный» va «Заглавный»"
   ]
  },
  "types": {
@@ -120,7 +121,6 @@
    "dialog"
   ],
   "ru": [
-   "tarjima",
    "dialog",
    "lugat",
    "test",
@@ -129,11 +129,11 @@
    "dialog",
    "farq",
    "grammatika",
-   "xatoni_top"
+   "xatoni_top",
+   "test"
   ]
  },
  "templates": [
-  "waves",
   "glass",
   "neon",
   "split",
@@ -143,6 +143,7 @@
   "glass",
   "notebook",
   "waves",
+  "photo",
   "photo",
   "photo"
  ],
