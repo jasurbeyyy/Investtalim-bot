@@ -93,7 +93,8 @@
    "Fe’l ko‘rinishlari: «Выучить» va «Учить» farqi",
    "Часто путаемые слова: Узнать va Учиться",
    "Xatoni top: Ish: «На работе» va «В работе» predloglari",
-   "Часто путаемые слова: «Главный» va «Заглавный»"
+   "Часто путаемые слова: «Главный» va «Заглавный»",
+   "Fe’l ko‘rinishlari: «Написать» va «Писать» farqi"
   ]
  },
  "types": {
@@ -122,7 +123,6 @@
    "farq"
   ],
   "ru": [
-   "dialog",
    "lugat",
    "test",
    "xatoni_top",
@@ -131,11 +131,11 @@
    "farq",
    "grammatika",
    "xatoni_top",
-   "test"
+   "test",
+   "lugat"
   ]
  },
  "templates": [
-  "neon",
   "split",
   "photo",
   "classic",
@@ -146,7 +146,8 @@
   "photo",
   "photo",
   "photo",
-  "split"
+  "split",
+  "stripes"
  ],
  "paused": false,
  "done": {
