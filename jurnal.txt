@@ -1,3 +1,5 @@
-2026-11-15 02:00:16,421 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-15 02:47:14,807 INFO Post en/tarjima urinish 1: baho 10, ['Matn hajmi talab qilingan 450–720 belgiga yetkazildi va qoida izohi aniqroq berildi.', "O‘zbekcha matndagi tuturuq hamda 'o‘' va 'g‘' harflari standartga moslashtirildi."]
-2026-11-15 03:00:00,966 INFO Kanalga chiqdi: 2026-11-15_0800_en
+2026-11-15 03:00:33,677 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-15 04:47:22,407 INFO Post ar/kunning_sozi urinish 1: baho 9, ['Arabcha kalit so‘z va misollarga to‘liq harakatlar (tashkeel) qo‘yildi.', 'O‘zbekcha imlo va tutuq belgilari (ma’dud, bo‘lgan, bo‘ladi) to‘g‘rilandi.', 'ثَلَاثُونَ (O‘ttiz) so‘zi «son ko‘pligi» emasligi sababli tartib soni (ثَالِثٌ) bilan almashtirildi.', 'Post matni haqiqiy uzunligi 450–720 belgi oralig‘iga yetkazildi.']
+2026-11-15 04:57:27,222 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-15 04:58:10,784 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-15 05:00:00,907 INFO Kanalga chiqdi: 2026-11-15_1000_ar
