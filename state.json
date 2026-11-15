@@ -97,7 +97,8 @@
    "Часто путаемые слова: Узнать va Учиться",
    "Xatoni top: Ish: «На работе» va «В работе» predloglari",
    "Часто путаемые слова: «Главный» va «Заглавный»",
-   "Fe’l ko‘rinishlari: «Написать» va «Писать» farqi"
+   "Fe’l ko‘rinishlari: «Написать» va «Писать» farqi",
+   "Rod: Тапочки va Тапочка so‘zlarining jinsi"
   ]
  },
  "types": {
@@ -126,7 +127,6 @@
    "kunning_sozi"
   ],
   "ru": [
-   "lugat",
    "test",
    "xatoni_top",
    "ibora",
@@ -135,11 +135,11 @@
    "grammatika",
    "xatoni_top",
    "test",
-   "lugat"
+   "lugat",
+   "farq"
   ]
  },
  "templates": [
-  "photo",
   "glass",
   "notebook",
   "waves",
@@ -150,7 +150,8 @@
   "stripes",
   "neon",
   "photo",
-  "waves"
+  "waves",
+  "glass"
  ],
  "paused": false,
  "done": {
