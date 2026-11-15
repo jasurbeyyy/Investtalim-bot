@@ -31,7 +31,8 @@
    "Talaffuzda 'Silent W' harfi qoidasi va 'Wrong' so‘zi tahlili",
    "Put on va Take off fe'llari farqi",
    "First Conditional (Birinchi tur shartli gaplar)",
-   "Talaffuzda 'Silent K' harfi qoidasi"
+   "Talaffuzda 'Silent K' harfi qoidasi",
+   "Kundalik iborali fe’l: Turn on va Turn off"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -105,7 +106,6 @@
  },
  "types": {
   "en": [
-   "dialog",
    "lugat",
    "tarjima",
    "xatoni_top",
@@ -114,7 +114,8 @@
    "kunning_sozi",
    "farq",
    "grammatika",
-   "tarjima"
+   "tarjima",
+   "test"
   ],
   "ar": [
    "fakt",
@@ -142,7 +143,6 @@
   ]
  },
  "templates": [
-  "waves",
   "photo",
   "photo",
   "photo",
@@ -153,6 +153,7 @@
   "waves",
   "glass",
   "gradient",
+  "photo",
   "photo"
  ],
  "paused": false,
