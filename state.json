@@ -65,7 +65,8 @@
    "Harfi jar: Irab va ma'nosi (مِنْ va إِلَى)",
    "Ko‘rsatish olmoshlari ko‘pligi: Hā’ulā’i va Ulā’ika",
    "Ot gap va Fe'l gap o'rtasidagi farq",
-   "3 dan 10 gacha bo‘lgan sonlar sanoq qoidasi"
+   "3 dan 10 gacha bo‘lgan sonlar sanoq qoidasi",
+   "Savol olmoshi: Man (مَنْ) va Mā (مَا) qo‘llanishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -115,7 +116,6 @@
    "tarjima"
   ],
   "ar": [
-   "farq",
    "fakt",
    "test",
    "ibora",
@@ -124,7 +124,8 @@
    "tarjima",
    "dialog",
    "farq",
-   "kunning_sozi"
+   "kunning_sozi",
+   "grammatika"
   ],
   "ru": [
    "test",
@@ -140,7 +141,6 @@
   ]
  },
  "templates": [
-  "glass",
   "notebook",
   "waves",
   "photo",
@@ -151,7 +151,8 @@
   "neon",
   "photo",
   "waves",
-  "glass"
+  "glass",
+  "gradient"
  ],
  "paused": false,
  "done": {
