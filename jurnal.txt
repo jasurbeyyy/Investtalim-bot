@@ -1,3 +1,2 @@
-2026-11-15 10:00:23,793 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-15 11:47:14,812 INFO Post en/test urinish 1: baho 10, ["Matndagi 'Pastiagi' imloviy xatosi 'Pastdagi' shakliga tuzatildi.", 'Post matni hajm talabiga (450-720 belgi) moslab yetarli darajada boyitildi.']
-2026-11-15 12:00:01,339 INFO Kanalga chiqdi: 2026-11-15_1700_en
+2026-11-15 12:00:26,113 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-15 16:00:01,298 INFO Kanalga chiqdi: 2026-11-15_2100_tun
