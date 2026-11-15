@@ -99,7 +99,8 @@
    "Xatoni top: Ish: «На работе» va «В работе» predloglari",
    "Часто путаемые слова: «Главный» va «Заглавный»",
    "Fe’l ko‘rinishlari: «Написать» va «Писать» farqi",
-   "Rod: Тапочки va Тапочка so‘zlarining jinsi"
+   "Rod: Тапочки va Тапочка so‘zlarining jinsi",
+   "Roditelniy kelishigi (Kogo? Chego?) predloglari"
   ]
  },
  "types": {
@@ -128,7 +129,6 @@
    "grammatika"
   ],
   "ru": [
-   "test",
    "xatoni_top",
    "ibora",
    "dialog",
@@ -137,11 +137,11 @@
    "xatoni_top",
    "test",
    "lugat",
-   "farq"
+   "farq",
+   "tarjima"
   ]
  },
  "templates": [
-  "notebook",
   "waves",
   "photo",
   "photo",
@@ -152,7 +152,8 @@
   "photo",
   "waves",
   "glass",
-  "gradient"
+  "gradient",
+  "photo"
  ],
  "paused": false,
  "done": {
