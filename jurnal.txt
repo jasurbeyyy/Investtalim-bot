@@ -1,3 +1,3 @@
-2026-11-16 07:00:18,854 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-16 07:47:56,530 INFO Post ar/test urinish 1: baho 10, ['Post matni uzunligi talab etilgan 450-720 belgi oralig‘iga keltirildi.', 'Arabcha so‘zlarga to‘liq harakatlar (tashkash/harakat) berildi va grammatik holati (majrur) aniqlashtirildi.', 'Quiz tushuntirishiga arab tili gramatika atamalari (harfi jar, majrur, ism) qo‘shildi.', 'O‘zbekcha matndagi noo‘rin ibora («atroflikni ifloslanishi») to‘g‘rilandi va lotin alifbosi imlosi (o‘, g‘, ’) muvofiqlashtirildi.']
-2026-11-16 08:00:01,410 INFO Kanalga chiqdi: 2026-11-16_1300_ar
+2026-11-16 08:00:20,065 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-16 09:47:15,264 INFO Post ru/xatoni_top urinish 1: baho 10, ['Matn uzunligi belgilangan me’yorga (450–720 belgi) yetkazildi.', 'Grammatik tushuntirishda fe’l turlari (НСВ va СВ) bo‘yicha izoh aniqlashtirildi.']
+2026-11-16 10:00:02,345 INFO Kanalga chiqdi: 2026-11-16_1500_ru
