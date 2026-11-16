@@ -105,7 +105,8 @@
    "Fe’l ko‘rinishlari: «Написать» va «Писать» farqi",
    "Rod: Тапочки va Тапочка so‘zlarining jinsi",
    "Roditelniy kelishigi (Kogo? Chego?) predloglari",
-   "O‘tgan zamon: Fe’lning o‘tgan zamonda rodlar bo‘yicha o‘zgarishi"
+   "O‘tgan zamon: Fe’lning o‘tgan zamonda rodlar bo‘yicha o‘zgarishi",
+   "Xatoni top: Kelasi zamon fe’lining noto‘g‘ri qo‘llanishi"
   ]
  },
  "types": {
@@ -134,7 +135,6 @@
    "test"
   ],
   "ru": [
-   "ibora",
    "dialog",
    "farq",
    "grammatika",
@@ -143,11 +143,11 @@
    "lugat",
    "farq",
    "tarjima",
-   "dialog"
+   "dialog",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "stripes",
   "neon",
   "photo",
   "waves",
@@ -158,7 +158,8 @@
   "waves",
   "stripes",
   "classic",
-  "photo"
+  "photo",
+  "split"
  ],
  "paused": false,
  "done": {
