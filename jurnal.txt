@@ -1,2 +1,3 @@
-2026-11-15 21:00:54,578 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-16 02:00:00,788 INFO Kanalga chiqdi: 2026-11-16_0700_tong
+2026-11-16 02:00:39,229 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-16 02:47:36,221 INFO Post en/ibora urinish 1: baho 10, ["Mavzu ibora emas, fe'llar farqi bo'lgani uchun caption sarlavhasi 'SO‘ZLAR FARQI'ga moslashtirildi.", "Say va Tell fe'llarining grammatik qoidasi aniqroq va mukammalroq tushuntirildi ('say to someone' va 'tell someone').", 'Tutuq belgilari va o‘ harfi shakli standart Uzbek Latin imlosiga muvofiqlashtirildi.', "Rasm matnlariga aniqlik kiritildi va belgilangan belgilar me'yoriga keltirildi."]
+2026-11-16 03:00:01,526 INFO Kanalga chiqdi: 2026-11-16_0800_en
