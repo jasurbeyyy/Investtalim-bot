@@ -69,7 +69,8 @@
    "Ot gap va Fe'l gap o'rtasidagi farq",
    "3 dan 10 gacha bo‘lgan sonlar sanoq qoidasi",
    "Savol olmoshi: Man (مَنْ) va Mā (مَا) qo‘llanishi",
-   "So‘roq olmoshlari (Ayna va Kayfa)"
+   "So‘roq olmoshlari (Ayna va Kayfa)",
+   "CEFR: Atrof-muhit lug‘ati (Bi’a)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -121,7 +122,6 @@
    "ibora"
   ],
   "ar": [
-   "test",
    "ibora",
    "kunning_sozi",
    "xatoni_top",
@@ -130,7 +130,8 @@
    "farq",
    "kunning_sozi",
    "grammatika",
-   "lugat"
+   "lugat",
+   "test"
   ],
   "ru": [
    "ibora",
@@ -146,7 +147,6 @@
   ]
  },
  "templates": [
-  "split",
   "stripes",
   "neon",
   "photo",
@@ -157,7 +157,8 @@
   "photo",
   "waves",
   "stripes",
-  "classic"
+  "classic",
+  "photo"
  ],
  "paused": false,
  "done": {
