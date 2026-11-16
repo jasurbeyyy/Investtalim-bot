@@ -33,7 +33,8 @@
    "First Conditional (Birinchi tur shartli gaplar)",
    "Talaffuzda 'Silent K' harfi qoidasi",
    "Kundalik iborali fe’l: Turn on va Turn off",
-   "Say va Tell fe’llarining farqi"
+   "Say va Tell fe’llarining farqi",
+   "Silent B harfi va Doubt so'zi talaffuzi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -111,7 +112,6 @@
  },
  "types": {
   "en": [
-   "tarjima",
    "xatoni_top",
    "dialog",
    "test",
@@ -120,7 +120,8 @@
    "grammatika",
    "tarjima",
    "test",
-   "ibora"
+   "ibora",
+   "kunning_sozi"
   ],
   "ar": [
    "ibora",
@@ -148,7 +149,6 @@
   ]
  },
  "templates": [
-  "neon",
   "photo",
   "waves",
   "glass",
@@ -159,7 +159,8 @@
   "stripes",
   "classic",
   "photo",
-  "split"
+  "split",
+  "bigletter"
  ],
  "paused": false,
  "done": {
