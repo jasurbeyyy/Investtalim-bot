@@ -1,5 +1,2 @@
-2026-11-15 16:00:39,432 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-15 16:00:39,891 INFO Navbatdagi post: 2026-11-16 07:00:00+05:00. 02:00 gacha kutiladi.
-2026-11-15 20:27:14,431 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-15 20:28:34,516 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-15 20:29:28,399 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-15 21:00:54,578 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-16 02:00:00,788 INFO Kanalga chiqdi: 2026-11-16_0700_tong
