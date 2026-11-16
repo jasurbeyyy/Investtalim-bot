@@ -103,7 +103,8 @@
    "Часто путаемые слова: «Главный» va «Заглавный»",
    "Fe’l ko‘rinishlari: «Написать» va «Писать» farqi",
    "Rod: Тапочки va Тапочка so‘zlarining jinsi",
-   "Roditelniy kelishigi (Kogo? Chego?) predloglari"
+   "Roditelniy kelishigi (Kogo? Chego?) predloglari",
+   "O‘tgan zamon: Fe’lning o‘tgan zamonda rodlar bo‘yicha o‘zgarishi"
   ]
  },
  "types": {
@@ -132,7 +133,6 @@
    "lugat"
   ],
   "ru": [
-   "xatoni_top",
    "ibora",
    "dialog",
    "farq",
@@ -141,11 +141,11 @@
    "test",
    "lugat",
    "farq",
-   "tarjima"
+   "tarjima",
+   "dialog"
   ]
  },
  "templates": [
-  "photo",
   "split",
   "stripes",
   "neon",
@@ -156,7 +156,8 @@
   "photo",
   "photo",
   "waves",
-  "stripes"
+  "stripes",
+  "classic"
  ],
  "paused": false,
  "done": {
