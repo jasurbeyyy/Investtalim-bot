@@ -68,7 +68,8 @@
    "Ko‘rsatish olmoshlari ko‘pligi: Hā’ulā’i va Ulā’ika",
    "Ot gap va Fe'l gap o'rtasidagi farq",
    "3 dan 10 gacha bo‘lgan sonlar sanoq qoidasi",
-   "Savol olmoshi: Man (مَنْ) va Mā (مَا) qo‘llanishi"
+   "Savol olmoshi: Man (مَنْ) va Mā (مَا) qo‘llanishi",
+   "So‘roq olmoshlari (Ayna va Kayfa)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -119,7 +120,6 @@
    "ibora"
   ],
   "ar": [
-   "fakt",
    "test",
    "ibora",
    "kunning_sozi",
@@ -128,7 +128,8 @@
    "dialog",
    "farq",
    "kunning_sozi",
-   "grammatika"
+   "grammatika",
+   "lugat"
   ],
   "ru": [
    "xatoni_top",
@@ -145,7 +146,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "split",
   "stripes",
   "neon",
@@ -155,7 +155,8 @@
   "gradient",
   "photo",
   "photo",
-  "waves"
+  "waves",
+  "stripes"
  ],
  "paused": false,
  "done": {
