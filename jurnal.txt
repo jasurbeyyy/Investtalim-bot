@@ -1,3 +1,3 @@
-2026-11-16 03:00:42,717 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-16 04:47:16,622 INFO Post ar/lugat urinish 1: baho 10, ['«الْمَكْتَبُ» (ofis/idora) so‘zi «الْمَكْتَبَةُ» (kutubxona) so‘zi bilan almashtirilib, fe’l muannas shaklida «تَقَعُ» ga o‘zgartirildi.', 'Arabcha so‘zlar va misollarning barchasiga to‘liq harakatlar (tashkeel) qo‘yildi.', 'Post matni uzunligi talab qilingan me’yorga (450-720 belgi) moslashtirildi va ikkinchi misol qo‘shildi.']
-2026-11-16 05:00:01,132 INFO Kanalga chiqdi: 2026-11-16_1000_ar
+2026-11-16 05:00:18,114 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-16 06:47:13,745 INFO Post ru/dialog urinish 1: baho 10, ['"Гуляла в парке" birikmasi tarjimasi yanada tabiiyroq bo‘lishi uchun "parkda sayr qildi"ga o‘zgartirildi.', 'Muloqotdagi o‘zbekcha tarjimalar uslubiy jihatdan silliqlandi va tabiiylashtirildi.', 'Matn belgilar soni (450-720) talabiga to‘liq moslashtirildi.']
+2026-11-16 07:00:01,542 INFO Kanalga chiqdi: 2026-11-16_1200_ru
