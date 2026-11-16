@@ -32,7 +32,8 @@
    "Put on va Take off fe'llari farqi",
    "First Conditional (Birinchi tur shartli gaplar)",
    "Talaffuzda 'Silent K' harfi qoidasi",
-   "Kundalik iborali fe’l: Turn on va Turn off"
+   "Kundalik iborali fe’l: Turn on va Turn off",
+   "Say va Tell fe’llarining farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -106,7 +107,6 @@
  },
  "types": {
   "en": [
-   "lugat",
    "tarjima",
    "xatoni_top",
    "dialog",
@@ -115,7 +115,8 @@
    "farq",
    "grammatika",
    "tarjima",
-   "test"
+   "test",
+   "ibora"
   ],
   "ar": [
    "fakt",
@@ -145,7 +146,6 @@
  "templates": [
   "photo",
   "photo",
-  "photo",
   "split",
   "stripes",
   "neon",
@@ -154,7 +154,8 @@
   "glass",
   "gradient",
   "photo",
-  "photo"
+  "photo",
+  "waves"
  ],
  "paused": false,
  "done": {
