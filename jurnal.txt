@@ -1,3 +1,2 @@
-2026-11-16 10:00:30,468 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-16 11:47:34,508 INFO Post en/kunning_sozi urinish 1: baho 10, ['Matn uzunligi talab qilingan 450–720 belgilar oralig‘iga yetkazildi.', 'O‘zbekcha matndagi o‘ va tutuq belgilari (’) standart lotin grafikasi talablariga moslab to‘g‘rilandi.', 'Qoidaga yanada aniqlik kiritildi (mb va bt birikmalarida B harfi talaffuz qilinmasligi ta’kidlandi).']
-2026-11-16 12:00:02,155 INFO Kanalga chiqdi: 2026-11-16_1700_en
+2026-11-16 12:00:22,634 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-16 16:00:00,860 INFO Kanalga chiqdi: 2026-11-16_2100_tun
