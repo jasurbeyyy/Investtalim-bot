@@ -1,45 +1,36 @@
-2026-11-17 08:00:17,987 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-17 09:47:09,467 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-17 10:00:42,454 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-17 11:49:30,280 WARNING AI xato (gemini-3.5-flash): The read operation timed out
+2026-11-17 11:50:47,516 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 09:47:14,653 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-17 11:50:52,993 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 09:47:23,027 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-17 11:51:57,593 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 09:47:58,919 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-17 11:52:01,916 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 09:48:18,269 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-17 11:52:10,681 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 09:48:37,970 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-17 11:52:15,012 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 09:48:50,552 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 09:49:04,591 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 09:49:44,759 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
-2026-11-17 09:50:17,598 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
-2026-11-17 09:50:32,533 INFO Post ru/kunning_sozi urinish 1: baho 10, ['Quiz qo‘shildi', 'Matn va imlo tekshirildi', 'O‘zbek tilidagi o‘, g‘ va ’ belgilari to‘g‘rilandi']
-2026-11-17 10:00:01,316 INFO Kanalga chiqdi: 2026-11-17_1500_ru
+2026-11-17 11:52:54,373 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
+2026-11-17 11:53:27,332 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
+2026-11-17 11:53:31,805 INFO Post en/farq urinish 1: baho 10, ['O‘zbek tili imlosi to‘g‘rilandi (o‘, g‘ va ’ belgilari izchil qo‘llanildi).', 'Caption uzunligi talabga moslashtirildi.', 'Quiz qismi qo‘shildi va javob spoiler ichiga yashirildi.', 'Matn uslubi yanada ravonlashtirildi.']
+2026-11-17 12:00:01,532 INFO Kanalga chiqdi: 2026-11-17_1700_en
