@@ -73,7 +73,8 @@
    "Savol olmoshi: Man (مَنْ) va Mā (مَا) qo‘llanishi",
    "So‘roq olmoshlari (Ayna va Kayfa)",
    "CEFR: Atrof-muhit lug‘ati (Bi’a)",
-   "Arab tilida to‘g‘ri ko‘plik turlari: Salim va Mukassar"
+   "Arab tilida to‘g‘ri ko‘plik turlari: Salim va Mukassar",
+   "Arab tilida Idofa (izofa) birikmasi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -127,7 +128,6 @@
    "lugat"
   ],
   "ar": [
-   "kunning_sozi",
    "xatoni_top",
    "tarjima",
    "dialog",
@@ -136,7 +136,8 @@
    "grammatika",
    "lugat",
    "test",
-   "farq"
+   "farq",
+   "fakt"
   ],
   "ru": [
    "farq",
@@ -152,7 +153,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "photo",
   "photo",
   "waves",
@@ -163,7 +163,8 @@
   "bigletter",
   "neon",
   "photo",
-  "classic"
+  "classic",
+  "gradient"
  ],
  "paused": false,
  "done": {
