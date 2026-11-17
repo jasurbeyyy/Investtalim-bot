@@ -109,7 +109,8 @@
    "Rod: Тапочки va Тапочка so‘zlarining jinsi",
    "Roditelniy kelishigi (Kogo? Chego?) predloglari",
    "O‘tgan zamon: Fe’lning o‘tgan zamonda rodlar bo‘yicha o‘zgarishi",
-   "Xatoni top: Kelasi zamon fe’lining noto‘g‘ri qo‘llanishi"
+   "Xatoni top: Kelasi zamon fe’lining noto‘g‘ri qo‘llanishi",
+   "«В» va «На» predloglari (Предложный падеж)"
   ]
  },
  "types": {
@@ -138,7 +139,6 @@
    "farq"
   ],
   "ru": [
-   "dialog",
    "farq",
    "grammatika",
    "xatoni_top",
@@ -147,11 +147,11 @@
    "farq",
    "tarjima",
    "dialog",
-   "xatoni_top"
+   "xatoni_top",
+   "farq"
   ]
  },
  "templates": [
-  "glass",
   "gradient",
   "photo",
   "photo",
@@ -162,7 +162,8 @@
   "split",
   "bigletter",
   "neon",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
