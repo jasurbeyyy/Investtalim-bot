@@ -72,7 +72,8 @@
    "3 dan 10 gacha bo‘lgan sonlar sanoq qoidasi",
    "Savol olmoshi: Man (مَنْ) va Mā (مَا) qo‘llanishi",
    "So‘roq olmoshlari (Ayna va Kayfa)",
-   "CEFR: Atrof-muhit lug‘ati (Bi’a)"
+   "CEFR: Atrof-muhit lug‘ati (Bi’a)",
+   "Arab tilida to‘g‘ri ko‘plik turlari: Salim va Mukassar"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -125,7 +126,6 @@
    "lugat"
   ],
   "ar": [
-   "ibora",
    "kunning_sozi",
    "xatoni_top",
    "tarjima",
@@ -134,7 +134,8 @@
    "kunning_sozi",
    "grammatika",
    "lugat",
-   "test"
+   "test",
+   "farq"
   ],
   "ru": [
    "dialog",
@@ -150,7 +151,6 @@
   ]
  },
  "templates": [
-  "waves",
   "glass",
   "gradient",
   "photo",
@@ -161,7 +161,8 @@
   "photo",
   "split",
   "bigletter",
-  "neon"
+  "neon",
+  "photo"
  ],
  "paused": false,
  "done": {
