@@ -1,2 +1,3 @@
-2026-11-16 21:01:03,767 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-17 02:00:01,269 INFO Kanalga chiqdi: 2026-11-17_0700_tong
+2026-11-17 02:00:18,985 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-17 02:47:43,703 INFO Post en/lugat urinish 1: baho 10, ["Rasm matnidagi 'Kiynish' imloviy xatosi 'Kiyinish' ga tuzatildi.", 'Matn uzunligi talab qilingan 450-720 belgi oralig‘iga yetkazildi (qo‘shimcha foydali misol qo‘shildi).', "Ruscha 'magazin' so‘zi o‘rniga adabiy 'do‘kon' so‘zi ishlatildi."]
+2026-11-17 03:00:01,139 INFO Kanalga chiqdi: 2026-11-17_0800_en
