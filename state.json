@@ -35,7 +35,8 @@
    "Kundalik iborali fe’l: Turn on va Turn off",
    "Say va Tell fe’llarining farqi",
    "Silent B harfi va Doubt so'zi talaffuzi",
-   "Xarid qilish (Shopping) lug‘ati"
+   "Xarid qilish (Shopping) lug‘ati",
+   "Hear va Listen fe'llari o'rtasidagi farq"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -117,7 +118,6 @@
  },
  "types": {
   "en": [
-   "dialog",
    "test",
    "kunning_sozi",
    "farq",
@@ -126,7 +126,8 @@
    "test",
    "ibora",
    "kunning_sozi",
-   "lugat"
+   "lugat",
+   "farq"
   ],
   "ar": [
    "xatoni_top",
@@ -154,7 +155,6 @@
   ]
  },
  "templates": [
-  "photo",
   "waves",
   "stripes",
   "classic",
@@ -165,6 +165,7 @@
   "photo",
   "classic",
   "gradient",
+  "photo",
   "photo"
  ],
  "paused": false,
