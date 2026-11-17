@@ -1,43 +1,40 @@
-2026-11-17 05:00:16,856 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-17 06:47:01,588 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-17 07:00:16,967 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-17 07:47:00,452 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 06:47:06,680 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-17 07:47:04,758 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 06:47:14,932 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-17 07:47:13,426 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-17 06:47:20,522 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-17 07:47:17,566 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 06:47:33,462 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-17 07:47:28,657 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 06:47:37,729 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-17 07:47:32,798 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 06:47:46,620 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-17 07:47:40,920 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 06:47:53,155 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-17 07:47:45,056 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-17 06:48:25,356 INFO Post ru/farq urinish 1: baho 10, ['O‘zbek tilidagi imlo xatolari (o‘, g‘, ’) tuzatildi', 'Rus tilidagi urg‘u belgilari (´) qo‘shildi', 'Caption uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi', 'Mavzuga doir interaktiv test va yashirin javob (spoiler) qo‘shildi', 'Rasm matnlari qisqartirilib, vizual ko‘rinishi optimallashtirildi']
-2026-11-17 07:00:00,535 INFO Kanalga chiqdi: 2026-11-17_1200_ru
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-17 07:48:22,712 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
+2026-11-17 07:48:52,947 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
+2026-11-17 07:48:58,512 INFO Post ar/fakt urinish 1: baho 10, ["Captionga 'muzof' va 'muzofun ilayh' atamalari qo‘shildi", 'Arabcha so‘zlarga to‘liq harakatlar qo‘yildi', 'Test savoli qo‘shildi', 'Caption uzunligi talabga moslashtirildi', 'O‘zbek tili imlosi va terminologiyasi tekshirildi']
+2026-11-17 08:00:01,621 INFO Kanalga chiqdi: 2026-11-17_1300_ar
