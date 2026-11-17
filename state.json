@@ -34,7 +34,8 @@
    "Talaffuzda 'Silent K' harfi qoidasi",
    "Kundalik iborali fe’l: Turn on va Turn off",
    "Say va Tell fe’llarining farqi",
-   "Silent B harfi va Doubt so'zi talaffuzi"
+   "Silent B harfi va Doubt so'zi talaffuzi",
+   "Xarid qilish (Shopping) lug‘ati"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -112,7 +113,6 @@
  },
  "types": {
   "en": [
-   "xatoni_top",
    "dialog",
    "test",
    "kunning_sozi",
@@ -121,7 +121,8 @@
    "tarjima",
    "test",
    "ibora",
-   "kunning_sozi"
+   "kunning_sozi",
+   "lugat"
   ],
   "ar": [
    "ibora",
@@ -149,7 +150,6 @@
   ]
  },
  "templates": [
-  "photo",
   "waves",
   "glass",
   "gradient",
@@ -160,7 +160,8 @@
   "classic",
   "photo",
   "split",
-  "bigletter"
+  "bigletter",
+  "neon"
  ],
  "paused": false,
  "done": {
