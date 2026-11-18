@@ -76,7 +76,8 @@
    "So‘roq olmoshlari (Ayna va Kayfa)",
    "CEFR: Atrof-muhit lug‘ati (Bi’a)",
    "Arab tilida to‘g‘ri ko‘plik turlari: Salim va Mukassar",
-   "Arab tilida Idofa (izofa) birikmasi"
+   "Arab tilida Idofa (izofa) birikmasi",
+   "Kunning so‘zi: Sayohat (سَفَرٌ)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -131,7 +132,6 @@
    "ibora"
   ],
   "ar": [
-   "xatoni_top",
    "tarjima",
    "dialog",
    "farq",
@@ -140,7 +140,8 @@
    "lugat",
    "test",
    "farq",
-   "fakt"
+   "fakt",
+   "kunning_sozi"
   ],
   "ru": [
    "grammatika",
@@ -156,7 +157,6 @@
   ]
  },
  "templates": [
-  "stripes",
   "classic",
   "photo",
   "split",
@@ -167,7 +167,8 @@
   "gradient",
   "photo",
   "photo",
-  "neon"
+  "neon",
+  "classic"
  ],
  "paused": false,
  "done": {
