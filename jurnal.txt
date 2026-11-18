@@ -1,7 +1,7 @@
-2026-11-18 03:00:42,611 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-18 04:47:28,133 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+2026-11-18 05:00:20,799 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-18 06:47:16,014 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
     "code": 429,
     "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-18 04:47:48,467 INFO Post ar/kunning_sozi urinish 1: baho 10, ['Arabcha misollar va kalit so‘zlarga to‘liq harakatlar (tashkil) qo‘yildi.', 'Uzbekcha matndagi keraksiz belgilashlar (underline) tozalandi hamda imlo qoidalariga moslashtirildi.', 'Kaption uzunligi va rasm matnlari belgilangan mezonlarga to‘liq yetkazildi.']
-2026-11-18 05:00:00,810 INFO Kanalga chiqdi: 2026-11-18_1000_ar
+2026-11-18 06:47:58,355 INFO Post ru/lugat urinish 1: baho 10, ['«Tíше» so‘zidagi lotincha harflar kirillcha «Ти́ше» ko‘rinishiga tuzatildi', '«луч́ший» so‘zidagi urg‘u belgisi unli harf ustiga («лу́чший») to‘g‘ri qo‘yildi', 'Post matni 450–720 belgi talabiga moslashtirildi']
+2026-11-18 07:00:01,355 INFO Kanalga chiqdi: 2026-11-18_1200_ru
