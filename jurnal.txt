@@ -1,7 +1,3 @@
-2026-11-18 05:00:20,799 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-18 06:47:16,014 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-18 06:47:58,355 INFO Post ru/lugat urinish 1: baho 10, ['«Tíше» so‘zidagi lotincha harflar kirillcha «Ти́ше» ko‘rinishiga tuzatildi', '«луч́ший» so‘zidagi urg‘u belgisi unli harf ustiga («лу́чший») to‘g‘ri qo‘yildi', 'Post matni 450–720 belgi talabiga moslashtirildi']
-2026-11-18 07:00:01,355 INFO Kanalga chiqdi: 2026-11-18_1200_ru
+2026-11-18 07:00:20,547 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-18 07:49:12,156 INFO Post ar/grammatika urinish 1: baho 9, ["Sarlavhadagi 'harfining qo‘llanishi' birikmasi 'ismining qo‘llanishi' deb tuzatildi, chunki 'مَتَى' grammatik jihatdan harf emas, ismdir (اسم الاستفهام).", "Matndagi 'tugatrasiz' imloviy xatosi 'tugatasiz' shakliga tuzatildi.", 'Grammatik tushunchalarni tushuntirishda arab tili atamalaridan foydalanildi hamda qoida aniqlashtirildi.']
+2026-11-18 08:00:01,011 INFO Kanalga chiqdi: 2026-11-18_1300_ar
