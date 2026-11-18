@@ -117,7 +117,8 @@
    "Xatoni top: Kelasi zamon fe’lining noto‘g‘ri qo‘llanishi",
    "«В» va «На» predloglari (Предложный падеж)",
    "Dativ kelishigi (Komu? Chemu?) — Jo‘nalish kelishigi",
-   "Vaqt va sabr haqida ruscha maqollar"
+   "Vaqt va sabr haqida ruscha maqollar",
+   "Fe’l ko‘rinishlari: «Решать» va «Решить» farqi"
   ]
  },
  "types": {
@@ -146,7 +147,6 @@
    "grammatika"
   ],
   "ru": [
-   "xatoni_top",
    "test",
    "lugat",
    "farq",
@@ -155,11 +155,11 @@
    "xatoni_top",
    "farq",
    "kunning_sozi",
-   "lugat"
+   "lugat",
+   "test"
   ]
  },
  "templates": [
-  "split",
   "bigletter",
   "neon",
   "photo",
@@ -169,6 +169,7 @@
   "photo",
   "neon",
   "classic",
+  "photo",
   "photo",
   "photo"
  ],
