@@ -36,7 +36,8 @@
    "Say va Tell fe’llarining farqi",
    "Silent B harfi va Doubt so'zi talaffuzi",
    "Xarid qilish (Shopping) lug‘ati",
-   "Hear va Listen fe'llari o'rtasidagi farq"
+   "Hear va Listen fe'llari o'rtasidagi farq",
+   "Sayohat mavzusidagi 'On the road' iborasi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -118,7 +119,6 @@
  },
  "types": {
   "en": [
-   "test",
    "kunning_sozi",
    "farq",
    "grammatika",
@@ -127,7 +127,8 @@
    "ibora",
    "kunning_sozi",
    "lugat",
-   "farq"
+   "farq",
+   "ibora"
   ],
   "ar": [
    "xatoni_top",
@@ -155,7 +156,6 @@
   ]
  },
  "templates": [
-  "waves",
   "stripes",
   "classic",
   "photo",
@@ -166,7 +166,8 @@
   "classic",
   "gradient",
   "photo",
-  "photo"
+  "photo",
+  "neon"
  ],
  "paused": false,
  "done": {
