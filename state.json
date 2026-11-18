@@ -37,7 +37,8 @@
    "Silent B harfi va Doubt so'zi talaffuzi",
    "Xarid qilish (Shopping) lug‘ati",
    "Hear va Listen fe'llari o'rtasidagi farq",
-   "Sayohat mavzusidagi 'On the road' iborasi"
+   "Sayohat mavzusidagi 'On the road' iborasi",
+   "‘Take a chance’ kollokatsiyasi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -123,7 +124,6 @@
  },
  "types": {
   "en": [
-   "kunning_sozi",
    "farq",
    "grammatika",
    "tarjima",
@@ -132,7 +132,8 @@
    "kunning_sozi",
    "lugat",
    "farq",
-   "ibora"
+   "ibora",
+   "grammatika"
   ],
   "ar": [
    "dialog",
@@ -160,7 +161,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "neon",
   "photo",
   "classic",
@@ -171,7 +171,8 @@
   "classic",
   "photo",
   "photo",
-  "photo"
+  "photo",
+  "gradient"
  ],
  "paused": false,
  "done": {
