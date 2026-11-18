@@ -115,7 +115,8 @@
    "O‘tgan zamon: Fe’lning o‘tgan zamonda rodlar bo‘yicha o‘zgarishi",
    "Xatoni top: Kelasi zamon fe’lining noto‘g‘ri qo‘llanishi",
    "«В» va «На» predloglari (Предложный падеж)",
-   "Dativ kelishigi (Komu? Chemu?) — Jo‘nalish kelishigi"
+   "Dativ kelishigi (Komu? Chemu?) — Jo‘nalish kelishigi",
+   "Vaqt va sabr haqida ruscha maqollar"
   ]
  },
  "types": {
@@ -144,7 +145,6 @@
    "kunning_sozi"
   ],
   "ru": [
-   "grammatika",
    "xatoni_top",
    "test",
    "lugat",
@@ -153,11 +153,11 @@
    "dialog",
    "xatoni_top",
    "farq",
-   "kunning_sozi"
+   "kunning_sozi",
+   "lugat"
   ]
  },
  "templates": [
-  "classic",
   "photo",
   "split",
   "bigletter",
@@ -168,7 +168,8 @@
   "photo",
   "photo",
   "neon",
-  "classic"
+  "classic",
+  "photo"
  ],
  "paused": false,
  "done": {
