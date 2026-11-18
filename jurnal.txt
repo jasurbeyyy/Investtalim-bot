@@ -1,3 +1,4 @@
-2026-11-18 08:00:17,161 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-18 09:50:41,150 INFO Post ru/test urinish 1: baho 10, ['Uzbek imlosidagi xato («yo‘ki» -> «yoki») tuzatildi.', 'Matn hajmi talab qilingan 450-720 belgi oralig‘iga yetkazildi va grammatik tushunchalar aniqlashtirildi.', 'Quiz tushuntirishidagi to‘g‘ri javob ||spoiler|| bilan berkitildi.']
-2026-11-18 10:00:01,619 INFO Kanalga chiqdi: 2026-11-18_1500_ru
+2026-11-18 10:00:21,490 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-18 10:10:08,107 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-18 11:47:25,070 INFO Post en/grammatika urinish 1: baho 10, ['Uchinchi misol mantiqan va usluban tabiiyroq inglizcha gapga almashtirildi.', "Rasm subtitridagi noaniq 'imkoniyatni qo‘llamoq' birikmasi aniqroq tarjima bilan almashtirildi.", 'Izoh qismidagi grammatik tushuntirish va tarjimalar ravonlashtirildi.']
+2026-11-18 12:00:03,231 INFO Kanalga chiqdi: 2026-11-18_1700_en
