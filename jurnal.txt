@@ -1,3 +1,3 @@
-2026-11-18 07:00:20,547 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-18 07:49:12,156 INFO Post ar/grammatika urinish 1: baho 9, ["Sarlavhadagi 'harfining qo‘llanishi' birikmasi 'ismining qo‘llanishi' deb tuzatildi, chunki 'مَتَى' grammatik jihatdan harf emas, ismdir (اسم الاستفهام).", "Matndagi 'tugatrasiz' imloviy xatosi 'tugatasiz' shakliga tuzatildi.", 'Grammatik tushunchalarni tushuntirishda arab tili atamalaridan foydalanildi hamda qoida aniqlashtirildi.']
-2026-11-18 08:00:01,011 INFO Kanalga chiqdi: 2026-11-18_1300_ar
+2026-11-18 08:00:17,161 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-18 09:50:41,150 INFO Post ru/test urinish 1: baho 10, ['Uzbek imlosidagi xato («yo‘ki» -> «yoki») tuzatildi.', 'Matn hajmi talab qilingan 450-720 belgi oralig‘iga yetkazildi va grammatik tushunchalar aniqlashtirildi.', 'Quiz tushuntirishidagi to‘g‘ri javob ||spoiler|| bilan berkitildi.']
+2026-11-18 10:00:01,619 INFO Kanalga chiqdi: 2026-11-18_1500_ru
