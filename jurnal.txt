@@ -1,41 +1,44 @@
-2026-11-19 07:00:16,597 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-19 07:47:01,246 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-19 08:00:16,395 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-19 09:47:00,754 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-19 07:47:05,538 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-19 09:47:40,290 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-19 07:47:13,816 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-19 09:47:52,020 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-19 07:47:17,917 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-19 07:47:29,196 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-19 09:47:59,300 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-19 07:48:03,417 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-19 09:48:23,312 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-19 07:48:11,957 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-19 09:48:53,654 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-19 07:48:16,061 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+2026-11-19 09:49:07,374 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-19 07:48:43,429 INFO Post ar/tarjima urinish 1: baho 10, ["Caption uzunligi talab qilingan 450-720 belgi oralig'iga keltirildi", "Arabcha so'zlar va gaplarga to'liq harakatlar (tashkeel) qo'yildi", "O'zbek tilidagi imlo xatolari tuzatildi (o‘, g‘, ’ belgilari)", "Grammatik terminlar (harfi jar, majrur) to'g'ri qo'llanildi", 'Hashtaglar caption ichidan olib tashlandi']
-2026-11-19 08:00:00,947 INFO Kanalga chiqdi: 2026-11-19_1300_ar
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-19 09:49:11,905 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-19 09:49:54,692 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
+2026-11-19 09:50:15,766 INFO Post ru/tarjima urinish 1: baho 10, ['Caption uzunligi 450 belgidan kam edi, qo‘shimcha tushuntirish bilan to‘ldirildi.', 'Rasm matnidagi urg‘u xatosi (машѝне -> маши́не) tuzatildi.', '3-gap ma’nosi aniqroq bo‘lishi uchun «dam olish kunlari» (ko‘plik) shakliga o‘zgartirildi va «ездят» fe’li ishlatildi.', 'O‘zbek tilidagi o‘ va g‘ harflari hamda tutuq belgisi imlosi standartga muvofiq tuzatildi.']
+2026-11-19 10:00:01,728 INFO Kanalga chiqdi: 2026-11-19_1500_ru
