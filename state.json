@@ -39,7 +39,8 @@
    "Hear va Listen fe'llari o'rtasidagi farq",
    "Sayohat mavzusidagi 'On the road' iborasi",
    "‘Take a chance’ kollokatsiyasi",
-   "Harakat predloglari (Prepositions of movement)"
+   "Harakat predloglari (Prepositions of movement)",
+   "Noto‘g‘ri sifatlar (Irregular Comparatives)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -129,7 +130,6 @@
  },
  "types": {
   "en": [
-   "grammatika",
    "tarjima",
    "test",
    "ibora",
@@ -138,7 +138,8 @@
    "farq",
    "ibora",
    "grammatika",
-   "lugat"
+   "lugat",
+   "fakt"
   ],
   "ar": [
    "kunning_sozi",
@@ -166,7 +167,6 @@
   ]
  },
  "templates": [
-  "photo",
   "neon",
   "classic",
   "photo",
@@ -177,7 +177,8 @@
   "photo",
   "photo",
   "stripes",
-  "classic"
+  "classic",
+  "neon"
  ],
  "paused": false,
  "done": {
