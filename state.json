@@ -80,7 +80,8 @@
    "Arab tilida to‘g‘ri ko‘plik turlari: Salim va Mukassar",
    "Arab tilida Idofa (izofa) birikmasi",
    "Kunning so‘zi: Sayohat (سَفَرٌ)",
-   "Vaqtga oid grammatika: Qachon (متى) so‘roq olmoshi"
+   "Vaqtga oid grammatika: Qachon (متى) so‘roq olmoshi",
+   "CEFR: Salomatlik va tibbiyot lug‘ati"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -137,7 +138,6 @@
    "lugat"
   ],
   "ar": [
-   "dialog",
    "farq",
    "kunning_sozi",
    "grammatika",
@@ -146,7 +146,8 @@
    "farq",
    "fakt",
    "kunning_sozi",
-   "grammatika"
+   "grammatika",
+   "test"
   ],
   "ru": [
    "test",
@@ -162,7 +163,6 @@
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "gradient",
   "photo",
@@ -173,7 +173,8 @@
   "photo",
   "photo",
   "gradient",
-  "glass"
+  "glass",
+  "photo"
  ],
  "paused": false,
  "done": {
