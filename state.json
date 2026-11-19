@@ -81,7 +81,8 @@
    "Arab tilida Idofa (izofa) birikmasi",
    "Kunning so‘zi: Sayohat (سَفَرٌ)",
    "Vaqtga oid grammatika: Qachon (متى) so‘roq olmoshi",
-   "CEFR: Salomatlik va tibbiyot lug‘ati"
+   "CEFR: Salomatlik va tibbiyot lug‘ati",
+   "Harfi jar: An (عَنْ) va Bi (بِـ) qo‘llanishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -139,7 +140,6 @@
    "lugat"
   ],
   "ar": [
-   "farq",
    "kunning_sozi",
    "grammatika",
    "lugat",
@@ -148,7 +148,8 @@
    "fakt",
    "kunning_sozi",
    "grammatika",
-   "test"
+   "test",
+   "tarjima"
   ],
   "ru": [
    "lugat",
@@ -164,7 +165,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "photo",
   "photo",
   "neon",
@@ -175,7 +175,8 @@
   "gradient",
   "glass",
   "photo",
-  "photo"
+  "photo",
+  "stripes"
  ],
  "paused": false,
  "done": {
