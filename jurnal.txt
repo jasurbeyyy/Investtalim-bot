@@ -1,5 +1,12 @@
-2026-11-18 16:00:21,238 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-18 16:00:23,172 INFO Navbatdagi post: 2026-11-19 07:00:00+05:00. 02:00 gacha kutiladi.
-2026-11-18 17:43:40,050 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-18 17:43:43,191 WARNING Telegram tarmoq xatosi (getUpdates): [Errno 101] Network is unreachable
-2026-11-18 17:43:51,902 WARNING Telegram tarmoq xatosi (getUpdates): [Errno 104] Connection reset by peer
+2026-11-18 21:00:54,037 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-19 01:47:12,893 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-19 01:47:17,120 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-19 02:00:03,633 INFO Kanalga chiqdi: 2026-11-19_0700_tong
