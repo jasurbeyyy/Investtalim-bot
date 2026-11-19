@@ -123,7 +123,8 @@
    "Dativ kelishigi (Komu? Chemu?) — Jo‘nalish kelishigi",
    "Vaqt va sabr haqida ruscha maqollar",
    "Fe’l ko‘rinishlari: «Решать» va «Решить» farqi",
-   "Odob so‘zlari: Xushmuomalalik bilan iltimos qilish («Будьте добры»)"
+   "Odob so‘zlari: Xushmuomalalik bilan iltimos qilish («Будьте добры»)",
+   "Glagoly dvijeniya: «Ехать» va «Ездить»"
   ]
  },
  "types": {
@@ -152,7 +153,6 @@
    "tarjima"
   ],
   "ru": [
-   "lugat",
    "farq",
    "tarjima",
    "dialog",
@@ -161,11 +161,11 @@
    "kunning_sozi",
    "lugat",
    "test",
-   "grammatika"
+   "grammatika",
+   "tarjima"
   ]
  },
  "templates": [
-  "photo",
   "photo",
   "neon",
   "classic",
@@ -176,7 +176,8 @@
   "glass",
   "photo",
   "photo",
-  "stripes"
+  "stripes",
+  "classic"
  ],
  "paused": false,
  "done": {
