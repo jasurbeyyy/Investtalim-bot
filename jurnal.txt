@@ -1,3 +1,2 @@
-2026-11-19 10:00:36,837 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-19 11:47:50,881 INFO Post en/fakt urinish 1: baho 10, ['"bad" eng qisqa sifat degan noto‘g‘ri fakt to‘g‘rilandi hamda grammatik tushuntirish aniqlashtirildi.', 'Uzbek tilidagi tutuq belgilar va o‘, g‘ harflari standart shaklga o‘tkazildi (ba’zi, bo‘lib, bo‘ysunmaydi, ko‘ra).', 'Post matni uzunligi talab qilingan me’yorga (450-720 belgi) moslashtirildi.']
-2026-11-19 12:00:01,667 INFO Kanalga chiqdi: 2026-11-19_1700_en
+2026-11-19 12:00:20,792 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-19 16:00:01,435 INFO Kanalga chiqdi: 2026-11-19_2100_tun
