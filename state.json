@@ -38,7 +38,8 @@
    "Xarid qilish (Shopping) lug‘ati",
    "Hear va Listen fe'llari o'rtasidagi farq",
    "Sayohat mavzusidagi 'On the road' iborasi",
-   "‘Take a chance’ kollokatsiyasi"
+   "‘Take a chance’ kollokatsiyasi",
+   "Harakat predloglari (Prepositions of movement)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -124,7 +125,6 @@
  },
  "types": {
   "en": [
-   "farq",
    "grammatika",
    "tarjima",
    "test",
@@ -133,7 +133,8 @@
    "lugat",
    "farq",
    "ibora",
-   "grammatika"
+   "grammatika",
+   "lugat"
   ],
   "ar": [
    "dialog",
@@ -161,7 +162,6 @@
   ]
  },
  "templates": [
-  "neon",
   "photo",
   "classic",
   "gradient",
@@ -172,7 +172,8 @@
   "photo",
   "photo",
   "photo",
-  "gradient"
+  "gradient",
+  "glass"
  ],
  "paused": false,
  "done": {
