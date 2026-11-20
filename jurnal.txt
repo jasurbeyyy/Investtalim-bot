@@ -1,3 +1,3 @@
-2026-11-20 02:00:19,935 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-20 02:47:28,398 INFO Post en/test urinish 1: baho 10, ['Matn (caption) uzunligi talab qilingan 450-720 belgi oralig‘iga yetkazildi va foydali misol qo‘shildi.', 'O‘zbekcha matndagi o‘ va g‘ harflarining belgisi to‘g‘rilandi.']
-2026-11-20 03:00:01,183 INFO Kanalga chiqdi: 2026-11-20_0800_en
+2026-11-20 03:00:16,341 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-20 04:48:27,355 INFO Post ar/farq urinish 1: baho 10, ['Hashtagdagi imloviy xato tuzatildi (#olmooshlar -> #olmoshlar).', 'Arabcha kalit so‘zlar va misollardagi barcha harakatlar (tashkeel) to‘liq va aniq qilindi.', 'Uzbek tilidagi terminologiya va tuturuqli matn uslubi hamda o‘ va g‘ harflari to‘g‘rilandi.']
+2026-11-20 05:00:02,967 INFO Kanalga chiqdi: 2026-11-20_1000_ar
