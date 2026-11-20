@@ -1,32 +1,3 @@
-2026-11-20 07:00:36,369 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-20 07:32:08,522 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-20 07:37:12,925 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-20 07:49:15,998 WARNING AI xato (gemini-3.5-flash): JSON topilmadi
-2026-11-20 07:49:16,157 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-20 07:49:24,302 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-20 07:50:07,337 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-20 07:50:11,419 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-20 07:50:19,699 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-20 07:50:23,838 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-20 07:51:06,102 INFO Post ar/lugat urinish 1: baho 10, ['Arabcha so‘zlarga to‘liq harakatlar (tashkeel) qo‘yildi.', "Siniq ko‘plikdagi tanvin olmaydigan (mamnu' minas-sarf) so‘zlar to‘g‘rilandi (masalan: makātibu).", 'Caption uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi.', 'O‘zbek tili imlosi (o‘, g‘, ’) va grammatik atamalari (ism, birlik, ko‘plik) tekshirildi.', 'Misol gapdagi grammatik moslashuv (g‘ayri oqil ko‘plik uchun muannas sifat) to‘g‘rilandi.']
-2026-11-20 07:57:09,899 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-20 08:00:01,641 INFO Kanalga chiqdi: 2026-11-20_1300_ar
+2026-11-20 08:00:18,405 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-20 09:49:32,142 INFO Post ru/xatoni_top urinish 1: baho 10, ["Postdagi mantiqiy xato tuzatildi: xatosiz gap manfiy belgi bilan berilgan edi, u xatoli shaklga ('в тысячи...') o‘zgartirildi.", 'Matn uzunligi talab qilingan me’yorga (450-720 belgi) keltirildi.', 'O‘zbekcha matndagi tutuq belgisi va o‘, g‘ harflari imlosiga rioya qilindi.', 'Grammatik qoida (составные порядковые числительные) aniqroq izohlandi.']
+2026-11-20 10:00:01,237 INFO Kanalga chiqdi: 2026-11-20_1500_ru
