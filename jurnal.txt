@@ -1,3 +1,2 @@
-2026-11-20 10:00:19,772 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-20 11:47:37,484 INFO Post en/xatoni_top urinish 1: baho 10, ["'Cümladagi' o'rniga o'zbekcha 'gapdagi' so'zi ishlatildi.", "Xato va mantiqsiz bo'lgan 'Katta ehtimol bilan...' tarjimasi to'g'rilandi.", "Grammatika izohi aniqlashtirildi hamda post matni belgilangan 450-720 belgi oralig'iga keltirildi."]
-2026-11-20 12:00:01,054 INFO Kanalga chiqdi: 2026-11-20_1700_en
+2026-11-20 12:00:16,668 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-20 16:00:01,170 INFO Kanalga chiqdi: 2026-11-20_2100_tun
