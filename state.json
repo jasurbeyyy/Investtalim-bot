@@ -127,7 +127,8 @@
    "Vaqt va sabr haqida ruscha maqollar",
    "Fe’l ko‘rinishlari: «Решать» va «Решить» farqi",
    "Odob so‘zlari: Xushmuomalalik bilan iltimos qilish («Будьте добры»)",
-   "Glagoly dvijeniya: «Ехать» va «Ездить»"
+   "Glagoly dvijeniya: «Ехать» va «Ездить»",
+   "O‘rta jins: -мя qo‘shimchasi bilan tugaydigan so‘zlar"
   ]
  },
  "types": {
@@ -156,7 +157,6 @@
    "farq"
   ],
   "ru": [
-   "farq",
    "tarjima",
    "dialog",
    "xatoni_top",
@@ -165,11 +165,11 @@
    "lugat",
    "test",
    "grammatika",
-   "tarjima"
+   "tarjima",
+   "lugat"
   ]
  },
  "templates": [
-  "photo",
   "photo",
   "photo",
   "gradient",
@@ -180,6 +180,7 @@
   "classic",
   "neon",
   "quiz",
+  "photo",
   "photo"
  ],
  "paused": false,
