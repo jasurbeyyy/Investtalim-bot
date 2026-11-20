@@ -129,7 +129,8 @@
    "Fe’l ko‘rinishlari: «Решать» va «Решить» farqi",
    "Odob so‘zlari: Xushmuomalalik bilan iltimos qilish («Будьте добры»)",
    "Glagoly dvijeniya: «Ехать» va «Ездить»",
-   "O‘rta jins: -мя qo‘shimchasi bilan tugaydigan so‘zlar"
+   "O‘rta jins: -мя qo‘shimchasi bilan tugaydigan so‘zlar",
+   "Числительные: vaqt va sanada sonlarning kelishigi (Xatoni top)"
   ]
  },
  "types": {
@@ -158,7 +159,6 @@
    "lugat"
   ],
   "ru": [
-   "tarjima",
    "dialog",
    "xatoni_top",
    "farq",
@@ -167,11 +167,11 @@
    "test",
    "grammatika",
    "tarjima",
-   "lugat"
+   "lugat",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "photo",
   "gradient",
   "glass",
   "photo",
@@ -182,7 +182,8 @@
   "quiz",
   "photo",
   "photo",
-  "glass"
+  "glass",
+  "photo"
  ],
  "paused": false,
  "done": {
