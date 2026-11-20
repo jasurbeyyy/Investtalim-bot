@@ -1,2 +1,5 @@
-2026-11-19 16:00:21,121 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-19 16:00:21,975 INFO Navbatdagi post: 2026-11-20 07:00:00+05:00. 02:00 gacha kutiladi.
+2026-11-19 21:01:09,541 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-20 01:17:44,279 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
+2026-11-20 01:17:54,636 WARNING Buyruqlarni o'qib bo'lmadi: getUpdates: Bad Gateway
+2026-11-20 01:19:14,943 WARNING Telegram tarmoq xatosi (getUpdates): The read operation timed out
+2026-11-20 02:00:01,567 INFO Kanalga chiqdi: 2026-11-20_0700_tong
