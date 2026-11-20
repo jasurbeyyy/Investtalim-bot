@@ -41,7 +41,8 @@
    "‘Take a chance’ kollokatsiyasi",
    "Harakat predloglari (Prepositions of movement)",
    "Noto‘g‘ri sifatlar (Irregular Comparatives)",
-   "Imtihon iboralari: 'In my view' iborasi"
+   "Imtihon iboralari: 'In my view' iborasi",
+   "Wish va O‘tgan zamon (Wish + Past Simple)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -135,7 +136,6 @@
  },
  "types": {
   "en": [
-   "test",
    "ibora",
    "kunning_sozi",
    "lugat",
@@ -144,7 +144,8 @@
    "grammatika",
    "lugat",
    "fakt",
-   "test"
+   "test",
+   "xatoni_top"
   ],
   "ar": [
    "lugat",
@@ -172,7 +173,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "glass",
   "photo",
   "photo",
@@ -183,7 +183,8 @@
   "photo",
   "photo",
   "glass",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
