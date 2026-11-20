@@ -85,7 +85,8 @@
    "Vaqtga oid grammatika: Qachon (متى) so‘roq olmoshi",
    "CEFR: Salomatlik va tibbiyot lug‘ati",
    "Harfi jar: An (عَنْ) va Bi (بِـ) qo‘llanishi",
-   "Ko‘rsatish olmoshlari: Hazani (هَٰذَانِ) va Hatani (هَاتَانِ)"
+   "Ko‘rsatish olmoshlari: Hazani (هَٰذَانِ) va Hatani (هَاتَانِ)",
+   "Siniq ko‘plik (Jam’u-t-taksir) – Maktab anjomlari"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -145,7 +146,6 @@
    "test"
   ],
   "ar": [
-   "grammatika",
    "lugat",
    "test",
    "farq",
@@ -154,7 +154,8 @@
    "grammatika",
    "test",
    "tarjima",
-   "farq"
+   "farq",
+   "lugat"
   ],
   "ru": [
    "tarjima",
@@ -171,7 +172,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "gradient",
   "glass",
   "photo",
@@ -181,7 +181,8 @@
   "neon",
   "quiz",
   "photo",
-  "photo"
+  "photo",
+  "glass"
  ],
  "paused": false,
  "done": {
