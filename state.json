@@ -84,7 +84,8 @@
    "Kunning so‘zi: Sayohat (سَفَرٌ)",
    "Vaqtga oid grammatika: Qachon (متى) so‘roq olmoshi",
    "CEFR: Salomatlik va tibbiyot lug‘ati",
-   "Harfi jar: An (عَنْ) va Bi (بِـ) qo‘llanishi"
+   "Harfi jar: An (عَنْ) va Bi (بِـ) qo‘llanishi",
+   "Ko‘rsatish olmoshlari: Hazani (هَٰذَانِ) va Hatani (هَاتَانِ)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -143,7 +144,6 @@
    "test"
   ],
   "ar": [
-   "kunning_sozi",
    "grammatika",
    "lugat",
    "test",
@@ -152,7 +152,8 @@
    "kunning_sozi",
    "grammatika",
    "test",
-   "tarjima"
+   "tarjima",
+   "farq"
   ],
   "ru": [
    "farq",
@@ -168,7 +169,6 @@
   ]
  },
  "templates": [
-  "classic",
   "photo",
   "photo",
   "photo",
@@ -179,7 +179,8 @@
   "stripes",
   "classic",
   "neon",
-  "quiz"
+  "quiz",
+  "photo"
  ],
  "paused": false,
  "done": {
