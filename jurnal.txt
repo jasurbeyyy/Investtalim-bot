@@ -1,3 +1,42 @@
-2026-11-20 03:00:16,341 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-20 04:48:27,355 INFO Post ar/farq urinish 1: baho 10, ['Hashtagdagi imloviy xato tuzatildi (#olmooshlar -> #olmoshlar).', 'Arabcha kalit so‘zlar va misollardagi barcha harakatlar (tashkeel) to‘liq va aniq qilindi.', 'Uzbek tilidagi terminologiya va tuturuqli matn uslubi hamda o‘ va g‘ harflari to‘g‘rilandi.']
-2026-11-20 05:00:02,967 INFO Kanalga chiqdi: 2026-11-20_1000_ar
+2026-11-20 05:00:20,882 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-20 06:47:34,069 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:47:38,383 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:47:46,630 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:47:51,722 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:48:04,784 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:48:09,616 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:48:17,774 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-20 06:48:21,867 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-20 06:48:49,476 INFO Post ru/lugat urinish 1: baho 10, ['«Srediniy rod» atamasi o‘zbekcha «O‘rta jins» bilan almashtirildi', 'Matn uzunligi talab qilingan 450-720 belgigacha yetkazildi', 'Ruscha so‘zlarga urg‘u (ударение) belgilari qo‘yildi', 'O‘zbek tili imlosi (o‘, g‘, ’) standartga muvofiqlashtirildi', 'Mavzuni boyitish uchun sifatlar bilan bog‘liq qo‘shimcha misollar qo‘shildi']
+2026-11-20 07:00:00,627 INFO Kanalga chiqdi: 2026-11-20_1200_ru
