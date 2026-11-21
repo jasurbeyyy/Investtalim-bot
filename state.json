@@ -89,7 +89,8 @@
    "Harfi jar: An (عَنْ) va Bi (بِـ) qo‘llanishi",
    "Ko‘rsatish olmoshlari: Hazani (هَٰذَانِ) va Hatani (هَاتَانِ)",
    "Siniq ko‘plik (Jam’u-t-taksir) – Maktab anjomlari",
-   "Kunning so‘zi: Sifat va mavsuf moslashuvi (Jameel)"
+   "Kunning so‘zi: Sifat va mavsuf moslashuvi (Jameel)",
+   "Ism, fe'l va harfni ajratish bo'yicha tarjima mashqi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -151,7 +152,6 @@
    "lugat"
   ],
   "ar": [
-   "test",
    "farq",
    "fakt",
    "kunning_sozi",
@@ -160,7 +160,8 @@
    "tarjima",
    "farq",
    "lugat",
-   "kunning_sozi"
+   "kunning_sozi",
+   "tarjima"
   ],
   "ru": [
    "xatoni_top",
@@ -176,7 +177,6 @@
   ]
  },
  "templates": [
-  "stripes",
   "classic",
   "neon",
   "quiz",
@@ -187,7 +187,8 @@
   "classic",
   "photo",
   "photo",
-  "bigletter"
+  "bigletter",
+  "glass"
  ],
  "paused": false,
  "done": {
