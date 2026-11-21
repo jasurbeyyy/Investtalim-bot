@@ -1,3 +1,3 @@
-2026-11-21 03:00:18,871 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-21 04:47:42,414 INFO Post ar/kunning_sozi urinish 1: baho 10, ['Arabcha so‘z va misollarga to‘liq harakatlar qo‘yildi.', 'Uzbek lotin alifbosidagi tutuq belgisi (’) va o‘, g‘ harflari imlosi standartlashtirildi.', 'Rasm matnining ikkinchi qatori belgilangan me’yordan (34 belgi) oshib ketmasligi uchun moslashtirildi.', "Grammatik tushunchaga mos ravishda 'sifat' va 'mavsuf' atamalari aniqroq izohlandi."]
-2026-11-21 05:00:01,110 INFO Kanalga chiqdi: 2026-11-21_1000_ar
+2026-11-21 05:00:15,245 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-21 06:47:56,805 INFO Post ru/grammatika urinish 1: baho 10, ["Mavzudagi 'Qumuq soft sign' hamda matndagi 'Nsoft sign' kabi qo‘pol imlo xatolari 'Yumshoq belgi' deb tuzatildi.", 'O‘zbek tilidagi o‘ va g‘ harflari hamda tuturuq belgilari imlo qoidalariga moslashtirildi.', 'Muzskoy va jenskiy rod so‘zlari hamda misollar aniq va tushunarli ko‘rinishga keltirildi.', 'Post hajmi talab qilingan 450–720 belgilar oralig‘iga keltirildi.']
+2026-11-21 07:00:01,336 INFO Kanalga chiqdi: 2026-11-21_1200_ru
