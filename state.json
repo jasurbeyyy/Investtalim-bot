@@ -88,7 +88,8 @@
    "CEFR: Salomatlik va tibbiyot lug‘ati",
    "Harfi jar: An (عَنْ) va Bi (بِـ) qo‘llanishi",
    "Ko‘rsatish olmoshlari: Hazani (هَٰذَانِ) va Hatani (هَاتَانِ)",
-   "Siniq ko‘plik (Jam’u-t-taksir) – Maktab anjomlari"
+   "Siniq ko‘plik (Jam’u-t-taksir) – Maktab anjomlari",
+   "Kunning so‘zi: Sifat va mavsuf moslashuvi (Jameel)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -149,7 +150,6 @@
    "lugat"
   ],
   "ar": [
-   "lugat",
    "test",
    "farq",
    "fakt",
@@ -158,7 +158,8 @@
    "test",
    "tarjima",
    "farq",
-   "lugat"
+   "lugat",
+   "kunning_sozi"
   ],
   "ru": [
    "dialog",
@@ -175,7 +176,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "stripes",
   "classic",
   "neon",
@@ -185,6 +185,7 @@
   "glass",
   "photo",
   "classic",
+  "photo",
   "photo"
  ],
  "paused": false,
