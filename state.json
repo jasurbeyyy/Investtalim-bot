@@ -42,7 +42,8 @@
    "Harakat predloglari (Prepositions of movement)",
    "Noto‘g‘ri sifatlar (Irregular Comparatives)",
    "Imtihon iboralari: 'In my view' iborasi",
-   "Wish va O‘tgan zamon (Wish + Past Simple)"
+   "Wish va O‘tgan zamon (Wish + Past Simple)",
+   "O‘rin-joy predloglari: Inside, Outside, Near"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -136,7 +137,6 @@
  },
  "types": {
   "en": [
-   "ibora",
    "kunning_sozi",
    "lugat",
    "farq",
@@ -145,7 +145,8 @@
    "lugat",
    "fakt",
    "test",
-   "xatoni_top"
+   "xatoni_top",
+   "lugat"
   ],
   "ar": [
    "lugat",
@@ -173,7 +174,6 @@
   ]
  },
  "templates": [
-  "glass",
   "photo",
   "photo",
   "stripes",
@@ -184,7 +184,8 @@
   "photo",
   "glass",
   "photo",
-  "classic"
+  "classic",
+  "photo"
  ],
  "paused": false,
  "done": {
