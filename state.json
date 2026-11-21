@@ -133,7 +133,8 @@
    "Odob so‘zlari: Xushmuomalalik bilan iltimos qilish («Будьте добры»)",
    "Glagoly dvijeniya: «Ехать» va «Ездить»",
    "O‘rta jins: -мя qo‘shimchasi bilan tugaydigan so‘zlar",
-   "Числительные: vaqt va sanada sonlarning kelishigi (Xatoni top)"
+   "Числительные: vaqt va sanada sonlarning kelishigi (Xatoni top)",
+   "Rod: Yumshoq belgi (-ь) bilan tugaydigan otlar jinsi"
   ]
  },
  "types": {
@@ -162,7 +163,6 @@
    "kunning_sozi"
   ],
   "ru": [
-   "dialog",
    "xatoni_top",
    "farq",
    "kunning_sozi",
@@ -171,11 +171,11 @@
    "grammatika",
    "tarjima",
    "lugat",
-   "xatoni_top"
+   "xatoni_top",
+   "grammatika"
   ]
  },
  "templates": [
-  "photo",
   "stripes",
   "classic",
   "neon",
@@ -186,7 +186,8 @@
   "photo",
   "classic",
   "photo",
-  "photo"
+  "photo",
+  "bigletter"
  ],
  "paused": false,
  "done": {
