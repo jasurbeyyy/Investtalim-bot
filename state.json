@@ -135,7 +135,8 @@
    "Glagoly dvijeniya: «Ехать» va «Ездить»",
    "O‘rta jins: -мя qo‘shimchasi bilan tugaydigan so‘zlar",
    "Числительные: vaqt va sanada sonlarning kelishigi (Xatoni top)",
-   "Rod: Yumshoq belgi (-ь) bilan tugaydigan otlar jinsi"
+   "Rod: Yumshoq belgi (-ь) bilan tugaydigan otlar jinsi",
+   "Rod: Кофе so‘zining jinsi va grammatik me’yori"
   ]
  },
  "types": {
@@ -164,7 +165,6 @@
    "tarjima"
   ],
   "ru": [
-   "xatoni_top",
    "farq",
    "kunning_sozi",
    "lugat",
@@ -173,11 +173,11 @@
    "tarjima",
    "lugat",
    "xatoni_top",
-   "grammatika"
+   "grammatika",
+   "kunning_sozi"
   ]
  },
  "templates": [
-  "classic",
   "neon",
   "quiz",
   "photo",
@@ -188,7 +188,8 @@
   "photo",
   "photo",
   "bigletter",
-  "glass"
+  "glass",
+  "photo"
  ],
  "paused": false,
  "done": {
