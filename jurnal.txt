@@ -1,8 +1,4 @@
-2026-11-21 07:00:17,420 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-21 07:47:03,594 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-21 07:47:29,327 INFO Post ar/tarjima urinish 1: baho 10, ['Matn uzunligi talab qilingan 450-720 belgilar oralig‘iga yetkazildi hamda o‘quvchilar uchun grammatik tushuntirish qo‘shildi.', 'O‘zbekcha va arabcha so‘zlar imlosi, tinish belgilari hamda tuturuq belgilari (’) qayta tekshirildi.']
-2026-11-21 08:00:01,074 INFO Kanalga chiqdi: 2026-11-21_1300_ar
+2026-11-21 08:00:23,812 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-21 09:49:30,517 WARNING AI xato (gemini-3.5-flash): The read operation timed out
+2026-11-21 09:50:17,400 INFO Post ru/kunning_sozi urinish 1: baho 10, ['«ersh jins» yozuvidagi imlo xatosi «erkak jinsi»ga tuzatildi.', '«Doshtosh so‘z» o‘rniga to‘g‘ri termin — «O‘zakdosh so‘z» ishlatildi.', 'Misollarga grammatik izohlar (erkak jinsi va kelishiklar) qo‘shildi.', 'Post matni hajm talabiga (450-720 belgi) moslab kengaytirildi va o‘zbekcha lotin alifbosi belgilarining (o‘, g‘, ’) to‘g‘riligi ta’minlandi.']
+2026-11-21 10:00:01,142 INFO Kanalga chiqdi: 2026-11-21_1500_ru
