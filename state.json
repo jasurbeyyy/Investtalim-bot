@@ -92,7 +92,8 @@
    "Ko‘rsatish olmoshlari: Hazani (هَٰذَانِ) va Hatani (هَاتَانِ)",
    "Siniq ko‘plik (Jam’u-t-taksir) – Maktab anjomlari",
    "Kunning so‘zi: Sifat va mavsuf moslashuvi (Jameel)",
-   "Ism, fe'l va harfni ajratish bo'yicha tarjima mashqi"
+   "Ism, fe'l va harfni ajratish bo'yicha tarjima mashqi",
+   "Idofa va Sifat-Mavsuf birikmasi farqi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -155,7 +156,6 @@
    "kunning_sozi"
   ],
   "ar": [
-   "farq",
    "fakt",
    "kunning_sozi",
    "grammatika",
@@ -164,7 +164,8 @@
    "farq",
    "lugat",
    "kunning_sozi",
-   "tarjima"
+   "tarjima",
+   "test"
   ],
   "ru": [
    "farq",
@@ -181,7 +182,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "glass",
   "photo",
   "classic",
@@ -191,7 +191,8 @@
   "glass",
   "photo",
   "neon",
-  "notebook"
+  "notebook",
+  "quiz"
  ],
  "paused": false,
  "done": {
