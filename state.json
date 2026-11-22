@@ -139,7 +139,8 @@
    "O‘rta jins: -мя qo‘shimchasi bilan tugaydigan so‘zlar",
    "Числительные: vaqt va sanada sonlarning kelishigi (Xatoni top)",
    "Rod: Yumshoq belgi (-ь) bilan tugaydigan otlar jinsi",
-   "Rod: Кофе so‘zining jinsi va grammatik me’yori"
+   "Rod: Кофе so‘zining jinsi va grammatik me’yori",
+   "Часто путаемые слова: «Оплатить» va «Сплотить»"
   ]
  },
  "types": {
@@ -168,7 +169,6 @@
    "test"
   ],
   "ru": [
-   "farq",
    "kunning_sozi",
    "lugat",
    "test",
@@ -177,11 +177,11 @@
    "lugat",
    "xatoni_top",
    "grammatika",
-   "kunning_sozi"
+   "kunning_sozi",
+   "tarjima"
   ]
  },
  "templates": [
-  "photo",
   "glass",
   "photo",
   "classic",
@@ -192,7 +192,8 @@
   "photo",
   "neon",
   "notebook",
-  "quiz"
+  "quiz",
+  "split"
  ],
  "paused": false,
  "done": {
