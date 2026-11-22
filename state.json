@@ -45,7 +45,8 @@
    "Wish va O‘tgan zamon (Wish + Past Simple)",
    "O‘rin-joy predloglari: Inside, Outside, Near",
    "Imtihonda tushunmay qolganda so‘rash iboralari",
-   "Kelasi zamon: Future Continuous zamoni"
+   "Kelasi zamon: Future Continuous zamoni",
+   "Collocations: Learn by heart va Keep in mind farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -147,7 +148,6 @@
  },
  "types": {
   "en": [
-   "farq",
    "ibora",
    "grammatika",
    "lugat",
@@ -156,7 +156,8 @@
    "xatoni_top",
    "lugat",
    "dialog",
-   "kunning_sozi"
+   "kunning_sozi",
+   "farq"
   ],
   "ar": [
    "kunning_sozi",
@@ -184,7 +185,6 @@
   ]
  },
  "templates": [
-  "classic",
   "photo",
   "photo",
   "bigletter",
@@ -195,7 +195,8 @@
   "quiz",
   "split",
   "gradient",
-  "stripes"
+  "stripes",
+  "glass"
  ],
  "paused": false,
  "done": {
