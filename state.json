@@ -93,7 +93,8 @@
    "Siniq ko‘plik (Jam’u-t-taksir) – Maktab anjomlari",
    "Kunning so‘zi: Sifat va mavsuf moslashuvi (Jameel)",
    "Ism, fe'l va harfni ajratish bo'yicha tarjima mashqi",
-   "Idofa va Sifat-Mavsuf birikmasi farqi"
+   "Idofa va Sifat-Mavsuf birikmasi farqi",
+   "Amr fe’li (Buyruq fe’li) va dialogda qo‘llanishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -157,7 +158,6 @@
    "kunning_sozi"
   ],
   "ar": [
-   "fakt",
    "kunning_sozi",
    "grammatika",
    "test",
@@ -166,7 +166,8 @@
    "lugat",
    "kunning_sozi",
    "tarjima",
-   "test"
+   "test",
+   "dialog"
   ],
   "ru": [
    "kunning_sozi",
@@ -182,7 +183,6 @@
   ]
  },
  "templates": [
-  "glass",
   "photo",
   "classic",
   "photo",
@@ -193,7 +193,8 @@
   "neon",
   "notebook",
   "quiz",
-  "split"
+  "split",
+  "gradient"
  ],
  "paused": false,
  "done": {
