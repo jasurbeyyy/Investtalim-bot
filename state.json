@@ -44,7 +44,8 @@
    "Imtihon iboralari: 'In my view' iborasi",
    "Wish va O‘tgan zamon (Wish + Past Simple)",
    "O‘rin-joy predloglari: Inside, Outside, Near",
-   "Imtihonda tushunmay qolganda so‘rash iboralari"
+   "Imtihonda tushunmay qolganda so‘rash iboralari",
+   "Kelasi zamon: Future Continuous zamoni"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -142,7 +143,6 @@
  },
  "types": {
   "en": [
-   "lugat",
    "farq",
    "ibora",
    "grammatika",
@@ -151,7 +151,8 @@
    "test",
    "xatoni_top",
    "lugat",
-   "dialog"
+   "dialog",
+   "kunning_sozi"
   ],
   "ar": [
    "farq",
@@ -179,7 +180,6 @@
   ]
  },
  "templates": [
-  "quiz",
   "photo",
   "photo",
   "glass",
@@ -190,7 +190,8 @@
   "bigletter",
   "glass",
   "photo",
-  "neon"
+  "neon",
+  "notebook"
  ],
  "paused": false,
  "done": {
