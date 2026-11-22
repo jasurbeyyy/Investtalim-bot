@@ -1,3 +1,3 @@
-2026-11-22 05:00:22,825 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-22 06:47:24,955 INFO Post ru/tarjima urinish 1: baho 10, ['Mavzu va sarlavhadagi chalg‘ituvchi «Сплатить» so‘zi «Оплатить»ga almashtirildi.', '«Об́щая» so‘zidagi noto‘g‘ri qo‘yilgan urg‘u belgisi to‘g‘rilandi (О́бщая).', 'Rasm subtitridagi noto‘g‘ri ishlatilgan «ma’nodoshlik» iborasi «paronimlar» so‘ziga almashtirildi.', 'Rasm matnidagi «pulla» degan o‘rinsiz so‘z olib tashlandi.', 'Post kapshon uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi.']
-2026-11-22 07:00:01,264 INFO Kanalga chiqdi: 2026-11-22_1200_ru
+2026-11-22 07:00:18,931 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-22 07:47:28,093 INFO Post ar/dialog urinish 1: baho 10, ['Arab grammatikasidagi imlo xatolari tuzatildi: Form I fe’llarining amr shaklida hamzat al-qat‘ (إِ / أُ) emas, hamzat al-wasl (اقْرَأْ / اكْتُبْ) qo‘llanadi.', "Ikki sukun to‘qnashuvi (iltiqo al-sakinayn) sababli 'اكْتُبِ الْمُلَخَّصَ' iborasida 'b' harfi kasralandi.", "'الآن' so‘zidagi alif madda imlosi to‘g‘rilandi (الْآنَ).", 'O‘zbekcha matndagi apostroflar va o‘/g‘ harflari standart lotin alifbosiga to‘g‘rilandi.']
+2026-11-22 08:00:00,511 INFO Kanalga chiqdi: 2026-11-22_1300_ar
