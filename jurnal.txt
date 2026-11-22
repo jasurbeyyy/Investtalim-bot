@@ -1,3 +1,3 @@
-2026-11-22 08:00:19,025 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-22 09:48:19,317 INFO Post ru/test urinish 1: baho 10, ['Post matni uzunligi talab qilingan 450–720 belgi doirasiga keltirildi.', 'Maqolning o‘zbekcha muqvili to‘g‘rilandi va izohda kelishik (Родительный падеж) tushuntirildi.', 'O‘zbekcha imlo va tutuq belgilari standartga moslashtirildi.']
-2026-11-22 10:00:01,387 INFO Kanalga chiqdi: 2026-11-22_1500_ru
+2026-11-22 10:00:20,509 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-22 11:47:19,020 INFO Post en/farq urinish 1: baho 10, ['Matn uzunligi talab qilingan me’yorga (450-720 belgi) keltirildi', 'Tutuq belgisi (’) va o‘, g‘ harflarining imlosi standartlashtirildi', 'Iboralarning ma’nosi va qo‘llanishi bo‘yicha tushuntirishlar aniqlashtirildi va boyitildi']
+2026-11-22 12:00:00,982 INFO Kanalga chiqdi: 2026-11-22_1700_en
