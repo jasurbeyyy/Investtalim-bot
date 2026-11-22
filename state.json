@@ -141,7 +141,8 @@
    "Числительные: vaqt va sanada sonlarning kelishigi (Xatoni top)",
    "Rod: Yumshoq belgi (-ь) bilan tugaydigan otlar jinsi",
    "Rod: Кофе so‘zining jinsi va grammatik me’yori",
-   "Часто путаемые слова: «Оплатить» va «Сплотить»"
+   "Часто путаемые слова: «Оплатить» va «Сплотить»",
+   "Maqollar: «Без труда не вытащишь и рыбку из пруда»"
   ]
  },
  "types": {
@@ -170,7 +171,6 @@
    "dialog"
   ],
   "ru": [
-   "kunning_sozi",
    "lugat",
    "test",
    "grammatika",
@@ -179,11 +179,11 @@
    "xatoni_top",
    "grammatika",
    "kunning_sozi",
-   "tarjima"
+   "tarjima",
+   "test"
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "photo",
   "photo",
@@ -194,7 +194,8 @@
   "notebook",
   "quiz",
   "split",
-  "gradient"
+  "gradient",
+  "stripes"
  ],
  "paused": false,
  "done": {
