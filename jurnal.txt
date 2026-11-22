@@ -1,3 +1,3 @@
-2026-11-22 07:00:18,931 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-22 07:47:28,093 INFO Post ar/dialog urinish 1: baho 10, ['Arab grammatikasidagi imlo xatolari tuzatildi: Form I fe’llarining amr shaklida hamzat al-qat‘ (إِ / أُ) emas, hamzat al-wasl (اقْرَأْ / اكْتُبْ) qo‘llanadi.', "Ikki sukun to‘qnashuvi (iltiqo al-sakinayn) sababli 'اكْتُبِ الْمُلَخَّصَ' iborasida 'b' harfi kasralandi.", "'الآن' so‘zidagi alif madda imlosi to‘g‘rilandi (الْآنَ).", 'O‘zbekcha matndagi apostroflar va o‘/g‘ harflari standart lotin alifbosiga to‘g‘rilandi.']
-2026-11-22 08:00:00,511 INFO Kanalga chiqdi: 2026-11-22_1300_ar
+2026-11-22 08:00:19,025 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-22 09:48:19,317 INFO Post ru/test urinish 1: baho 10, ['Post matni uzunligi talab qilingan 450–720 belgi doirasiga keltirildi.', 'Maqolning o‘zbekcha muqvili to‘g‘rilandi va izohda kelishik (Родительный падеж) tushuntirildi.', 'O‘zbekcha imlo va tutuq belgilari standartga moslashtirildi.']
+2026-11-22 10:00:01,387 INFO Kanalga chiqdi: 2026-11-22_1500_ru
