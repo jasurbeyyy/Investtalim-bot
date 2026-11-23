@@ -145,7 +145,8 @@
    "Rod: Yumshoq belgi (-ь) bilan tugaydigan otlar jinsi",
    "Rod: Кофе so‘zining jinsi va grammatik me’yori",
    "Часто путаемые слова: «Оплатить» va «Сплотить»",
-   "Maqollar: «Без труда не вытащишь и рыбку из пруда»"
+   "Maqollar: «Без труда не вытащишь и рыбку из пруда»",
+   "Vaqt intervallarini ifodalovchi so‘zlar"
   ]
  },
  "types": {
@@ -174,7 +175,6 @@
    "lugat"
   ],
   "ru": [
-   "lugat",
    "test",
    "grammatika",
    "tarjima",
@@ -183,11 +183,11 @@
    "grammatika",
    "kunning_sozi",
    "tarjima",
-   "test"
+   "test",
+   "lugat"
   ]
  },
  "templates": [
-  "bigletter",
   "glass",
   "photo",
   "neon",
@@ -198,7 +198,8 @@
   "stripes",
   "glass",
   "neon",
-  "notebook"
+  "notebook",
+  "classic"
  ],
  "paused": false,
  "done": {
