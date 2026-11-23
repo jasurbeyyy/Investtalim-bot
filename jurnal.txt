@@ -1,2 +1,3 @@
-2026-11-22 21:00:45,702 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-23 02:00:01,311 INFO Kanalga chiqdi: 2026-11-23_0700_tong
+2026-11-23 02:00:19,534 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-23 02:47:13,290 INFO Post en/grammatika urinish 1: baho 10, ["Rasm matnidagi 'o'zgartirish' va 'ko'tarmoq' so‘zlarida apostroflar to‘g‘ri o‘zbekcha 'o‘' harfiga almashtirildi.", 'Grammatik tushuntirish aniqroq berilishi uchun o‘tishli (transitive) va o‘tishsiz (intransitive) tushunchalari moslashtirildi.']
+2026-11-23 03:00:01,509 INFO Kanalga chiqdi: 2026-11-23_0800_en
