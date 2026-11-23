@@ -46,7 +46,8 @@
    "O‘rin-joy predloglari: Inside, Outside, Near",
    "Imtihonda tushunmay qolganda so‘rash iboralari",
    "Kelasi zamon: Future Continuous zamoni",
-   "Collocations: Learn by heart va Keep in mind farqi"
+   "Collocations: Learn by heart va Keep in mind farqi",
+   "Raise va Rise fe’llari farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -148,7 +149,6 @@
  },
  "types": {
   "en": [
-   "ibora",
    "grammatika",
    "lugat",
    "fakt",
@@ -157,7 +157,8 @@
    "lugat",
    "dialog",
    "kunning_sozi",
-   "farq"
+   "farq",
+   "grammatika"
   ],
   "ar": [
    "kunning_sozi",
@@ -186,7 +187,6 @@
  },
  "templates": [
   "photo",
-  "photo",
   "bigletter",
   "glass",
   "photo",
@@ -196,7 +196,8 @@
   "split",
   "gradient",
   "stripes",
-  "glass"
+  "glass",
+  "neon"
  ],
  "paused": false,
  "done": {
