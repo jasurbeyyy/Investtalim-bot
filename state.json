@@ -97,7 +97,8 @@
    "Ism, fe'l va harfni ajratish bo'yicha tarjima mashqi",
    "Idofa va Sifat-Mavsuf birikmasi farqi",
    "Amr fe’li (Buyruq fe’li) va dialogda qo‘llanishi",
-   "Tartib sonlar: Birinchidan beshinchigacha"
+   "Tartib sonlar: Birinchidan beshinchigacha",
+   "Harfi jar: Li (لِـ) harfining qo‘llanishi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -163,7 +164,6 @@
    "grammatika"
   ],
   "ar": [
-   "grammatika",
    "test",
    "tarjima",
    "farq",
@@ -172,7 +172,8 @@
    "tarjima",
    "test",
    "dialog",
-   "lugat"
+   "lugat",
+   "grammatika"
   ],
   "ru": [
    "test",
@@ -188,7 +189,6 @@
   ]
  },
  "templates": [
-  "glass",
   "photo",
   "neon",
   "notebook",
@@ -199,7 +199,8 @@
   "glass",
   "neon",
   "notebook",
-  "classic"
+  "classic",
+  "bigletter"
  ],
  "paused": false,
  "done": {
