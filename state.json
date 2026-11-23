@@ -147,7 +147,8 @@
    "Rod: Кофе so‘zining jinsi va grammatik me’yori",
    "Часто путаемые слова: «Оплатить» va «Сплотить»",
    "Maqollar: «Без труда не вытащишь и рыбку из пруда»",
-   "Vaqt intervallarini ifodalovchi so‘zlar"
+   "Vaqt intervallarini ifodalovchi so‘zlar",
+   "Vinitelniy kelishigi (Kogo? Chto?) muloqotda"
   ]
  },
  "types": {
@@ -176,7 +177,6 @@
    "grammatika"
   ],
   "ru": [
-   "test",
    "grammatika",
    "tarjima",
    "lugat",
@@ -185,11 +185,11 @@
    "kunning_sozi",
    "tarjima",
    "test",
-   "lugat"
+   "lugat",
+   "dialog"
   ]
  },
  "templates": [
-  "photo",
   "neon",
   "notebook",
   "quiz",
@@ -200,7 +200,8 @@
   "neon",
   "notebook",
   "classic",
-  "bigletter"
+  "bigletter",
+  "stripes"
  ],
  "paused": false,
  "done": {
