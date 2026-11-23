@@ -1,3 +1,3 @@
-2026-11-23 08:00:19,810 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-23 09:48:03,668 INFO Post ru/dialog urinish 1: baho 10, ["Uzbekcha tarjimadagi 'dugonasini kutmoq' birikmasi aniqroq bo'lishi uchun 'dugonani kutmoq' shakliga tuzatildi.", "Muloqotdagi urg'ular va grammatik tushuntirishlar aniqlashtirildi.", "Matn uzunligi (450-720 belgi) talabiga to'liq moslashtirildi."]
-2026-11-23 10:00:01,614 INFO Kanalga chiqdi: 2026-11-23_1500_ru
+2026-11-23 10:00:20,149 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-23 11:47:53,385 INFO Post en/tarjima urinish 1: baho 10, ["Rasm ichidagi ikkinchi qator uzunligi 34 belgidan oshgani sababli qisqartirildi ('I'd have come' ko‘rinishiga keltirildi).", 'O‘zbek tili tutuq belgisi hamda o‘ va g‘ harflarining yozilishi standartlashtirildi.']
+2026-11-23 12:00:01,602 INFO Kanalga chiqdi: 2026-11-23_1700_en
