@@ -48,7 +48,8 @@
    "Kelasi zamon: Future Continuous zamoni",
    "Collocations: Learn by heart va Keep in mind farqi",
    "Raise va Rise fe’llari farqi",
-   "Uchinchi tur shartli gaplar (Third Conditional)"
+   "Uchinchi tur shartli gaplar (Third Conditional)",
+   "Say va Speak fe’llari farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -154,7 +155,6 @@
  },
  "types": {
   "en": [
-   "lugat",
    "fakt",
    "test",
    "xatoni_top",
@@ -163,7 +163,8 @@
    "kunning_sozi",
    "farq",
    "grammatika",
-   "tarjima"
+   "tarjima",
+   "test"
   ],
   "ar": [
    "test",
@@ -191,7 +192,6 @@
   ]
  },
  "templates": [
-  "notebook",
   "quiz",
   "split",
   "gradient",
@@ -202,7 +202,8 @@
   "classic",
   "bigletter",
   "stripes",
-  "glass"
+  "glass",
+  "quiz"
  ],
  "paused": false,
  "done": {
