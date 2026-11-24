@@ -1,3 +1,3 @@
-2026-11-23 21:00:53,086 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-24 01:49:30,684 WARNING AI xato (gemini-3.5-flash): The read operation timed out
-2026-11-24 02:00:00,745 INFO Kanalga chiqdi: 2026-11-24_0700_tong
+2026-11-24 02:00:17,635 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-24 02:47:39,062 INFO Post en/test urinish 1: baho 10, ['Post matni uzunligi talab qilingan me’yorga (450-720 belgi) yetkazildi va mazmunan boyitildi.', 'Apostrof va tutuq belgilari to‘g‘ri me’yoriy belgilarga (’, o‘, g‘) o‘zgartirildi.', 'Topishmoqli misol matni spoiler ||...|| bilan yopildi.']
+2026-11-24 03:00:01,559 INFO Kanalga chiqdi: 2026-11-24_0800_en
