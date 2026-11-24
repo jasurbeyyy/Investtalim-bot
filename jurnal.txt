@@ -1,3 +1,24 @@
-2026-11-24 03:00:22,346 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-24 04:48:00,981 INFO Post ar/test urinish 1: baho 10, ['Caption uzunligi talab qilingan minimal 450 belgiga yetkazildi (qo‘shimcha misol va tushuntirish qo‘shildi).', 'Rasm matnidagi arabcha imlo xatosi tuzatildi («كَاَلْلَيْثِ» -> «كَاللَّيْثِ»).', 'Uzbekcha matndagi imlo va grammatik xatolar to‘g‘rilandi («nurkabidir» -> «nur kabidir», «Bilamingizni» -> «Bilimingizni», tutuq belgisi «’» bilan almashtirildi).', 'Rasm qatordagi belgilar soni cheklovga (<= 34 belgi) moslab qisqartirildi.']
-2026-11-24 05:00:01,873 INFO Kanalga chiqdi: 2026-11-24_1000_ar
+2026-11-24 05:00:24,029 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-24 06:49:30,425 WARNING AI xato (gemini-3.5-flash): The read operation timed out
+2026-11-24 06:50:07,800 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-24 06:50:28,776 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-24 06:50:39,008 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-24 06:50:54,984 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-24 06:51:17,358 INFO Post ru/grammatika urinish 1: baho 10, ['"Almashoshlari" so‘zi imlo jihatidan "olmoshlari"ga tuzatildi.', '"Rodigagina" so‘zi grammatik jihatdan aniqlashtirildi: olmosh rod, son va kelishikda moslashadi.', 'O‘zbek tilidagi lotin yozuvi qoidalariga ko‘ra o‘ va g‘ harflari to‘g‘irlandi.', 'Mavzuni mustahkamlash uchun Telegram viktorinasi (quiz) va caption ichida kichik mashq qo‘shildi.', 'Caption uzunligi belgilangan me’yorga (450-720 belgi) keltirildi.']
+2026-11-24 07:00:01,369 INFO Kanalga chiqdi: 2026-11-24_1200_ru
