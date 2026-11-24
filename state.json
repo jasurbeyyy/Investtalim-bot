@@ -153,7 +153,8 @@
    "Maqollar: «Без труда не вытащишь и рыбку из пруда»",
    "Vaqt intervallarini ifodalovchi so‘zlar",
    "Vinitelniy kelishigi (Kogo? Chto?) muloqotda",
-   "Ega va egalik olmoshining moslashuvi (Свой)"
+   "Ega va egalik olmoshining moslashuvi (Свой)",
+   "Qiziqarli fakt: Rus tilida kelasi zamon hosil bo‘lishi"
   ]
  },
  "types": {
@@ -182,7 +183,6 @@
    "kunning_sozi"
   ],
   "ru": [
-   "tarjima",
    "lugat",
    "xatoni_top",
    "grammatika",
@@ -191,11 +191,11 @@
    "test",
    "lugat",
    "dialog",
-   "grammatika"
+   "grammatika",
+   "fakt"
   ]
  },
  "templates": [
-  "stripes",
   "glass",
   "neon",
   "notebook",
@@ -206,7 +206,8 @@
   "quiz",
   "notebook",
   "split",
-  "neon"
+  "neon",
+  "bigletter"
  ],
  "paused": false,
  "done": {
