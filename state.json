@@ -49,7 +49,8 @@
    "Collocations: Learn by heart va Keep in mind farqi",
    "Raise va Rise fe’llari farqi",
    "Uchinchi tur shartli gaplar (Third Conditional)",
-   "Say va Speak fe’llari farqi"
+   "Say va Speak fe’llari farqi",
+   "Kundalik iborali fe’l: Run out of"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -159,7 +160,6 @@
  },
  "types": {
   "en": [
-   "fakt",
    "test",
    "xatoni_top",
    "lugat",
@@ -168,7 +168,8 @@
    "farq",
    "grammatika",
    "tarjima",
-   "test"
+   "test",
+   "kunning_sozi"
   ],
   "ar": [
    "farq",
@@ -196,7 +197,6 @@
   ]
  },
  "templates": [
-  "glass",
   "neon",
   "notebook",
   "classic",
@@ -207,7 +207,8 @@
   "notebook",
   "split",
   "neon",
-  "bigletter"
+  "bigletter",
+  "gradient"
  ],
  "paused": false,
  "done": {
