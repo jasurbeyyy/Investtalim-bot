@@ -100,7 +100,8 @@
    "Idofa va Sifat-Mavsuf birikmasi farqi",
    "Amr fe’li (Buyruq fe’li) va dialogda qo‘llanishi",
    "Tartib sonlar: Birinchidan beshinchigacha",
-   "Harfi jar: Li (لِـ) harfining qo‘llanishi"
+   "Harfi jar: Li (لِـ) harfining qo‘llanishi",
+   "Harfi jar: Ka (كَـ) - o‘xshatish harfi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -167,7 +168,6 @@
    "test"
   ],
   "ar": [
-   "test",
    "tarjima",
    "farq",
    "lugat",
@@ -176,7 +176,8 @@
    "test",
    "dialog",
    "lugat",
-   "grammatika"
+   "grammatika",
+   "test"
   ],
   "ru": [
    "grammatika",
@@ -192,7 +193,6 @@
   ]
  },
  "templates": [
-  "quiz",
   "split",
   "gradient",
   "stripes",
@@ -203,7 +203,8 @@
   "bigletter",
   "stripes",
   "glass",
-  "quiz"
+  "quiz",
+  "notebook"
  ],
  "paused": false,
  "done": {
