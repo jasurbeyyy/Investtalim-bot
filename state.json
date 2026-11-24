@@ -151,7 +151,8 @@
    "Часто путаемые слова: «Оплатить» va «Сплотить»",
    "Maqollar: «Без труда не вытащишь и рыбку из пруда»",
    "Vaqt intervallarini ifodalovchi so‘zlar",
-   "Vinitelniy kelishigi (Kogo? Chto?) muloqotda"
+   "Vinitelniy kelishigi (Kogo? Chto?) muloqotda",
+   "Ega va egalik olmoshining moslashuvi (Свой)"
   ]
  },
  "types": {
@@ -180,7 +181,6 @@
    "test"
   ],
   "ru": [
-   "grammatika",
    "tarjima",
    "lugat",
    "xatoni_top",
@@ -189,11 +189,11 @@
    "tarjima",
    "test",
    "lugat",
-   "dialog"
+   "dialog",
+   "grammatika"
   ]
  },
  "templates": [
-  "split",
   "gradient",
   "stripes",
   "glass",
@@ -204,7 +204,8 @@
   "stripes",
   "glass",
   "quiz",
-  "notebook"
+  "notebook",
+  "split"
  ],
  "paused": false,
  "done": {
