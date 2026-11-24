@@ -1,7 +1,8 @@
-2026-11-24 07:00:24,574 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-24 07:47:03,516 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
+2026-11-24 08:00:18,763 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-24 09:47:52,176 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-24 07:47:28,020 INFO Post ar/kunning_sozi urinish 1: baho 10, ["Sarlavhadagi 'كِشِي' so‘zidagi xatolik to‘g‘rilandi hamda uning o‘rniga to‘g‘ri arabcha grammatik atamalar (الضَّمَائِرُ) kiritildi.", "'tuziib' so‘zidagi imlo xatosi 'tuzib' shaklida tuzatildi.", 'Arabcha so‘zlar va misollarga to‘liq harakatlar (tashkeel) qo‘yildi.', 'Post matni hajm va grammatika talablariga moslashtirildi.']
-2026-11-24 08:00:01,555 INFO Kanalga chiqdi: 2026-11-24_1300_ar
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-24 09:48:10,867 INFO Post ru/fakt urinish 1: baho 10, ["Ruscha iborada lotincha 'vréмя' so‘zi kirib qolgani 'вре́мя' shakliga tuzatildi.", "'Всле́duющем' so‘zida predlog ajratib yozildi ('В сле́дующем году́').", 'Fe’l ko‘rinishlari atamalari aniqlashtirildi (Tugallanmagan va Tugallangan fe’llar).', 'Matn uzunligi va format Telegram standarti talablariga (450-720 belgi) moslashtirildi.']
+2026-11-24 10:00:03,668 INFO Kanalga chiqdi: 2026-11-24_1500_ru
