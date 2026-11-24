@@ -1,3 +1,2 @@
-2026-11-24 10:00:23,046 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-24 11:48:30,242 INFO Post en/kunning_sozi urinish 1: baho 10, ['"Suti-miz" so‘zidagi imloviy xato ("Sutimiz") tuzatildi.', 'Post matni (caption) uzunligi talab qilingan me’yorga (450-720 belgi) yetkazildi.', 'O‘zbek tilidagi tutuq belgisi va o‘/g‘ harflari standartga keltirildi.']
-2026-11-24 12:00:01,003 INFO Kanalga chiqdi: 2026-11-24_1700_en
+2026-11-24 12:00:22,393 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-24 16:00:01,603 INFO Kanalga chiqdi: 2026-11-24_2100_tun
