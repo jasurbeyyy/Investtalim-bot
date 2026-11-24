@@ -1,24 +1,7 @@
-2026-11-24 05:00:24,029 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-24 06:49:30,425 WARNING AI xato (gemini-3.5-flash): The read operation timed out
-2026-11-24 06:50:07,800 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-24 07:00:24,574 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-24 07:47:03,516 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 429 {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-24 06:50:28,776 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-24 06:50:39,008 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-24 06:50:54,984 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-24 06:51:17,358 INFO Post ru/grammatika urinish 1: baho 10, ['"Almashoshlari" so‘zi imlo jihatidan "olmoshlari"ga tuzatildi.', '"Rodigagina" so‘zi grammatik jihatdan aniqlashtirildi: olmosh rod, son va kelishikda moslashadi.', 'O‘zbek tilidagi lotin yozuvi qoidalariga ko‘ra o‘ va g‘ harflari to‘g‘irlandi.', 'Mavzuni mustahkamlash uchun Telegram viktorinasi (quiz) va caption ichida kichik mashq qo‘shildi.', 'Caption uzunligi belgilangan me’yorga (450-720 belgi) keltirildi.']
-2026-11-24 07:00:01,369 INFO Kanalga chiqdi: 2026-11-24_1200_ru
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
+2026-11-24 07:47:28,020 INFO Post ar/kunning_sozi urinish 1: baho 10, ["Sarlavhadagi 'كِشِي' so‘zidagi xatolik to‘g‘rilandi hamda uning o‘rniga to‘g‘ri arabcha grammatik atamalar (الضَّمَائِرُ) kiritildi.", "'tuziib' so‘zidagi imlo xatosi 'tuzib' shaklida tuzatildi.", 'Arabcha so‘zlar va misollarga to‘liq harakatlar (tashkeel) qo‘yildi.', 'Post matni hajm va grammatika talablariga moslashtirildi.']
+2026-11-24 08:00:01,555 INFO Kanalga chiqdi: 2026-11-24_1300_ar
