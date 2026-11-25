@@ -1,3 +1,3 @@
-2026-11-25 02:00:39,855 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-25 02:47:41,783 INFO Post en/grammatika urinish 1: baho 10, ['Apostrof va o‘, g‘ tuturuq belgilari to‘g‘ri standartga o‘tkazildi.', 'Post matni hajm talabiga (450-720 belgi) moslab ixchamlashtirildi.', 'Inkor shakllaridagi apostrof imlosi to‘g‘rilandi (mustn’t, don’t).']
-2026-11-25 03:00:01,726 INFO Kanalga chiqdi: 2026-11-25_0800_en
+2026-11-25 03:00:22,228 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-25 04:47:23,524 INFO Post ar/farq urinish 1: baho 9, ["Mavzu nomidagi noto‘g‘ri 'Harfi jar' atamasi 'Harfu nasb' ga to‘g‘rilandi (chunki أَنْ jar harfi emas, nasb/masdar harfidir).", 'Uzbekcha atamalar arab tili grammatikasi qoidalariga moslashtirildi (Harfu shart, Harfu nasb).', 'Matn uzunligi 450-720 belgi oralig‘iga keltirildi va harakatlar to‘liq berildi.']
+2026-11-25 05:00:00,874 INFO Kanalga chiqdi: 2026-11-25_1000_ar
