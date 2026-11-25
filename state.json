@@ -159,7 +159,8 @@
    "Vinitelniy kelishigi (Kogo? Chto?) muloqotda",
    "Ega va egalik olmoshining moslashuvi (Свой)",
    "Qiziqarli fakt: Rus tilida kelasi zamon hosil bo‘lishi",
-   "Fe’l ko‘rinishlari: «Прочитать» va «Читать» farqi"
+   "Fe’l ko‘rinishlari: «Прочитать» va «Читать» farqi",
+   "Maqoldagi xato: Семь раз отмерь, один раз отрежь"
   ]
  },
  "types": {
@@ -188,7 +189,6 @@
    "tarjima"
   ],
   "ru": [
-   "xatoni_top",
    "grammatika",
    "kunning_sozi",
    "tarjima",
@@ -197,11 +197,11 @@
    "dialog",
    "grammatika",
    "fakt",
-   "lugat"
+   "lugat",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "stripes",
   "glass",
   "quiz",
   "notebook",
@@ -212,7 +212,8 @@
   "photo",
   "classic",
   "photo",
-  "stripes"
+  "stripes",
+  "gradient"
  ],
  "paused": false,
  "done": {
