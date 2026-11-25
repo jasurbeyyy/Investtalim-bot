@@ -1,3 +1,3 @@
-2026-11-25 08:00:18,568 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-25 09:47:21,210 INFO Post ru/xatoni_top urinish 1: baho 10, ['Matndagi «Pit strictly» kabi mantiqsiz ibora olib tashlandi va maqolning aniq o‘zbekcha tarjimasi berildi.', 'Grammatik tushuntirishga fe’l turi (совершенный вид) haqidagi ma’lumot qo‘shildi va grammatika aniqlashtirildi.', 'Rasm sarlavhasi kirillchadan lotin alifbosiga o‘tkazildi.', 'Matn uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi (711 belgi).']
-2026-11-25 10:00:01,462 INFO Kanalga chiqdi: 2026-11-25_1500_ru
+2026-11-25 10:00:18,327 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-25 11:47:13,760 INFO Post en/xatoni_top urinish 1: baho 10, ['Post matni belgilar soni talabiga (450-720) moslab uzaytirildi va grammatik tushuntirish mukammallashtirildi.', 'O‘zbekcha punktuatsiya hamda tinish belgilari to‘g‘rilandi.']
+2026-11-25 12:00:01,160 INFO Kanalga chiqdi: 2026-11-25_1700_en
