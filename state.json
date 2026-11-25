@@ -105,7 +105,8 @@
    "Harfi jar: Li (لِـ) harfining qo‘llanishi",
    "Harfi jar: Ka (كَـ) - o‘xshatish harfi",
    "Kunning so‘zi: Kishi olmoshlari (Huwa va Hiya)",
-   "Harfu shart va Harfu nasb: In (إِنْ) va An (أَنْ) farqi"
+   "Harfu shart va Harfu nasb: In (إِنْ) va An (أَنْ) farqi",
+   "Fe’li muzori’da ega va fe’l moslashuvi (Fe’l gap)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -175,7 +176,6 @@
    "grammatika"
   ],
   "ar": [
-   "lugat",
    "kunning_sozi",
    "tarjima",
    "test",
@@ -184,7 +184,8 @@
    "grammatika",
    "test",
    "kunning_sozi",
-   "farq"
+   "farq",
+   "tarjima"
   ],
   "ru": [
    "xatoni_top",
@@ -200,7 +201,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "stripes",
   "glass",
   "quiz",
@@ -211,7 +211,8 @@
   "gradient",
   "photo",
   "classic",
-  "photo"
+  "photo",
+  "stripes"
  ],
  "paused": false,
  "done": {
