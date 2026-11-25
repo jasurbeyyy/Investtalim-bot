@@ -1,3 +1,5 @@
-2026-11-25 03:00:22,228 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-25 04:47:23,524 INFO Post ar/farq urinish 1: baho 9, ["Mavzu nomidagi noto‘g‘ri 'Harfi jar' atamasi 'Harfu nasb' ga to‘g‘rilandi (chunki أَنْ jar harfi emas, nasb/masdar harfidir).", 'Uzbekcha atamalar arab tili grammatikasi qoidalariga moslashtirildi (Harfu shart, Harfu nasb).', 'Matn uzunligi 450-720 belgi oralig‘iga keltirildi va harakatlar to‘liq berildi.']
-2026-11-25 05:00:00,874 INFO Kanalga chiqdi: 2026-11-25_1000_ar
+2026-11-25 05:00:32,668 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-25 06:39:24,700 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-25 06:40:18,109 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
+2026-11-25 06:47:13,785 INFO Post ru/lugat urinish 1: baho 10, ['«Зачитка» so‘zi nodavlat va kam qo‘llanilgani uchun amaliyroq bo‘lgan «Чтение» otiga almashtirildi.', 'Fe’l ko‘rinishlarining farqini yanada aniqroq ko‘rsatish uchun jarayon va natijaga oid qo‘shimcha misol qo‘shildi.', 'Post matni uzunligi belgilangan 450–720 belgi talabiga to‘liq moslashtirildi va tuturuq belgilari standartlashtirildi.']
+2026-11-25 07:00:00,897 INFO Kanalga chiqdi: 2026-11-25_1200_ru
