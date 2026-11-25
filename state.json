@@ -50,7 +50,8 @@
    "Raise va Rise fe’llari farqi",
    "Uchinchi tur shartli gaplar (Third Conditional)",
    "Say va Speak fe’llari farqi",
-   "Kundalik iborali fe’l: Run out of"
+   "Kundalik iborali fe’l: Run out of",
+   "Must va Have to farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -160,7 +161,6 @@
  },
  "types": {
   "en": [
-   "test",
    "xatoni_top",
    "lugat",
    "dialog",
@@ -169,7 +169,8 @@
    "grammatika",
    "tarjima",
    "test",
-   "kunning_sozi"
+   "kunning_sozi",
+   "grammatika"
   ],
   "ar": [
    "farq",
@@ -197,7 +198,6 @@
   ]
  },
  "templates": [
-  "neon",
   "notebook",
   "classic",
   "bigletter",
@@ -208,7 +208,8 @@
   "split",
   "neon",
   "bigletter",
-  "gradient"
+  "gradient",
+  "photo"
  ],
  "paused": false,
  "done": {
