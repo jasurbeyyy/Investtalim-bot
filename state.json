@@ -157,7 +157,8 @@
    "Vaqt intervallarini ifodalovchi so‘zlar",
    "Vinitelniy kelishigi (Kogo? Chto?) muloqotda",
    "Ega va egalik olmoshining moslashuvi (Свой)",
-   "Qiziqarli fakt: Rus tilida kelasi zamon hosil bo‘lishi"
+   "Qiziqarli fakt: Rus tilida kelasi zamon hosil bo‘lishi",
+   "Fe’l ko‘rinishlari: «Прочитать» va «Читать» farqi"
   ]
  },
  "types": {
@@ -186,7 +187,6 @@
    "farq"
   ],
   "ru": [
-   "lugat",
    "xatoni_top",
    "grammatika",
    "kunning_sozi",
@@ -195,11 +195,11 @@
    "lugat",
    "dialog",
    "grammatika",
-   "fakt"
+   "fakt",
+   "lugat"
   ]
  },
  "templates": [
-  "classic",
   "bigletter",
   "stripes",
   "glass",
@@ -210,7 +210,8 @@
   "bigletter",
   "gradient",
   "photo",
-  "classic"
+  "classic",
+  "photo"
  ],
  "paused": false,
  "done": {
