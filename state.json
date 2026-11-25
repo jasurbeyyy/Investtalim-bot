@@ -104,7 +104,8 @@
    "Tartib sonlar: Birinchidan beshinchigacha",
    "Harfi jar: Li (لِـ) harfining qo‘llanishi",
    "Harfi jar: Ka (كَـ) - o‘xshatish harfi",
-   "Kunning so‘zi: Kishi olmoshlari (Huwa va Hiya)"
+   "Kunning so‘zi: Kishi olmoshlari (Huwa va Hiya)",
+   "Harfu shart va Harfu nasb: In (إِنْ) va An (أَنْ) farqi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -173,7 +174,6 @@
    "grammatika"
   ],
   "ar": [
-   "farq",
    "lugat",
    "kunning_sozi",
    "tarjima",
@@ -182,7 +182,8 @@
    "lugat",
    "grammatika",
    "test",
-   "kunning_sozi"
+   "kunning_sozi",
+   "farq"
   ],
   "ru": [
    "lugat",
@@ -198,7 +199,6 @@
   ]
  },
  "templates": [
-  "notebook",
   "classic",
   "bigletter",
   "stripes",
@@ -209,7 +209,8 @@
   "neon",
   "bigletter",
   "gradient",
-  "photo"
+  "photo",
+  "classic"
  ],
  "paused": false,
  "done": {
