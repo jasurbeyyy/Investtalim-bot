@@ -51,7 +51,8 @@
    "Uchinchi tur shartli gaplar (Third Conditional)",
    "Say va Speak fe’llari farqi",
    "Kundalik iborali fe’l: Run out of",
-   "Must va Have to farqi"
+   "Must va Have to farqi",
+   "Xarid qilishda 'how much' va 'how many' farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -165,7 +166,6 @@
  },
  "types": {
   "en": [
-   "xatoni_top",
    "lugat",
    "dialog",
    "kunning_sozi",
@@ -174,7 +174,8 @@
    "tarjima",
    "test",
    "kunning_sozi",
-   "grammatika"
+   "grammatika",
+   "xatoni_top"
   ],
   "ar": [
    "kunning_sozi",
@@ -202,7 +203,6 @@
   ]
  },
  "templates": [
-  "glass",
   "quiz",
   "notebook",
   "split",
@@ -213,7 +213,8 @@
   "classic",
   "photo",
   "stripes",
-  "gradient"
+  "gradient",
+  "bigletter"
  ],
  "paused": false,
  "done": {
