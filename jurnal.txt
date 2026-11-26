@@ -1,23 +1,2 @@
-2026-11-26 12:00:25,922 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-26 13:14:49,109 WARNING Telegram tarmoq xatosi (getUpdates): Server disconnected without sending a response.
-2026-11-26 15:48:36,720 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 15:48:41,719 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 15:48:49,986 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 15:48:58,077 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 16:00:03,297 INFO Kanalga chiqdi: 2026-11-26_2100_tun
+2026-11-26 16:00:22,700 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-26 16:00:23,201 INFO Navbatdagi post: 2026-11-27 07:00:00+05:00. 02:00 gacha kutiladi.
