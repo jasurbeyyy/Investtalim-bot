@@ -163,7 +163,8 @@
    "Ega va egalik olmoshining moslashuvi (Свой)",
    "Qiziqarli fakt: Rus tilida kelasi zamon hosil bo‘lishi",
    "Fe’l ko‘rinishlari: «Прочитать» va «Читать» farqi",
-   "Maqoldagi xato: Семь раз отмерь, один раз отрежь"
+   "Maqoldagi xato: Семь раз отмерь, один раз отрежь",
+   "Tvoritelniy kelishigi (Кем? Чем?) — Kim bilan? Nima bilan?"
   ]
  },
  "types": {
@@ -192,7 +193,6 @@
    "grammatika"
   ],
   "ru": [
-   "grammatika",
    "kunning_sozi",
    "tarjima",
    "test",
@@ -201,11 +201,11 @@
    "grammatika",
    "fakt",
    "lugat",
-   "xatoni_top"
+   "xatoni_top",
+   "grammatika"
   ]
  },
  "templates": [
-  "split",
   "neon",
   "bigletter",
   "gradient",
@@ -216,7 +216,8 @@
   "gradient",
   "bigletter",
   "classic",
-  "waves"
+  "waves",
+  "stripes"
  ],
  "paused": false,
  "done": {
