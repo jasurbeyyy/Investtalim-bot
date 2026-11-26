@@ -1,43 +1,23 @@
-2026-11-26 07:00:19,977 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-26 07:47:01,741 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-26 08:00:20,679 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-26 09:48:49,611 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-26 07:47:06,145 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-26 09:49:03,254 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-26 07:47:41,466 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-26 09:49:21,432 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-26 07:47:45,734 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+2026-11-26 09:49:38,302 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-26 07:48:09,799 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 07:48:18,015 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 07:48:30,366 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 07:48:34,451 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 429 {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: h
-2026-11-26 07:49:14,459 WARNING AI xato (gemini-3-flash-preview): JSON topilmadi
-2026-11-26 07:49:30,700 INFO Post ar/test urinish 1: baho 10, ["Caption uzunligi talab qilingan 450-720 belgi oralig'iga keltirildi.", "Barcha arabcha so'z va misollarga to'liq harakatlar (tashkeel) qo'yildi.", "O'zbek tilidagi imlo xatolari (o‘, g‘ belgilari) to'g'rilandi.", "Grammatik qoidaga aniqlik kiritildi (raf’ holati haqida ma'lumot qo'shildi).", "O'zbek tilidagi grammatik terminlar (ism, mufrad, musanno, raf’) to'g'ri qo'llanildi."]
-2026-11-26 08:00:00,929 INFO Kanalga chiqdi: 2026-11-26_1300_ar
+2026-11-26 09:50:12,160 INFO Post ru/test urinish 1: baho 10, ['Matn uzunligi talab qilingan 450-720 belgigacha oshirildi.', "Rus tilidagi so‘zlarga urg‘u belgilari (´) va 'ё' harfi qo‘shildi.", 'O‘zbek tilidagi imlo xatolari (o‘, g‘, ’) lotin alifbosi qoidalariga ko‘ra to‘g‘rilandi.', 'Tushuntirish qismiga fe’lning zamoni, turi va yo‘nalishi haqida ma’lumot qo‘shildi.', 'Rasm matnlari qisqartirildi va o‘quvchiga tushunarliroq holatga keltirildi.']
+2026-11-26 10:00:02,039 INFO Kanalga chiqdi: 2026-11-26_1500_ru
