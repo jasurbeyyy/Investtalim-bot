@@ -165,7 +165,8 @@
    "Qiziqarli fakt: Rus tilida kelasi zamon hosil bo‘lishi",
    "Fe’l ko‘rinishlari: «Прочитать» va «Читать» farqi",
    "Maqoldagi xato: Семь раз отмерь, один раз отрежь",
-   "Tvoritelniy kelishigi (Кем? Чем?) — Kim bilan? Nima bilan?"
+   "Tvoritelniy kelishigi (Кем? Чем?) — Kim bilan? Nima bilan?",
+   "Глаголы движения: «Идти́» va «Ходи́ть» farqi"
   ]
  },
  "types": {
@@ -194,7 +195,6 @@
    "test"
   ],
   "ru": [
-   "kunning_sozi",
    "tarjima",
    "test",
    "lugat",
@@ -203,11 +203,11 @@
    "fakt",
    "lugat",
    "xatoni_top",
-   "grammatika"
+   "grammatika",
+   "test"
   ]
  },
  "templates": [
-  "bigletter",
   "gradient",
   "photo",
   "classic",
@@ -218,7 +218,8 @@
   "classic",
   "waves",
   "stripes",
-  "notebook"
+  "notebook",
+  "photo"
  ],
  "paused": false,
  "done": {
