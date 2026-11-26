@@ -1,23 +1,13 @@
-2026-11-26 08:00:20,679 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-26 09:48:49,611 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-26 10:00:20,809 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-26 11:47:32,722 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-26 09:49:03,254 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+2026-11-26 11:47:37,540 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
   "error": {
     "code": 503,
     "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
     "st
-2026-11-26 09:49:21,432 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 09:49:38,302 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "st
-2026-11-26 09:50:12,160 INFO Post ru/test urinish 1: baho 10, ['Matn uzunligi talab qilingan 450-720 belgigacha oshirildi.', "Rus tilidagi so‘zlarga urg‘u belgilari (´) va 'ё' harfi qo‘shildi.", 'O‘zbek tilidagi imlo xatolari (o‘, g‘, ’) lotin alifbosi qoidalariga ko‘ra to‘g‘rilandi.', 'Tushuntirish qismiga fe’lning zamoni, turi va yo‘nalishi haqida ma’lumot qo‘shildi.', 'Rasm matnlari qisqartirildi va o‘quvchiga tushunarliroq holatga keltirildi.']
-2026-11-26 10:00:02,039 INFO Kanalga chiqdi: 2026-11-26_1500_ru
+2026-11-26 11:48:13,667 INFO Post en/tarjima urinish 1: baho 10, ['Post matni uzunligi talab qilingan 450-720 belgi oralig‘iga keltirildi.', 'O‘zbekcha matndagi tutuq belgisi (’) hamda o‘ va g‘ harflarining yozilishi standartlashtirildi.']
+2026-11-26 12:00:01,429 INFO Kanalga chiqdi: 2026-11-26_1700_en
