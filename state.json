@@ -109,7 +109,8 @@
    "Kunning so‘zi: Kishi olmoshlari (Huwa va Hiya)",
    "Harfu shart va Harfu nasb: In (إِنْ) va An (أَنْ) farqi",
    "Fe’li muzori’da ega va fe’l moslashuvi (Fe’l gap)",
-   "Sifat va mavsufning 4 ta jihatdan moslashuvi"
+   "Sifat va mavsufning 4 ta jihatdan moslashuvi",
+   "Ikkilik son (Musanno) hosil qilish qoidasi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -181,7 +182,6 @@
    "lugat"
   ],
   "ar": [
-   "tarjima",
    "test",
    "dialog",
    "lugat",
@@ -190,7 +190,8 @@
    "kunning_sozi",
    "farq",
    "tarjima",
-   "grammatika"
+   "grammatika",
+   "test"
   ],
   "ru": [
    "kunning_sozi",
@@ -206,7 +207,6 @@
   ]
  },
  "templates": [
-  "neon",
   "bigletter",
   "gradient",
   "photo",
@@ -217,7 +217,8 @@
   "bigletter",
   "classic",
   "waves",
-  "stripes"
+  "stripes",
+  "notebook"
  ],
  "paused": false,
  "done": {
