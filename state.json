@@ -53,7 +53,8 @@
    "Kundalik iborali fe’l: Run out of",
    "Must va Have to farqi",
    "Xarid qilishda 'how much' va 'how many' farqi",
-   "Sanoqsiz otlar: oshxona va taomlar lug‘ati"
+   "Sanoqsiz otlar: oshxona va taomlar lug‘ati",
+   "Remember va Remind fe’llari farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -171,7 +172,6 @@
  },
  "types": {
   "en": [
-   "dialog",
    "kunning_sozi",
    "farq",
    "grammatika",
@@ -180,7 +180,8 @@
    "kunning_sozi",
    "grammatika",
    "xatoni_top",
-   "lugat"
+   "lugat",
+   "tarjima"
   ],
   "ar": [
    "test",
@@ -208,7 +209,6 @@
   ]
  },
  "templates": [
-  "gradient",
   "photo",
   "classic",
   "photo",
@@ -219,6 +219,7 @@
   "waves",
   "stripes",
   "notebook",
+  "photo",
   "photo"
  ],
  "paused": false,
