@@ -54,7 +54,8 @@
    "Must va Have to farqi",
    "Xarid qilishda 'how much' va 'how many' farqi",
    "Sanoqsiz otlar: oshxona va taomlar lug‘ati",
-   "Remember va Remind fe’llari farqi"
+   "Remember va Remind fe’llari farqi",
+   "Sanoqli va sanoqsiz otlar: 'Advice' so‘zi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -172,7 +173,6 @@
  },
  "types": {
   "en": [
-   "kunning_sozi",
    "farq",
    "grammatika",
    "tarjima",
@@ -181,7 +181,8 @@
    "grammatika",
    "xatoni_top",
    "lugat",
-   "tarjima"
+   "tarjima",
+   "test"
   ],
   "ar": [
    "test",
@@ -209,7 +210,6 @@
   ]
  },
  "templates": [
-  "photo",
   "classic",
   "photo",
   "stripes",
@@ -220,7 +220,8 @@
   "stripes",
   "notebook",
   "photo",
-  "photo"
+  "photo",
+  "quiz"
  ],
  "paused": false,
  "done": {
