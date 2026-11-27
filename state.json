@@ -171,7 +171,8 @@
    "Maqoldagi xato: Семь раз отмерь, один раз отрежь",
    "Tvoritelniy kelishigi (Кем? Чем?) — Kim bilan? Nima bilan?",
    "Глаголы движения: «Идти́» va «Ходи́ть» farqi",
-   "Roditelniy kelishigida «Ko‘p» (Много) so‘zidan keyin otlar"
+   "Roditelniy kelishigida «Ko‘p» (Много) so‘zidan keyin otlar",
+   "Vinitelniy kelishigi (Kogo? Chto?) iborasi"
   ]
  },
  "types": {
@@ -200,7 +201,6 @@
    "dialog"
   ],
   "ru": [
-   "test",
    "lugat",
    "dialog",
    "grammatika",
@@ -209,11 +209,11 @@
    "xatoni_top",
    "grammatika",
    "test",
-   "dialog"
+   "dialog",
+   "ibora"
   ]
  },
  "templates": [
-  "gradient",
   "bigletter",
   "classic",
   "waves",
@@ -224,7 +224,8 @@
   "quiz",
   "stripes",
   "classic",
-  "bigletter"
+  "bigletter",
+  "glass"
  ],
  "paused": false,
  "done": {
