@@ -112,7 +112,8 @@
    "Harfu shart va Harfu nasb: In (إِنْ) va An (أَنْ) farqi",
    "Fe’li muzori’da ega va fe’l moslashuvi (Fe’l gap)",
    "Sifat va mavsufning 4 ta jihatdan moslashuvi",
-   "Ikkilik son (Musanno) hosil qilish qoidasi"
+   "Ikkilik son (Musanno) hosil qilish qoidasi",
+   "Fe'l gapda fe'l va jins moslashuvi"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -185,7 +186,6 @@
    "test"
   ],
   "ar": [
-   "test",
    "dialog",
    "lugat",
    "grammatika",
@@ -194,7 +194,8 @@
    "farq",
    "tarjima",
    "grammatika",
-   "test"
+   "test",
+   "xatoni_top"
   ],
   "ru": [
    "tarjima",
@@ -210,7 +211,6 @@
   ]
  },
  "templates": [
-  "classic",
   "photo",
   "stripes",
   "gradient",
@@ -221,7 +221,8 @@
   "notebook",
   "photo",
   "photo",
-  "quiz"
+  "quiz",
+  "stripes"
  ],
  "paused": false,
  "done": {
