@@ -55,7 +55,8 @@
    "Xarid qilishda 'how much' va 'how many' farqi",
    "Sanoqsiz otlar: oshxona va taomlar lug‘ati",
    "Remember va Remind fe’llari farqi",
-   "Sanoqli va sanoqsiz otlar: 'Advice' so‘zi"
+   "Sanoqli va sanoqsiz otlar: 'Advice' so‘zi",
+   "'Older' va 'Elder' sifatlarining farqi"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -177,7 +178,6 @@
  },
  "types": {
   "en": [
-   "farq",
    "grammatika",
    "tarjima",
    "test",
@@ -186,7 +186,8 @@
    "xatoni_top",
    "lugat",
    "tarjima",
-   "test"
+   "test",
+   "farq"
   ],
   "ar": [
    "lugat",
@@ -214,7 +215,6 @@
   ]
  },
  "templates": [
-  "bigletter",
   "classic",
   "waves",
   "stripes",
@@ -225,7 +225,8 @@
   "stripes",
   "classic",
   "bigletter",
-  "glass"
+  "glass",
+  "neon"
  ],
  "paused": false,
  "done": {
