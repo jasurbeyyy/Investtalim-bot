@@ -1,3 +1,8 @@
-2026-11-27 03:00:26,719 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-27 04:47:26,770 INFO Post ar/xatoni_top urinish 1: baho 10, ["Uzbek tilidagi tutuq belgisi hamda o‘ va g‘ harflari standartga keltirildi (o'qing -> o‘qing, to'g'ri -> to‘g‘ri).", "Fe'l va fo’il moslashuvi izohiga sukunli ta (تْ) birlashganda kasralanishi (ذَهَبَتِ) haqida aniqlik kiritildi."]
-2026-11-27 05:00:00,872 INFO Kanalga chiqdi: 2026-11-27_1000_ar
+2026-11-27 05:00:27,661 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-27 06:47:07,355 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-27 06:47:24,412 INFO Post ru/dialog urinish 1: baho 9, ['«Vaoting» so‘zidagi imlo xatosi «Vaqting» deb tuzatildi.', '«У меня много дела!» grammatik xatosi «У меня много дел!» shaklida to‘g‘rilandi (много + Roditelniy kelishigi, ko‘plik).', '«Tog‘ri» so‘zi to‘g me’yoriy yozuvga binoan «To‘g‘ri» deb o‘zgartirildi.', 'Muloqot dialogi tabiiyroq va grammatik jihatdan to‘g‘ri shaklga keltirildi.', 'Qiyin va muhim ruscha so‘zlarga urg‘u (аку́т) belgisi qo‘shildi.']
+2026-11-27 07:00:01,245 INFO Kanalga chiqdi: 2026-11-27_1200_ru
