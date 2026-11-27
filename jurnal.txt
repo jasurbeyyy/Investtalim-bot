@@ -1,2 +1,3 @@
-2026-11-26 21:00:56,581 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-27 02:00:03,891 INFO Kanalga chiqdi: 2026-11-27_0700_tong
+2026-11-27 02:00:30,861 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-27 02:47:15,980 INFO Post en/test urinish 1: baho 10, ['Post matni uzunligi 450–720 belgi talabiga yetkazildi (ilgari 450 belgidan kam edi).', 'O‘zbekcha matnda o‘, g‘ va tutuq belgilari to‘g‘ri Latiniya shakliga keltirildi.', 'Test tushuntirishidagi javob qismi spoiler (||...||) bilan yashirildi.']
+2026-11-27 03:00:00,942 INFO Kanalga chiqdi: 2026-11-27_0800_en
