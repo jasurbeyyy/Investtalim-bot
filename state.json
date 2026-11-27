@@ -113,7 +113,8 @@
    "Fe’li muzori’da ega va fe’l moslashuvi (Fe’l gap)",
    "Sifat va mavsufning 4 ta jihatdan moslashuvi",
    "Ikkilik son (Musanno) hosil qilish qoidasi",
-   "Fe'l gapda fe'l va jins moslashuvi"
+   "Fe'l gapda fe'l va jins moslashuvi",
+   "Ko‘rsatish olmoshlari dialogda (Hādhā va Hādhihi)"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -187,7 +188,6 @@
    "test"
   ],
   "ar": [
-   "dialog",
    "lugat",
    "grammatika",
    "test",
@@ -196,7 +196,8 @@
    "tarjima",
    "grammatika",
    "test",
-   "xatoni_top"
+   "xatoni_top",
+   "dialog"
   ],
   "ru": [
    "test",
@@ -212,7 +213,6 @@
   ]
  },
  "templates": [
-  "stripes",
   "gradient",
   "bigletter",
   "classic",
@@ -223,7 +223,8 @@
   "photo",
   "quiz",
   "stripes",
-  "classic"
+  "classic",
+  "bigletter"
  ],
  "paused": false,
  "done": {
