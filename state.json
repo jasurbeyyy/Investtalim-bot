@@ -169,7 +169,8 @@
    "Fe’l ko‘rinishlari: «Прочитать» va «Читать» farqi",
    "Maqoldagi xato: Семь раз отмерь, один раз отрежь",
    "Tvoritelniy kelishigi (Кем? Чем?) — Kim bilan? Nima bilan?",
-   "Глаголы движения: «Идти́» va «Ходи́ть» farqi"
+   "Глаголы движения: «Идти́» va «Ходи́ть» farqi",
+   "Roditelniy kelishigida «Ko‘p» (Много) so‘zidan keyin otlar"
   ]
  },
  "types": {
@@ -198,7 +199,6 @@
    "xatoni_top"
   ],
   "ru": [
-   "tarjima",
    "test",
    "lugat",
    "dialog",
@@ -207,11 +207,11 @@
    "lugat",
    "xatoni_top",
    "grammatika",
-   "test"
+   "test",
+   "dialog"
   ]
  },
  "templates": [
-  "photo",
   "stripes",
   "gradient",
   "bigletter",
@@ -222,7 +222,8 @@
   "photo",
   "photo",
   "quiz",
-  "stripes"
+  "stripes",
+  "classic"
  ],
  "paused": false,
  "done": {
