@@ -1,3 +1,3 @@
-2026-11-28 05:00:21,002 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-28 06:47:14,498 INFO Post ru/xatoni_top urinish 1: baho 10, ['«Tug‘ri» imlo xatosi «To‘g‘ri» deb tuzatildi', 'Kril va lotin yozuvi aralashib ketgan «Эслаб qoling» iborasi «Eslab qoling» shakliga keltirildi', '«надéл» so‘zidagi noto‘g‘ri urg‘u belgisi to‘g‘rilandi', 'Post matni uzunligi talab qilingan 450–720 belgi oralig‘iga keltirildi']
-2026-11-28 07:00:01,128 INFO Kanalga chiqdi: 2026-11-28_1200_ru
+2026-11-28 07:00:17,512 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-28 07:47:43,707 INFO Post ar/lugat urinish 1: baho 10, ["Arabcha matndagi 'كَالْسَّيْفِ' so‘zidida 'sin' quyosh harfi bo‘lgani uchun lom harfidan sukun olib tashlanib, 'كَالسَّيْفِ' ko‘rinishida to‘g‘rilandi.", "Uzbekcha matndagi 'qilichkabidir' imlo xatosi 'qilich kabidir' ko‘rinishida ajratib yozildi.", 'Rasm ichidagi chala qolgan ikkinchi qator va belgilar soni cheklovi (<=34 belgi) to‘g‘rilandi.', 'Post matni belgilar soni talabiga (450-720 belgi) moslab kengaytirildi.']
+2026-11-28 08:00:00,747 INFO Kanalga chiqdi: 2026-11-28_1300_ar
