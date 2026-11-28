@@ -57,7 +57,8 @@
    "Remember va Remind fe’llari farqi",
    "Sanoqli va sanoqsiz otlar: 'Advice' so‘zi",
    "'Older' va 'Elder' sifatlarining farqi",
-   "Borrow va Lend fe’llari o‘rtasidagi farq"
+   "Borrow va Lend fe’llari o‘rtasidagi farq",
+   "Modal fe’l: Should (maslahat berish)"
   ],
   "ar": [
    "Yaqin va uzoq ko‘rsatish olmoshlari",
@@ -183,7 +184,6 @@
  },
  "types": {
   "en": [
-   "tarjima",
    "test",
    "kunning_sozi",
    "grammatika",
@@ -192,7 +192,8 @@
    "tarjima",
    "test",
    "farq",
-   "lugat"
+   "lugat",
+   "kunning_sozi"
   ],
   "ar": [
    "test",
@@ -220,7 +221,6 @@
   ]
  },
  "templates": [
-  "photo",
   "quiz",
   "stripes",
   "classic",
@@ -231,7 +231,8 @@
   "stripes",
   "waves",
   "glass",
-  "classic"
+  "classic",
+  "notebook"
  ],
  "paused": false,
  "done": {
