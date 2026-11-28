@@ -175,7 +175,8 @@
    "Tvoritelniy kelishigi (Кем? Чем?) — Kim bilan? Nima bilan?",
    "Глаголы движения: «Идти́» va «Ходи́ть» farqi",
    "Roditelniy kelishigida «Ko‘p» (Много) so‘zidan keyin otlar",
-   "Vinitelniy kelishigi (Kogo? Chto?) iborasi"
+   "Vinitelniy kelishigi (Kogo? Chto?) iborasi",
+   "Часто путаемые слова: «Одеть» va «Надеть»"
   ]
  },
  "types": {
@@ -204,7 +205,6 @@
    "farq"
   ],
   "ru": [
-   "lugat",
    "dialog",
    "grammatika",
    "fakt",
@@ -213,11 +213,11 @@
    "grammatika",
    "test",
    "dialog",
-   "ibora"
+   "ibora",
+   "xatoni_top"
   ]
  },
  "templates": [
-  "stripes",
   "notebook",
   "photo",
   "photo",
@@ -228,7 +228,8 @@
   "glass",
   "neon",
   "notebook",
-  "stripes"
+  "stripes",
+  "waves"
  ],
  "paused": false,
  "done": {
