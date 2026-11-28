@@ -177,7 +177,8 @@
    "Глаголы движения: «Идти́» va «Ходи́ть» farqi",
    "Roditelniy kelishigida «Ko‘p» (Много) so‘zidan keyin otlar",
    "Vinitelniy kelishigi (Kogo? Chto?) iborasi",
-   "Часто путаемые слова: «Одеть» va «Надеть»"
+   "Часто путаемые слова: «Одеть» va «Надеть»",
+   "Fe’l ko‘rinishlari: «Готовить» va «Приготовить» farqi"
   ]
  },
  "types": {
@@ -206,7 +207,6 @@
    "lugat"
   ],
   "ru": [
-   "dialog",
    "grammatika",
    "fakt",
    "lugat",
@@ -215,11 +215,11 @@
    "test",
    "dialog",
    "ibora",
-   "xatoni_top"
+   "xatoni_top",
+   "lugat"
   ]
  },
  "templates": [
-  "photo",
   "photo",
   "quiz",
   "stripes",
@@ -230,7 +230,8 @@
   "notebook",
   "stripes",
   "waves",
-  "glass"
+  "glass",
+  "classic"
  ],
  "paused": false,
  "done": {
