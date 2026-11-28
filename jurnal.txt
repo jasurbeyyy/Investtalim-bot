@@ -1,3 +1,4 @@
-2026-11-28 02:00:26,129 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-28 02:47:12,606 INFO Post en/lugat urinish 1: baho 10, ['«Qamingizni» so‘zidagi imloviy xato «Ruchkangizni» deb tuzatildi.', '«borro w» so‘zidagi ortiqcha bo‘sh joy o‘chirildi.', 'Mavzuni to‘liqroq yoritish uchun va matn uzunligini talab qilingan 450–720 belgigacha yetkazish uchun qo‘shimcha misol va «from/to» grammatik eslatmasi qo‘shildi.', 'O‘zbekcha tuturuq belgilarining yozilishi to‘g‘rilandi (o‘, g‘, ’).']
-2026-11-28 03:00:01,624 INFO Kanalga chiqdi: 2026-11-28_0800_en
+2026-11-28 03:00:20,337 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-28 04:47:48,999 WARNING AI xato (gemini-3.5-flash): Expecting ',' delimiter: line 11 column 367 (char 813)
+2026-11-28 04:48:07,379 INFO Post ar/farq urinish 1: baho 10, ['«Kelging» imloviy xatosi «Keling» shakliga tuzatildi.', 'Arabcha misollarga to‘liq harakatlar (tashkeel) berildi.', 'Mudof qoidasiga tanvin olmasligi haqida aniqlik kiritildi.', 'Rasm sarlavhasi va matnlari belgilangan simvol cheklovlariga moslashtirildi.', 'Post matni hajm talabiga (450-720 belgi) mos keltirildi.']
+2026-11-28 05:00:00,771 INFO Kanalga chiqdi: 2026-11-28_1000_ar
