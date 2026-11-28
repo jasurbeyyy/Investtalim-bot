@@ -1,3 +1,22 @@
-2026-11-28 10:00:19,067 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-28 11:47:19,818 INFO Post en/kunning_sozi urinish 1: baho 10, ['Rasm matnidagi ikkinchi qator 34 belgidan oshib ketgani sababli qisqartirildi.', 'Uzbek tili imlosida tutuq belgisi (’) hamda o‘, g‘ harflari yozilishi to‘g‘rilandi.', 'Birlashtirib yuborilgan hashtaglar alohida, qulay teglarga ajratildi.']
-2026-11-28 12:00:00,770 INFO Kanalga chiqdi: 2026-11-28_1700_en
+2026-11-28 12:00:33,460 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-28 15:47:01,152 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-28 15:47:05,606 WARNING AI xato (gemini-3.5-flash): Gemini gemini-3.5-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-28 15:47:13,891 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-28 15:47:18,399 WARNING AI xato (gemini-3.6-flash): Gemini gemini-3.6-flash: 503 {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "st
+2026-11-28 16:00:01,993 INFO Kanalga chiqdi: 2026-11-28_2100_tun
