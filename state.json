@@ -117,7 +117,8 @@
    "Ikkilik son (Musanno) hosil qilish qoidasi",
    "Fe'l gapda fe'l va jins moslashuvi",
    "Ko‘rsatish olmoshlari dialogda (Hādhā va Hādhihi)",
-   "Sifat va Idofa: Al- takrorlanishi farqi"
+   "Sifat va Idofa: Al- takrorlanishi farqi",
+   "Hikmatli so‘zlar: Ilm va odob haqida maqollar"
   ],
   "ru": [
    "Do‘konda: «Мне нужен» va «Мне нужна» iboralari",
@@ -193,7 +194,6 @@
    "lugat"
   ],
   "ar": [
-   "grammatika",
    "test",
    "kunning_sozi",
    "farq",
@@ -202,7 +202,8 @@
    "test",
    "xatoni_top",
    "dialog",
-   "farq"
+   "farq",
+   "lugat"
   ],
   "ru": [
    "dialog",
@@ -218,7 +219,6 @@
   ]
  },
  "templates": [
-  "notebook",
   "photo",
   "photo",
   "quiz",
@@ -229,7 +229,8 @@
   "neon",
   "notebook",
   "stripes",
-  "waves"
+  "waves",
+  "glass"
  ],
  "paused": false,
  "done": {
