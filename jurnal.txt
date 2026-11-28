@@ -1,3 +1,3 @@
-2026-11-28 07:00:17,512 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
-2026-11-28 07:47:43,707 INFO Post ar/lugat urinish 1: baho 10, ["Arabcha matndagi 'كَالْسَّيْفِ' so‘zidida 'sin' quyosh harfi bo‘lgani uchun lom harfidan sukun olib tashlanib, 'كَالسَّيْفِ' ko‘rinishida to‘g‘rilandi.", "Uzbekcha matndagi 'qilichkabidir' imlo xatosi 'qilich kabidir' ko‘rinishida ajratib yozildi.", 'Rasm ichidagi chala qolgan ikkinchi qator va belgilar soni cheklovi (<=34 belgi) to‘g‘rilandi.', 'Post matni belgilar soni talabiga (450-720 belgi) moslab kengaytirildi.']
-2026-11-28 08:00:00,747 INFO Kanalga chiqdi: 2026-11-28_1300_ar
+2026-11-28 08:00:41,625 INFO Ishga tushdi: tur= test=False hozir=False zanjir=True | token=bor gemini=bor admin=6118336151 kanal=@investtalim2
+2026-11-28 09:47:31,271 INFO Post ru/lugat urinish 1: baho 10, ["Misoldagi lotincha 'segodnya' va 'ego' so‘zlari ruscha 'сего́дня' hamda 'его́' so‘zlariga almashtirildi va urg‘ular to‘g‘ri qo‘yildi.", "Uzbekcha matndagi 'glagollar' so‘zi o‘rniga 'fe’llar' atamasi ishlatildi, tutuq belgilari va o‘/g‘ harflari to‘g‘rilandi.", 'Kaption uzunligi va rasm matnlari belgilangan simvol cheklovlariga keltirildi.']
+2026-11-28 10:00:00,816 INFO Kanalga chiqdi: 2026-11-28_1500_ru
